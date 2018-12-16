@@ -1,0 +1,719 @@
+[majors.doge]
+flavor-text = "Nice meme!"
+name = "Doge"
+series = "Classic"
+stars = 1
+
+[majors.doge.rage]
+name = "Wow!"
+advanced = "Point a laser pointer, pulling in enemies for 5 seconds."
+simple = "Point a laser pointer, pulling in enemies."
+
+[majors.doge.weapon]
+name = "Tennis Ball"
+advanced = "Throw a tennis ball, dealing 40 damage. Can toss once every second. Flies at 130 units a second for 1 second."
+simple = "Throw a tennis ball."
+image = ""
+
+[majors.doge.passive]
+name = "Man's Best Friend"
+advanced = "Passive. Have a small dog follow you around. Any time you attack someone, your dog rushes towards them and lowers their attack by 30%, you attack someone else, or walk 75 units away from them. Does not stack."
+simple = "Passive. Dog at your side weakens enemies."
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=151784320"
+
+[[majors.doge.abilities]]
+name = "RURURURU"
+advanced = "Bark at enemies in a 50 unit radius cannot use any abilities for 3 seconds. Does not stack."
+simple = "Bark at enemies, disabling their abilities."
+cooldown = 12.0
+image = "http://www.roblox.com/asset/?id=1036910764"
+
+[majors.mad-scientist-hair]
+flavor-text = "Turned himself into a pickle."
+name = "Mad Scientist Hair"
+series = "Classic"
+stars = 2
+
+[majors.mad-scientist-hair.rage]
+name = "Supersaturation"
+advanced = "Place a flask that deals 4 damage every .33 seconds, and decreases attack and defense by 3% each time it deals damage in a 175 unit radius for 10 seconds. Attack and defense debuffs last for 4 seconds."
+simple = "Place a flask that weakens and damages enemies in an area around it the longer they remain in it."
+
+[majors.mad-scientist-hair.weapon]
+name = "Flask"
+advanced = "Throwing weapon with an arc. 0.5 seconds after impact, leaves a cloud of chemicals that lasts for 3 seconds, doing 15 damage per second, slowing enemies by 20% as long as they’re in the cloud. 2 second reload."
+simple = "Throw a flask that damages and slows enemies."
+image = ""
+
+[[majors.mad-scientist-hair.abilities]]
+name = "Wild Vial"
+advanced = "After a .4 second cast, throw a vial at your feet that explodes in a 75 unit radius for 35 damage, increasing your speed by 20% for 4 seconds, and slowing enemies by 10% that are caught in the splash radius for 4 seconds."
+simple = "Throw a vial at your feet that explodes, causing you to move faster, making enemies move slower, and dealing damage."
+cooldown = 10.0
+image = "http://www.roblox.com/asset/?id=131178113"
+
+[majors.fire-wizard]
+flavor-text = "Not to be confused with Fire Wizard."
+name = "Fire Wizard"
+series = "Classic"
+stars = 1
+
+[majors.fire-wizard.rage]
+name = "Molten Barricade"
+advanced = "Summon a 70 unit large, 15 unit high fiery wall that enemies can't pass through for 5 seconds."
+simple = "Summon a large fiery wall that enemies can't pass through.  "
+
+[majors.fire-wizard.weapon]
+name = "Pyromancy"
+advanced = "While held down, burn all enemies 35 units in front of you, making them take 3.5 damage, and take 1 damage every second for 3 seconds, every .1 seconds."
+simple = "While held down, burn nearby enemies."
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=462220417"
+
+[[majors.fire-wizard.abilities]]
+name = "Meteor Ring"
+advanced = "Fire 12 meteors at enemies, 0.05 seconds after each other. Meteors deal 35 damage and travel at 80 units per second. Meteors disappear after 1.5 seconds or if they hit a wall. Victims take 10 damage every second for 3 seconds."
+simple = "Fire a ring of meteors that deal damage over time."
+cooldown = 10.0
+image = "http://www.roblox.com/asset/?id=62775787"
+
+[majors.firefighter-helmet]
+flavor-text = "Stay back! Wait, not TOO far back. A little bit closer, so I can push you farther!"
+name = "Firefighter Helmet"
+series = "Classic"
+stars = 1
+
+[majors.firefighter-helmet.rage]
+name = "Red Alert"
+advanced = "Fire trucks fall out of the sky, 2 fire trucks a second for 7 seconds. Enemies hit by the fire trucks take 70 damage and are forcibly knocked back."
+simple = "Fire trucks fall out of the sky, forcibly pushing those who get hit."
+
+[majors.firefighter-helmet.weapon]
+name = "Fire Hose"
+advanced = "Spray all enemies in a 20 unit line, dealing 14 damage and pushing them back. Can be fired once every 0.2 seconds. The farther away the enemy, the less knockback they will receive, up to 50% less."
+simple = "Spray nearby enemies and push them back."
+image = ""
+
+[[majors.firefighter-helmet.abilities]]
+name = "Fire Hydrant"
+advanced = "After a 1.5s cast, place a fire hydrant in front of you that lasts for 6 seconds that sprays water in a ring extending to 45 units around it every second, dealing 25 damage and knocking back enemies by 20 units."
+simple = "Place a fire hydrant in front of you that sprays water in a ring around it, dealing damage and knocking back enemies."
+cooldown = 9.0
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1081381"
+
+[majors.fedora]
+flavor-text = "M’lady..."
+name = "Fedora"
+series = "Classic"
+stars = 2
+
+[majors.fedora.rage]
+name = "Neckbeard's Rage"
+advanced = "Take a swig of Gaming Drink, buffing walk speed by 65% and increasing damage taken by 10% and giving the user an Anime Katana. The anime katana swings once every 1 second and does 150 damage per swing. Lasts for 7 seconds."
+simple = "Take a swig of Gaming Drink, increasing walk speed, damage taken. Get a fast swinging, heavy damage dealing katana. "
+
+[majors.fedora.weapon]
+name = "Tendies"
+advanced = "Throw chicken tenders that travel at 180 units per second and travel for .5 seconds. Deals 26 damage and can be fired every 1.3 seconds."
+simple = "Throw chicken tenders."
+image = ""
+
+[majors.fedora.passive]
+name = "Bulk"
+advanced = "Passive. Increases health by 30%, but walk 15% slower."
+simple = "Passive. Increased health but slower walk speed."
+image = "http://www.roblox.com/asset/?id=147208511"
+
+[[majors.fedora.abilities]]
+name = "Cheese Snacks"
+advanced = "Heals the user for 90 health and heals for 9 health a second for 8 seconds."
+simple = "Heal yourself immediately and gain health over time."
+cooldown = 8.0
+image = "http://www.roblox.com/asset/?id=928596457"
+
+[[majors.fedora.abilities]]
+name = "Feast"
+advanced = "After 1 second, eat your Tendies, increasing movement speed by 35% and reducing damage taken by 25% for 3.5 seconds. Can’t attack during the duration."
+simple = "Eat your Tendies, increasing movement speed and reducing damage taken."
+cooldown = 9.0
+image = "http://www.roblox.com/asset/?id=649904125"
+
+[majors.buddy-baseball-cap]
+flavor-text = "Touchdown! Slam Dunk! Sports!"
+name = "Buddy Baseball Cap"
+series = "Classic"
+stars = 1
+
+[majors.buddy-baseball-cap.rage]
+name = "Grand Slam"
+advanced = "Strike the ground with your baseball bat, all players 70 units in front of where you fire take 80 damage and are flung backwards."
+simple = "Nearby players in front of you take heavy damage and are flung backwards."
+
+[majors.buddy-baseball-cap.weapon]
+name = "Buddy Baseball Bat"
+advanced = "Melee baseball bat, deals 66 damage to anyone close. Can swing 2 swings per second."
+simple = "Melee baseball bat."
+image = ""
+
+[majors.buddy-baseball-cap.passive]
+name = "Up to Bat"
+advanced = "Passive. Move 20% faster. "
+simple = "Passive. Move faster."
+image = "http://www.roblox.com/asset/?id=46489784"
+
+[[majors.buddy-baseball-cap.abilities]]
+name = "Home Run"
+advanced = "Fling 7 baseballs in your direction for 1.2 seconds. Each baseball deals 25 damage and flies for .4 seconds. "
+simple = "Fling multiple baseballs in your direction for a small amount of time."
+cooldown = 6.0
+image = "http://www.roblox.com/asset/?id=117356883"
+
+[majors.deluxe-paintball-helmet]
+flavor-text = "Tryhard at heart."
+name = "Deluxe Paintball Helmet"
+series = "Classic"
+stars = 3
+
+[majors.deluxe-paintball-helmet.rage]
+name = "Paint Can-non"
+advanced = "Throw a paint can that explodes to deal 65 damage to enemies in a 125 unit range and cover their screens with paint for 5 seconds."
+simple = "Throw a paint can that explodes to damage enemies and cover their screens."
+
+[majors.deluxe-paintball-helmet.weapon]
+name = "Paintball Gun"
+advanced = "Shoot a small dart of paint. The darts travel at 100 units per second, disappearing at 0.75 seconds. Enemies hit by this dart will take 25 damage. Can be shot once every 0.2 seconds."
+simple = "Shoots paint darts."
+image = ""
+
+[[majors.deluxe-paintball-helmet.abilities]]
+name = "Hoser"
+advanced = "Your next 5 shots deal 65% more damage and travel 30% faster."
+simple = "Your next few shots deal more damage. "
+cooldown = 8.0
+image = "http://www.roblox.com/asset/?id=17498132"
+
+[majors.the-great-lion]
+flavor-text = "With The Great Lion, use your Roar on yourself if you're being cornered by enemies."
+name = "The Great Lion"
+series = "Classic"
+stars = 2
+
+[majors.the-great-lion.rage]
+name = "ALLLPGHHHHAA!"
+advanced = "After a .5 second delay, swipe every .5 seconds in front of the user, with each swipe dealing 42 damage per swipe in a 30 unit range for 5 seconds."
+simple = "After a short delay, swipe rapidly in front of the user."
+
+[majors.the-great-lion.weapon]
+name = "Claws"
+advanced = "Swipe twice at nearby enemies dealing 42 damage per swipe every 1.4 seconds, with a .3 second delay between swipes in a 30 unit range."
+simple = "Swipe twice at nearby enemies."
+image = ""
+
+[majors.the-great-lion.passive]
+name = "Stampede"
+advanced = "Passive. Walk 20% faster when not attacking, also applies to teammates in a 60 unit radius. If you attack, you must wait 2 seconds after to reactivate this effect."
+simple = "Passive. Walk faster when not attacking, and cause teammates to walk faster as well."
+image = "http://www.roblox.com/asset/?id=41907180"
+
+[[majors.the-great-lion.abilities]]
+name = "Roar"
+advanced = "Increase damage and defense of yourself and nearby teammates by 30% for 4.5 seconds in a 60 unit radius."
+simple = "Increase damage and defense of yourself and nearby teammates."
+cooldown = 8.0
+image = "http://www.roblox.com/asset/?id=128539144"
+
+[majors.ninja-mask-of-shadows]
+flavor-text = "His time to strike is now."
+name = "Ninja Mask of Shadows"
+series = "Classic"
+stars = 2
+
+[majors.ninja-mask-of-shadows.rage]
+name = "Embrace the Shadows"
+advanced = "For 8 seconds, double Attack from the Shadow’s range, and set its cooldown to 1."
+simple = "Increase Attack from the Shadow’s range, and decrease its cooldown for a limited time."
+
+[majors.ninja-mask-of-shadows.weapon]
+name = "Ninja Star"
+advanced = "Deals 20 damage at 150 units per second. Can fire once every 0.25 seconds, and lasts for 0.5 seconds.  "
+simple = "Deal small damage to a nearby enemy, but can be fired fast."
+image = ""
+
+[[majors.ninja-mask-of-shadows.abilities]]
+name = "Attack from the Shadows"
+advanced = "After being frozen for 1.2 seconds, teleport to the closest enemy in a 60 unit radius and deal 45 damage. Damage is doubled for 1.5 seconds."
+simple = "After a short period of time, teleport to a nearby enemy and deal damage, and increase your damage."
+cooldown = 6.0
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1309911"
+
+[majors.rubber-duckie]
+flavor-text = "Quack."
+name = "Rubber Duckie"
+series = "Classic"
+stars = 1
+
+[majors.rubber-duckie.rage]
+name = "Quackiest Attackiest"
+advanced = "Shoot golden rubber ducks in the direction you're facing, every .30 seconds. Each duck deals 77 damage and goes 148 units/second. Ducks fly for .5 seconds. Lasts for 6.5 seconds."
+simple = "Shoot golden ducks in front of the user for a limited time."
+
+[majors.rubber-duckie.weapon]
+name = "Quack Attack"
+advanced = "Shoot a rubber duck in the direction you're facing, dealing 60 damage and goes 100 units/second. Can fire ducks once every 0.5 seconds. Ducks fly for .8 seconds."
+simple = "Shoot a rubber duck in the direction you're facing."
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=9254254"
+
+[[majors.rubber-duckie.abilities]]
+name = "Quack"
+advanced = "Emit a sound, a form of audio-based communication, that resembles that of a duck quacking from the handle of your weapon, that being the duck you use to shoot with, at a volume loud enough for enemies to hear you if they are close enough, equal to \"1\" volume in Roblox Studio. For reference, this is the same quack emitted when you fire your weapon. "
+simple = "Quack."
+cooldown = 0.1
+image = "http://www.roblox.com/asset/?id=919950584"
+
+[[majors.rubber-duckie.abilities]]
+name = "Quackier Attackier"
+advanced = "Shoot 3 large ducks in the direction you’re facing, each 0.25 seconds after the last. Each large duck deals 35 damage and knocks enemies back. Large ducks go 50 units per second for 1 second."
+simple = "Shoot large ducks in the direction you’re facing."
+cooldown = 7.0
+image = "http://www.roblox.com/asset/?id=710698060"
+
+[majors.shaggy]
+flavor-text = "Word has it that he's a time traveler from 2009. He is constantly whining that the old days were better."
+name = "Shaggy"
+series = "Classic"
+stars = 2
+
+[majors.shaggy.rage]
+name = "Bomb"
+advanced = "User drops a bomb that detonates after 3.5 seconds. The bomb does 500 damage in a 120 unit radius around it."
+simple = "Drop a bomb that detonates after a period of time."
+
+[majors.shaggy.weapon]
+name = "Slingshot"
+advanced = "Deals 25 - 75 damage when not charged and fires a projectile that travels 80 - 210 units per second and lasts for 3 seconds. Can be charged for up to 2.5 seconds. Can be fired once every 0.75 seconds."
+simple = "A slingshot that can charge to be more powerful."
+image = ""
+
+[[majors.shaggy.abilities]]
+name = "Banana Peel"
+advanced = "Places a banana peel where the user is standing. Any enemies that step on the peel trip and are slowed by 60% for 5 seconds, and take 60 damage. Can have 2 peels out at a time."
+simple = "Place a banana peel that trips and slows down enemies that step on it. Can have 2 peels out at a time."
+cooldown = 5.0
+image = "http://www.roblox.com/asset/?id=112107054"
+
+[majors.mining-helmet]
+flavor-text = "We're gonna be rich..."
+name = "Mining Helmet"
+series = "Classic"
+stars = 1
+
+[majors.mining-helmet.rage]
+name = "Diamonds!"
+advanced = "For 6 seconds, your health cannot drop below 30."
+simple = "For a limited time, your health cannot drop below 30."
+
+[majors.mining-helmet.weapon]
+name = "Pickaxe"
+advanced = "Swing a pickaxe, dealing 62 damage every second."
+simple = "Swing a pickaxe."
+image = ""
+
+[majors.mining-helmet.passive]
+name = "Gold Rush"
+advanced = "Passive. Every time you take 20 damage, gain a stack of Gold Rush which causes you to move 10% faster for 4 seconds. Can stack up to 4 times. Have +50 health."
+simple = "Passive. Taking damage can grant you a stack of speed."
+image = ""
+
+[[majors.mining-helmet.abilities]]
+name = "Slateskin"
+advanced = "Turn your skin into stone for 6 seconds, taking 70% less damage while active."
+simple = "Turn your skin into stone for a limited time, taking massively reduced damage while active."
+cooldown = 8.0
+image = "http://www.roblox.com/asset/?id=928772927"
+
+[majors.empyrean-reignment]
+flavor-text = "We're not completely sure it's a hat yet."
+name = "Empyrean Reignment"
+series = "Classic"
+stars = 1
+
+[majors.empyrean-reignment.rage]
+name = "Holy Nova"
+advanced = "Rapidly heal nearby allies and yourself at a rate of 70 health per second for 4 seconds in a 160 unit radius."
+simple = "Rapidly heal nearby allies and yourself."
+
+[majors.empyrean-reignment.weapon]
+name = "Holy Staff"
+advanced = "Shoot a projectile that travels at 180 units a second and deals 35 damage every second. Projectile lasts for 1.5 seconds. "
+simple = "Shoot a fast projectile that deals light damage."
+image = ""
+
+[majors.empyrean-reignment.passive]
+name = "Divination"
+advanced = "Passive. While healing a teammate with Heal Ray or Holy Nova, gain a 15 % boost to attack, defense, speed, and heal at a rate of 9 health per second. Can stack if used with Holy Nova."
+simple = "Passive. Healing teammates grants small buffs."
+image = ""
+
+[[majors.empyrean-reignment.abilities]]
+name = "Heal Ray"
+advanced = "Attach a healing beam to a teammate that heals at a rate of 25 health per second that cannot go further than 60 units."
+simple = "Attach a healing beam to a nearby teammate."
+cooldown = 0.0
+image = "http://www.roblox.com/asset/?id=1032918680"
+
+[majors.tee-vee]
+flavor-text = "Stored in that camera is hour long funny dog compilations. And music of questionable quality."
+name = "Tee Vee"
+series = "Classic"
+stars = 2
+
+[majors.tee-vee.rage]
+name = "Feature Film"
+advanced = "Record all enemies in a 140 unit radius for 6 seconds. "
+simple = "Record all nearby enemies."
+
+[majors.tee-vee.weapon]
+name = "Camera Flash"
+advanced = "Hold down to charge up a powerful attack for up 1.4 seconds, dealing 50 damage at full charge and 10 damage at no charge, increasing the projectiles base size by up to 2x. Travels at 125 units per second for 1.33 seconds. Pierces enemies at maximum charge. Can fire every .5 seconds."
+simple = "Hold down to charge up a powerful attack. At full charge, it flies through enemies."
+image = ""
+
+[[majors.tee-vee.abilities]]
+name = "Record"
+advanced = "Record an enemy in an 80 unit radius. After recording for up to 3.5 seconds, store the health and the rage they received as footage. Recorded enemies know they're being recorded."
+simple = "Record a nearby enemy, gaining all the health and rage they received as footage."
+cooldown = 12.0
+image = "http://www.roblox.com/asset/?id=155312179"
+
+[[majors.tee-vee.abilities]]
+name = "Rehearse"
+advanced = "Give all recorded footage to a teammate in a 60 unit radius."
+simple = "Give all recorded footage to a nearby teammate."
+cooldown = 1.0
+image = "http://www.roblox.com/asset/?id=834217958"
+
+[majors.dark-tutor]
+flavor-text = "Doesn’t have an actual teacher certification."
+name = "Dark Tutor"
+series = "Classic"
+stars = 3
+
+[majors.dark-tutor.rage]
+name = "Dark Curse"
+advanced = "Enemies cannot heal for 10 seconds."
+simple = "Enemies cannot heal for a period of time."
+
+[majors.dark-tutor.weapon]
+name = "Drain Life"
+advanced = "Fire a wave of dark energy that travels at 100 units for 2 seconds and deals 40 damage every second. When hitting an enemy, heal 25 health for you and teammates in a 125 unit radius."
+simple = "Fire a wave of dark energy. When hitting an enemy, heal you and nearby teammates."
+image = ""
+
+[[majors.dark-tutor.abilities]]
+name = "Dark Magic"
+advanced = "All damage done by teammates in a 120 unit radius is equally distributed as health to all teammates in a 120 unit radius for 4 seconds. You cannot attack during this time period."
+simple = "Equally distribute damage dealt by nearby teammates in a period of time as health."
+cooldown = 8.0
+image = "http://www.roblox.com/asset/?id=186642181"
+
+[majors.valkyrie-helm]
+flavor-text = "AKA \"Search Wikipedia for Norse mythology\""
+name = "Valkyrie Helm"
+series = "Classic"
+stars = 1
+
+[majors.valkyrie-helm.rage]
+name = "Ragnarok"
+advanced = "For 9 seconds, any damage dealt to enemies (by any teammate) will deal 3 damage per second for 3 seconds. "
+simple = "Any damage dealt to enemies will deal extra damage over time for a period of time."
+
+[majors.valkyrie-helm.weapon]
+name = "Odin's Spear"
+advanced = "Throw a spear. Wherever the spear lands, all enemies in a 30 unit radius around it will take 5 damage per second for 5 seconds. Spear pierces through enemies, dealing 40 direct damage. Spear flies through the air for 3 seconds, and if it has not hit a wall by then it will fade away, and will be given back to the player. Can be fired once every 2 seconds. Spears move at a rate of 180 units per second."
+simple = "Throw a spear that gradually damages nearby enemies."
+image = ""
+
+[majors.valkyrie-helm.passive]
+name = "Valhalla"
+advanced = "Passive. If a teammate is bloxxed in a 60 unit radius around you, they respawn 80% faster. "
+simple = "Passive. If a teammate is bloxxed near you, they respawn faster. "
+image = "http://www.roblox.com/asset/?id=1097027192"
+
+[[majors.valkyrie-helm.abilities]]
+name = "Sleipnir"
+advanced = "Walk 70% faster for 8 seconds or until you get damaged, attack, or use an ability."
+simple = "Walk faster for a limited time or until you get damaged, attack, or use an ability."
+cooldown = 12.0
+image = "http://www.roblox.com/asset/?id=128313675"
+
+[majors.golden-crown]
+flavor-text = "The self proclaimed \"pwner of noobs\"."
+name = "Golden Crown"
+series = "Classic"
+stars = 1
+
+[majors.golden-crown.rage]
+name = "Change Sword"
+advanced = "Change your Linked Sword to the Illumina, Darkheart, or Firebrand for 14 seconds. The Illumina slashes deals 56 damage. The Firebrand deals 48 damage and all abilities have their range increased by 35%. The Darkheart deals 40 damage and steals 30% of all damage it deals as health. All slash at the same rate as the Linked Sword."
+simple = "Change your Linked Sword to the Illumina, Darkheart, or Firebrand for a limited time."
+
+[majors.golden-crown.weapon]
+name = "Linked Sword"
+advanced = "A sword that slashes every .8 seconds, dealing 32 damage."
+simple = "A sword that slashes quickly."
+image = ""
+
+[majors.golden-crown.passive]
+name = "Battle Armor"
+advanced = "Passive. Have 25% more defense."
+simple = "Passive. Have more defense."
+image = "http://www.roblox.com/asset/?id=1193579056"
+
+[[majors.golden-crown.abilities]]
+name = "Lunge"
+advanced = "Lunge your sword forward, dealing 50% of Linked Sword's damage up to 35 units in an isosceles triangle."
+simple = "Lunge your sword forward, dealing increased damage with a long range."
+cooldown = 3.0
+image = "http://www.roblox.com/asset/?id=304507631"
+
+[[majors.golden-crown.abilities]]
+name = "Spin"
+advanced = "Spin in a circle with a 45 unit diameter, dealing 25% of Linked Sword's damage increased weapon damage."
+simple = "Spin in a circle, dealing increased weapon damage in an area."
+cooldown = 5.0
+image = ""
+[minors.seashell-crown]
+flavor-text = "Sea-####"
+name = "Seashell Crown"
+series = "Classic"
+
+[minors.seashell-crown.passive]
+name = "Sea-heck"
+advanced = "Passive. When enemies deal 5 damage to you, throw a 1 damage seashell at them if they're in an 80 unit radius."
+simple = "Passive. When enemies damage you, throw seashells at them."
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=472605748"
+
+[minors.refs-whistle]
+flavor-text = "Get pumped up!"
+name = "Ref's Whistle"
+series = "Classic"
+
+[[minors.refs-whistle.abilities]]
+name = "Pump Up"
+advanced = "All teammates in a 50 unit radius deal 15% more damage for 1.5 seconds.        "
+simple = "Nearby teammates deal more damage."
+cooldown = 3.0
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=28672417"
+
+[minors.bombface]
+flavor-text = "I’m gonna blow!"
+name = "Bombface"
+series = "Classic"
+
+[minors.bombface.passive]
+name = "Kaboom!"
+advanced = "Passive. When you get bloxxed, deal 50 damage to all enemies in a 30 unit radius of you."
+simple = "Passive. When you get bloxxed, deal damage to enemies close-up."
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=105344042"
+
+[minors.spring-crown-of-flowers]
+flavor-text = "This hat used to give your teammates mosquito bites, but we stuck with this instead."
+name = "Spring Crown of Flowers"
+series = "Classic"
+
+[[minors.spring-crown-of-flowers.abilities]]
+name = "Flower Power"
+advanced = "Heal all teammates in a 45 unit radius for 50 health over 2.5 seconds every 0.1 seconds."
+simple = "Heal nearby teammates."
+cooldown = 7.0
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=150337770"
+
+[minors.stone-age-shades]
+flavor-text = "Grand Dad?"
+name = "Stone Age Shades"
+series = "Classic"
+
+[minors.stone-age-shades.passive]
+name = "Rock Solid"
+advanced = "Passive. Increase max health by 20%."
+simple = "Passive. Increase max health."
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=102633381"
+
+[minors.kitty-ears]
+flavor-text = "This only makes you a furry if you think it makes you a furry."
+name = "Kitty Ears"
+series = "Classic"
+
+[[minors.kitty-ears.abilities]]
+name = "On the Prowl"
+advanced = "Pounce in the direction you're moving."
+simple = "Pounce in the direction you're moving."
+cooldown = 2.0
+image = "rbxassetid://706789228"
+
+[minors.lei]
+flavor-text = "Like the Spring Crown, but in the summer."
+name = "Lei"
+series = "Classic"
+
+[minors.lei.passive]
+name = "Flower Trail"
+advanced = "Passive. Every second, drop a flower on the ground. When a teammate steps on a flower, they gain 18 health. Flowers disappear after 3 seconds."
+simple = "Passive. Passively drop a flower that heals teammates."
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=14128456"
+
+[minors.dog-tags]
+flavor-text = "Only for people who graduated in the top of their class in the Navy Seals. "
+name = "Dog Tags"
+series = "Classic"
+
+[minors.dog-tags.passive]
+name = "Streak"
+advanced = "Passive. Every time you blox an enemy, gain +5% damage per attack. Caps at 25% damage bonus. A stack is removed every 16 seconds."
+simple = "Passive. Gain attack by bloxxing enemies."
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=31312480"
+
+[minors.unicorn-horn]
+flavor-text = "Unicorns are a lot more dangerous than I remember."
+name = "Unicorn Horn"
+series = "Classic"
+
+[minors.unicorn-horn.passive]
+name = "Stab"
+advanced = "Passive. Whenever the wearer bumps into an enemy, deal 35 damage to them. Target can't be stabbed by the same person for 3 seconds."
+simple = "Passive. Damage enemies that touch you."
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=9255093"
+
+[minors.bees]
+flavor-text = "Bzzzzzzzzzz..."
+name = "Bees"
+series = "Classic"
+
+[[minors.bees.abilities]]
+name = "Sting"
+advanced = "When toggled, deal 5 damage to all enemies in a 60 unit radius every second."
+simple = "When toggled, deal damage to nearby enemies."
+cooldown = 1.0
+image = "http://www.roblox.com/asset/?id=42068310"
+
+[minors.noob-attack---periastron]
+flavor-text = "Can someone get this sword off my head?"
+name = "Noob Attack - Periastron"
+series = "Classic"
+
+[minors.noob-attack---periastron.passive]
+name = "Slice and Dice"
+advanced = "Passive. Whenever you blox an enemy that's less than 40 units away from you, gain 20% walking speed for 4 seconds."
+simple = "Passive. Bloxxing nearby enemies increases your walk speed."
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=140481297"
+
+[minors.stage-prop]
+flavor-text = "If it's a prop...why does it hurt?"
+name = "Stage Prop"
+series = "Classic"
+
+[minors.stage-prop.passive]
+name = "Play the Part"
+advanced = "Passive. Deal 25% more damage but take 25% more damage."
+simple = "Passive. Deal more damage, but take more damage."
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1098285"
+
+[minors.stethoscope]
+flavor-text = "Nope, there doesn't seem to be a heartbeat in your leg, we'll have to amputate it."
+name = "Stethoscope"
+series = "Classic"
+
+[minors.stethoscope.passive]
+name = "Heartbeat"
+advanced = "Passive. Teammates in a 35 unit radius around you gain 5 health every second, you gain 1 health per second."
+simple = "Passive. Nearby teammates are healed every second."
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=30844997"
+
+[minors.peace-headband]
+flavor-text = "Make hats, not battles. "
+name = "Peace Headband"
+series = "Classic"
+
+[minors.peace-headband.passive]
+name = "Peaceful"
+advanced = "Passive. Take 40% less damage, but deal 40% less damage."
+simple = "Passive. Take less damage, but deal less damage."
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=26960094"
+
+[minors.recycled-cardboard-visor-2014]
+flavor-text = "What's not shown is you eating garbage."
+name = "Recycled Cardboard Visor 2014"
+series = "Classic"
+
+[[minors.recycled-cardboard-visor-2014.abilities]]
+name = "Recycle"
+advanced = "Heal yourself by 20%."
+simple = "Heal yourself."
+cooldown = 15.0
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=154415270"
+
+[minors.sparkling-angel-wings]
+flavor-text = "A guardian angel watches over you."
+name = "Sparkling Angel Wings"
+series = "Classic"
+
+[[minors.sparkling-angel-wings.abilities]]
+name = "Divine Intervention"
+advanced = "Grant 100% defense to the user for 3 seconds, with every 15 damage recieved reducing the defense buff by 8%."
+simple = "Grant heavy defense to the user for a limited time, lowering with damage."
+cooldown = 30.0
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=192557913"
+
+[minors.doctors-reflector]
+flavor-text = "DISCLAIMER: Will not make you a licensed doctor."
+name = "Doctor's Reflector"
+series = "Classic"
+
+[minors.doctors-reflector.passive]
+name = "Reflect"
+advanced = "Passive. Heal yourself for 15% of all damage you deal."
+simple = "Passive. Heal yourself for damage you deal."
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=23630696"
+
+[minors.bloxxer-cap]
+flavor-text = "dear kampf plz make this insta blox enemies thank u"
+name = "Bloxxer Cap"
+series = "Classic"
+
+[minors.bloxxer-cap.passive]
+name = "Blox"
+advanced = "Passive. When you blox an enemy, they explode, dealing 25 damage to nearby enemies in a 50 unit radius. Enemies bloxxed this way can also explode."
+simple = "Passive. When you blox an enemy they explode, dealing damage to nearby enemies."
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=51353039"
+
+[minors.ice-pack]
+flavor-text = "Medically approved by your school nurse."
+name = "Ice Pack"
+series = "Classic"
+
+[minors.ice-pack.passive]
+name = "Get Better"
+advanced = "Passive. While under 50% health, heal 3 health per second. While over 50% health, heal 1 health per second."
+simple = "Passive. Heal yourself depending on your current health."
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=20334446"
+
+[minors.front-line-warrior]
+flavor-text = "It's exactly what you think it means."
+name = "Front Line Warrior"
+series = "Classic"
+
+[minors.front-line-warrior.passive]
+name = "Compensating For Something"
+advanced = "Passive. Deal damage based on your health, from 0.75x at 100% to 1.75x at 30%"
+simple = "Passive. While at high health, deal less damage. While at low health, deal more damage."
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=45630442"
+
+[minors.headrow]
+flavor-text = "Hopefully not contagious."
+name = "Headrow"
+series = "Classic"
+
+[minors.headrow.passive]
+name = "Better than One"
+advanced = "Passive. For every enemy in a 70 unit radius, get 0.5 rage per second."
+simple = "Passive. Rage rate increases the more enemies are near you. "
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1082935"
