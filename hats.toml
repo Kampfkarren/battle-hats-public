@@ -29,6 +29,25 @@ simple = "Bark at enemies, disabling their abilities."
 cooldown = 12.0
 image = "http://www.roblox.com/asset/?id=1036910764"
 
+[majors.doge.changelog]
+2018-08-03 = ["The Wow! laser pointer will now pull enemies in more aggressively and will also apply vertical force."]
+2018-02-18 = ["Changed look of the laser from a part to a beam."]
+2018-01-04 = ["Possibly fixed network issues with Doge's target changing.", "Doge's dogs will now properly reset when the player's team changes."]
+2017-12-10 = ["RURURURU no longer checks line of sight."]
+2017-09-10 = ["Man's Best Friend no longer deals damage but instead lowers victim's attack by 30%.", "Removed Good Boy.", "Added \"RURURURU - Bark at enemies, disabling their enemies.\"", "Changed Wow! from \"Summon a puppy that follows you for a while. Can't use Good Boy.\" to \"Point a laser pointer, pulling in enemies.\""]
+2017-07-06 = ["Added visual showing Man's Best Friend targets."]
+2017-06-29 = ["Removed range buff from Good Boy."]
+2017-06-27 = ["Fixed a glitch where Man's Best Friend would keep its speed nerf."]
+2017-06-24 = ["Added \"Good Boy - Give your dog a treat, increase its damage and range for a limited time. If your dog is attacking someone they stop.\"."]
+2017-06-07 = ["Changed Tennis Ball from dealing 20-60 damage based on your distance to 40 damage flat.", "Increased the damage of dogs from 15 to 16."]
+2017-05-27 = ["Fixed a glitch where killing someone with Tennis Ball with Doge in range would cause the Doge to stay there."]
+2017-05-20 = ["Fixed a glitch where whenever a player leaves their dogs were left behind. The players will now take the dogs home, where they will have a good loving family."]
+2017-05-07 = ["Any leftover glitched dogs are removed when the game starts."]
+2017-03-28 = ["Fixed a glitch where dogs could harm their owner.", "Probably fixed a glitch where dogs would sometimes just hang around (https://trello.com/c/lPd1HUkx/153-doge-randomly-leaves-dogs-around-while-this-seems-like-the-best-thing-ever-it-s-kind-of-annoying)."]
+2017-03-22 = ["Lowered maximum damage of the Tennis Ball from 90 to 60.", "Increased range of dogs from 45 to 75."]
+2017-03-13 = ["Fixed dogs not spawning."]
+2017-02-23 = ["Added."]
+
 [majors.mad-scientist-hair]
 flavor-text = "Turned himself into a pickle."
 name = "Mad Scientist Hair"
@@ -53,6 +72,18 @@ advanced = "After a .4 second cast, throw a vial at your feet that explodes in a
 simple = "Throw a vial at your feet that explodes, causing you to move faster, making enemies move slower, and dealing damage."
 cooldown = 10.0
 image = "http://www.roblox.com/asset/?id=131178113"
+
+[majors.mad-scientist-hair.changelog]
+2018-08-06 = ["Being bloxxed will no longer remove the flask dropped by Supersaturation."]
+2018-08-05 = ["Fixes Supersaturation and Wild Vial smoke."]
+2018-08-04 = ["Fixed an issue with smoke not coming out of the flasks."]
+2017-06-16 = ["Changed rage from \"Cover all enemies' screens with smoke\" with \"Place a flask that weakens and damages enemies in an area around it the longer they remain in it\"."]
+2017-05-15 = ["Changed ability from \"Special Vial - hrow a special flask that slows enemies, makes them more vulnerable, and makes them deal less damage.\" to \"Wild Vial - Throw a vial at your feet that explodes, causing you to move faster, making enemies move slower, and dealing damage.\""]
+2017-05-14 = ["Changed the way the flask is thrown. It is now much more natural."]
+2017-04-09 = ["Fixed passives not showing correctly.", "Fixed ability having an incorrect cooldown."]
+2017-03-20 = ["Increased reload speed from 1.5 seconds to 2 seconds."]
+2017-03-19 = ["Flask splash increased from 20 units to 40 units."]
+2017-02-19 = ["Added."]
 
 [majors.fire-wizard]
 flavor-text = "Not to be confused with Fire Wizard."
@@ -79,6 +110,21 @@ simple = "Fire a ring of meteors that deal damage over time."
 cooldown = 10.0
 image = "http://www.roblox.com/asset/?id=62775787"
 
+[majors.fire-wizard.changelog]
+2018-10-16 = ["Smoothed out the visuals of Fire Wizard's Meteor Ring"]
+2017-07-28 = ["Added dirty fix for fire particles staying on enemies."]
+2017-07-23 = ["Projectiles from Fire Ring will follow around your player until they are fired."]
+2017-06-25 = ["When burning, fire will emit from your torso."]
+2017-06-16 = ["Fixed a bug where Pyromancy would rarely connect."]
+2017-05-26 = ["Changed particles."]
+2017-05-25 = ["Changed particles."]
+2017-05-12 = ["Changed wait time between fire balls in Fire Ring from 0.1 to 0.05"]
+2017-04-15 = ["Changed Pyromancy to deal damage while held down, rather than one quick burst.", "Removed Scorched (Enemies on fire take more damage).", "Added Fire Ring (Fire a ring of fireballs that deal damage over time)."]
+2017-03-24 = ["Fixed Pyromancy showing up as \"Fire Wizard\" in damage logs."]
+2017-03-21 = ["Fixed a visual glitch relating to fire."]
+2017-03-19 = ["Pyromancy range increased from 20 units to 35 units.", "Pyromancy fire DoT applied time increased from 3 seconds to 6 seconds."]
+2017-02-23 = ["Added."]
+
 [majors.firefighter-helmet]
 flavor-text = "Stay back! Wait, not TOO far back. A little bit closer, so I can push you farther!"
 name = "Firefighter Helmet"
@@ -103,6 +149,21 @@ advanced = "After a 1.5s cast, place a fire hydrant in front of you that lasts f
 simple = "Place a fire hydrant in front of you that sprays water in a ring around it, dealing damage and knocking back enemies."
 cooldown = 9.0
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1081381"
+
+[majors.firefighter-helmet.changelog]
+2017-08-27 = ["Fixed a glitch where when you were stunned, you could still fire your hose.", "Decreased Fire Hose damage from 25 to 14.", "Decreased Fire Hose reload time from 0.45s to 0.2s.", "The amount enemies are knocked back from your Fire Hose will now depend on how close they are to you."]
+2017-08-19 = ["Taken measures to try and prevent excessive flinging from Fire Hose and Fire Hydrant."]
+2017-08-16 = ["Increased reload time from 0.2 seconds to 0.45 seconds."]
+2017-07-28 = ["Fixed Fire Hydrants acting as black holes. ", "Fixed fire truck shadows sometimes being stuck in the air."]
+2017-07-24 = ["Lowered spray length from 35 units to 20 units.", "Lowered spray damage from 35 damage to 25 units."]
+2017-07-09 = ["Temporarily replaced fire truck model with a long brick to prevent lag."]
+2017-07-02 = ["Fixed fire hydrants acting strangely with non-colliding parts."]
+2017-06-19 = ["Fixed fire hydrants not pushing back or dealing damage."]
+2017-06-16 = ["Water from fire hose will now go through teammates."]
+2017-06-09 = ["Trucks from Red Alert now have a large shadow showing where they're going to be.", "Trucks from Red Alert will now no longer destroy themselves when touching, and instead will plow through."]
+2017-06-07 = ["Fixed a glitch where trucks would push back teammates.", "Fixed a glitch where firing your hose at someone with their back turned towards you would suck them in, creating a black hole and destroying the universe.", "The fire hose beam stops at the closest part."]
+2017-05-16 = ["Added paticles for when you fire your hose."]
+2017-05-15 = ["Changed ability from \"Emergency - Spray nearby enemies for more damage and push them back farther.\" to \"Fire Hydrant - Place a fire hydrant in front of you that sprays water in a ring around it, dealing damage and knocking back enemies.\""]
 
 [majors.fedora]
 flavor-text = "M’lady..."
@@ -142,6 +203,24 @@ simple = "Eat your Tendies, increasing movement speed and reducing damage taken.
 cooldown = 9.0
 image = "http://www.roblox.com/asset/?id=649904125"
 
+[majors.fedora.changelog]
+2018-08-09 = ["Fixes the katana from Neckbeard's Rage."]
+2018-02-24 = ["Fixed rage not working after someone used it the first time.", "Fixed error when using Cheese Snacks after leaving the game."]
+2017-09-28 = ["Fixed Cheese Snack's cooldown from 5 back to 8.", "Increased reload speed from 0.7s to 1.3s.", "Lowered projectile speed from 250 u/s to 180 u/s."]
+2017-09-25 = ["Changed weapon from \"Keyboard Warrior - Fire a wide keyboard.\" to \"Tendies - Throw chicken tenders.\".", "Changed Cheese Snacks from \"Heal yourself based on your current health missing.\" to \"Heal yourself immediately and gain health over time.\".", "Added \"Feast - Eat your Tendies, increasing movement speed and reducing damage taken.\"."]
+2017-07-23 = ["Fixed a glitch where you could not attack with your katana."]
+2017-07-21 = ["Added taunt."]
+2017-07-20 = ["Added art for Cheese Snacks."]
+2017-06-20 = ["Added animation to Cheese Snacks."]
+2017-06-08 = ["Fixed music not playing during rage."]
+2017-05-22 = ["Changed Keyboard reload time from 1.3 to 1.", "Changed Keyboard size from 4x2 to 6x2.", "Changed Keyboard damage from 40 to 34."]
+2017-04-14 = ["Fixed a bug where Fedora would not get his katana back after the rage was over (https://trello.com/c/xqxVEnw0/163-fedora-will-not-get-his-keyboard-back-after-his-rage-is-over)."]
+2017-04-07 = ["Increased projectile speed from 130 to 150."]
+2017-03-19 = ["Neckbeard's Rage speed boost increased from 35% to 65%.", "Soda drinking animation cut by 1 second."]
+2017-01-28 = ["Fixed a bug where if the player hit another player with the keyboard or katana and it hit one of their hats, it wouldn't count as a hit."]
+2017-01-21 = ["Finished rage."]
+2017-01-19 = ["Added."]
+
 [majors.buddy-baseball-cap]
 flavor-text = "Touchdown! Slam Dunk! Sports!"
 name = "Buddy Baseball Cap"
@@ -173,6 +252,20 @@ simple = "Fling multiple baseballs in your direction for a small amount of time.
 cooldown = 6.0
 image = "http://www.roblox.com/asset/?id=117356883"
 
+[majors.buddy-baseball-cap.changelog]
+2017-06-30 = ["Added \"Up to Bat - Passive. Move faster\"."]
+2017-06-29 = ["Fixed a glitch where Baseball Bat would regularly not deal damage."]
+2017-06-16 = ["Fixed a bug where Grand Slam would never inflict its effect."]
+2017-06-15 = ["Changed Home Run's time projectiles fly from .22 seconds to .4 seconds."]
+2017-05-26 = ["Increased rage range from 55 to 75.", "Lowered rage damage from 90 to 80.", "Changed Home Run from making balls disappear at 94 units to now disappear after .22 seconds.", "Increased cooldown on Home Run from 5s to 6s."]
+2017-05-25 = ["Increased rage range from 55 to 75.", "Lowered rage damage from 90 to 80.", "Changed Home Run from making balls disappear at 94 units to now disappear after .22 seconds.", "Increased cooldown on Home Run from 5s to 6s."]
+2017-05-22 = ["Changed Grand Slam damage from 70 to 90.", "Changed Grand Slam range from 55 to 70.", "Changed Buddy Baseball Bat damage from 45 to 66.", "Changed Home Run maximum balls fired from 5 to 7."]
+2017-04-06 = ["Increased projectile speed of balls from Home run from 113 to 160."]
+2017-03-26 = ["Fixed error with Home Run (https://trello.com/c/uCwIkctl/151-weapon-is-not-a-valid-member-for-model-buddy-baseball-cap-s-home-run)."]
+2017-03-25 = ["Home Run projectile speed increased from 90 units to 113.", "Cooldown decreased from 7 to 5."]
+2017-03-15 = ["Fixed rage not pushing back people moving."]
+2017-02-26 = ["Added."]
+
 [majors.deluxe-paintball-helmet]
 flavor-text = "Tryhard at heart."
 name = "Deluxe Paintball Helmet"
@@ -197,6 +290,12 @@ advanced = "Your next 5 shots deal 65% more damage and travel 30% faster."
 simple = "Your next few shots deal more damage. "
 cooldown = 8.0
 image = "http://www.roblox.com/asset/?id=17498132"
+
+[majors.deluxe-paintball-helmet.changelog]
+2017-07-24 = ["Increased speed from 80 to 100.", "Hoser now increases the speed of your darts by 30%."]
+2017-07-23 = ["Fixed a glitch where paint cans from your rage would hit non-collidable parts."]
+2017-07-21 = ["Added taunt."]
+2017-05-13 = ["Added."]
 
 [majors.the-great-lion]
 flavor-text = "With The Great Lion, use your Roar on yourself if you're being cornered by enemies."
@@ -229,6 +328,20 @@ simple = "Increase damage and defense of yourself and nearby teammates."
 cooldown = 8.0
 image = "http://www.roblox.com/asset/?id=128539144"
 
+[majors.the-great-lion.changelog]
+2018-01-01 = ["Lowered claw damage from 42 to 28."]
+2017-08-15 = ["Fixed a glitch where if a player left while they were using Swipe the claw marks would stay in the world."]
+2017-07-21 = ["Added taunt."]
+2017-06-28 = ["Stampede no longer stacks."]
+2017-06-27 = ["Stampede no longer stacks."]
+2017-06-16 = ["Fixed a bug where Swipe wouldn't deal damage and would never fire again after the first shot."]
+2017-05-26 = ["Swipe now swipes twice with a 0.3s damage.", "Increased swipe damage from 30 to 42.", "Increased swipe range from 15 to 30.", "Increased swipe reload time from 0.75s to 1.4s.", "Roar no longer increases speed but instead increases defense.", "Decreased stampede's buff from 25% to 20%.", "Stampede now buffs you and teammates in a 60 unit radius."]
+2017-05-25 = ["Swipe now swipes twice with a 0.3s damage.", "Increased swipe damage from 30 to 42.", "Increased swipe range from 15 to 30.", "Increased swipe reload time from 0.75s to 1.4s.", "Roar no longer increases speed but instead increases defense.", "Decreased stampede's buff from 25% to 20%.", "Stampede now buffs you and teammates in a 60 unit radius."]
+2017-03-26 = ["Fixed being able to Swipe yourself (https://trello.com/c/TqpVmlSG/148-great-lion-is-able-to-damage-itself)."]
+2017-03-25 = ["Roar damage boost decreased from 25% to 15%.", "Roar 20% speed boost added.", "Roar range increased from 30 units to 45 units.", "Roar duration increased from 2 seconds to 4 seconds.", "Roar cooldown increased from 5 seconds to 7 seconds."]
+2017-03-19 = ["Roar attack buff increased from 10% to 25%."]
+2017-03-05 = ["Added."]
+
 [majors.ninja-mask-of-shadows]
 flavor-text = "His time to strike is now."
 name = "Ninja Mask of Shadows"
@@ -253,6 +366,20 @@ advanced = "After being frozen for 1.2 seconds, teleport to the closest enemy in
 simple = "After a short period of time, teleport to a nearby enemy and deal damage, and increase your damage."
 cooldown = 6.0
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1309911"
+
+[majors.ninja-mask-of-shadows.changelog]
+2018-12-05 = ["Fixed regressions on Attack from the Shadows' stun."]
+2018-02-17 = ["Fixed a glitch where ninja stars would only ever go up."]
+2017-08-16 = ["Increased time frozen while using Attack From the Shadows from 1 second to 1.2 seconds.", "Decreased length of double damage time from 3.5 seconds to 1.5 seconds."]
+2017-07-23 = ["A previously unknown glitch with Ninja Star has been fixed where the stars would only last for 0.3 seconds. They will now properly go up to 0.5 seconds."]
+2017-05-26 = ["Fixed a mistake where the ninja star was a mace. Whoops.", "Ninja star now throws sideways."]
+2017-05-24 = ["Added an effect and sound to Attack from the Shadows.", "Added a sound effect for firing weapon."]
+2017-04-14 = ["hanged Ninja Star's range from 100 to 50"]
+2017-04-12 = ["Change rage from \"Deal 30 damage to all enemies after 4 seconds. If damaged during this period, deal 65 damage to yourself instead.\" to \"Double Attack from the Shadow's range and set it's cooldown to 1 for 8 seconds.\""]
+2017-04-08 = ["Attack from the Shadows now waits 0.25 seconds before doubling damage."]
+2017-04-07 = ["Increased projectile speed from 130 to 150.", "Increased max range from 25 to 100."]
+2017-03-19 = ["Shuriken damage increased from 15 to 20.", "Attack from the Shadows attack time decreased from 1.5 seconds to 1 second.", "Attack from the Shadows range increased from 35 units to 60 units.", "Attack from the Shadows now doubles damage dealt for 3.5 seconds.", "Removed Stealth."]
+2017-02-18 = ["Added."]
 
 [majors.rubber-duckie]
 flavor-text = "Quack."
@@ -286,6 +413,29 @@ simple = "Shoot large ducks in the direction you’re facing."
 cooldown = 7.0
 image = "http://www.roblox.com/asset/?id=710698060"
 
+[majors.rubber-duckie.changelog]
+2018-10-28 = ["Quack Attack now fires 4 ducks in a row instead of just one.", "Lowered Quack Attack damage from 44 to 18."]
+2018-02-18 = ["Fixed the, albeit funny, glitch where sometimes when you spawned with Rubber Duckie or Epic Duck Racer your duck would be huge and you would fly in the air, and eventually to your death."]
+2018-01-01 = ["Fixed a glitch where hat skins would fire their skins instead of the duck with the Quackier Attackier."]
+2017-10-04 = ["Lowered lifetime of duck projectiles during rage from 1 second to 0.5 seconds."]
+2017-07-24 = ["Rage will now stop firing while effected by Tee Vee's rage."]
+2017-07-16 = ["Added transparent gradient around Quack's icon."]
+2017-06-15 = ["Increase projectile speed from 74 units to 97 units."]
+2017-06-08 = ["Quack Attack only fires one duck instead of four.", "Increased damage of Quack Attack from 22 to 44.", "Quackier Attackier now fires one duck every 0.3 seconds instead of 13 ducks. To anyone reading in the future, yes that's what it used to be.", "Increased damage of Quackier Attackier from 22 to 77.", "Quackier Attackier ducks fly for 148 units/second and disappear after 1 second."]
+2017-04-22 = ["Added new icon for Quack.", "Rage now gets rid of ducks after 2 seconds, rather than after a certain range."]
+2017-04-16 = ["Optimized rage. It should now be faster to use and possibly hit more reliably."]
+2017-04-07 = ["Increased projectile speed from 50 to 74."]
+2017-03-19 = ["Changed rage from...every tenth of a second.....to every quarter of a second."]
+2017-02-20 = ["Fixed a teamkilling glitch."]
+2017-02-09 = ["Actually fixed the ear rape during the rage. Promise."]
+2017-02-05 = ["Fixed ear rape on rage."]
+2017-01-28 = ["Fixed a bug where if the player hit another player with ducks and it hit one of their hats, it wouldn't count as a hit."]
+2017-01-19 = ["Ducks pass through teammates."]
+2017-01-12 = ["Finished abilities.", "Finished rage.", "Optimized weapon script. Children and events were connected after putting the duck in workspace, but this has now been switched. EDIT: This has been undone, as it messed up the lag compensation script Rubber Duckie uses."]
+2017-01-11 = ["Added \"Quack\" ability."]
+2017-01-10 = ["Fixed duck sounds cutting off when hitting a part."]
+2017-01-09 = ["Added. "]
+
 [majors.shaggy]
 flavor-text = "Word has it that he's a time traveler from 2009. He is constantly whining that the old days were better."
 name = "Shaggy"
@@ -310,6 +460,53 @@ advanced = "Places a banana peel where the user is standing. Any enemies that st
 simple = "Place a banana peel that trips and slows down enemies that step on it. Can have 2 peels out at a time."
 cooldown = 5.0
 image = "http://www.roblox.com/asset/?id=112107054"
+
+[majors.shaggy.changelog]
+2017-07-06 = ["Added visual bar showing your charge meter."]
+2017-07-05 = ["Bombs will now flash with the user's team color."]
+2017-07-02 = ["Fixed bombs acting strangely with non-colliding parts."]
+2017-06-19 = ["Slingshot pellets now fade out."]
+2017-06-15 = ["Increased Banana cooldown from 4 seconds to 5 seconds."]
+2017-06-14 = ["Added."]
+
+[majors.the-specialists-helmet]
+flavor-text = "The Specialist’s Helmet specialises in the especially special specialty of supporting specially."
+name = "The Specialist's Helmet"
+series = "Classic"
+stars = 2
+hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=232525495"
+
+[majors.the-specialists-helmet.rage]
+name = "Resupply!"
+advanced = "Spawn a Medkit on each teammate that can be used 2 times. The medkit heals for 75% of health and respawns after 7.5 seconds. All Medkits spawned this way disappear after 25 seconds."
+simple = "After 2 seconds, spawn a Medkit on each teammate that can be used 2 times."
+
+[majors.the-specialists-helmet.weapon]
+name = "Laser Blaster"
+advanced = "A blaster that deals 21 damage and shoots every .4 seconds. Projectile travels for 0.88 seconds at 225 units a second."
+simple = "Blast lasers."
+image = ""
+
+[[majors.the-specialists-helmet.abilities]]
+name = "Medkit"
+advanced = "Place a medkit that only your team can use. The medkit heals for 75% of health and respawns after 7.5 seconds. Disappears after your spawn another medkit or die."
+simple = "Place a medkit that only your team can use. Disappears after your spawn another medkit or die."
+cooldown = 18.0
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=232525495"
+
+[majors.the-specialists-helmet.changelog]
+2018-08-05 = ["Added a parachute animation to placed Medkits.", "Replaced sound for Medkit to one of a parachute dropping. Credit information has been placed on the Creative Commons Attributions spreadsheet.", "Medkits dropped from Resupply! now look like they're falling from the sky."]
+2017-07-24 = ["Lowered damage from 30 to 21."]
+2017-06-16 = ["Medkits will now play a sound when they are spawned in."]
+2017-06-14 = ["Changed damage from 12-24 to 30.", "Changed projectile speed from 150 to 225.", "Changed maximum projectile range from 100 to 200."]
+2017-06-07 = ["Fixed a glitch where medkits would stay after a player leaves."]
+2017-05-22 = ["Fixed bug causing weapon to deal no damage."]
+2017-05-20 = ["Fixed a glitch where the pistol wouldn't fire."]
+2017-05-07 = ["Fixed an error with its weapon."]
+2017-05-04 = ["Changed laser pistol reload speed from .6 to .4", "Added damage falloff to laser pistol"]
+2017-04-25 = ["Changed how beams fire so that they rotate towards where the mouse is firing."]
+2017-03-28 = ["Changed design of medkits."]
+2017-03-26 = ["Added."]
 
 [majors.mining-helmet]
 flavor-text = "We're gonna be rich..."
@@ -342,6 +539,18 @@ simple = "Turn your skin into stone for a limited time, taking massively reduced
 cooldown = 8.0
 image = "http://www.roblox.com/asset/?id=928772927"
 
+[majors.mining-helmet.changelog]
+2018-08-06 = ["Added diamond particle effect when using Diamonds!"]
+2018-02-08 = ["Fixed a bug where Diamonds wouldn't work correctly if you were under 30 health."]
+2017-10-04 = ["Increased Slateskin defense from 50% to 70%.", "Decreased Gold Rush activation damage from 25 to 20."]
+2017-09-17 = ["Fixed a glitch where Slateskin would massively increase your knockback."]
+2017-07-21 = ["Added taunt."]
+2017-07-20 = ["Added art for Slateskin."]
+2017-06-29 = ["Fixed a glitch where Pickaxe would regularly not deal damage."]
+2017-06-19 = ["Optimized Gold Rush slightly after remembering division existed."]
+2017-06-16 = ["Players hit by the Pickaxe will have dirt splatter out of them."]
+2017-06-15 = ["Added."]
+
 [majors.empyrean-reignment]
 flavor-text = "We're not completely sure it's a hat yet."
 name = "Empyrean Reignment"
@@ -372,6 +581,10 @@ advanced = "Attach a healing beam to a teammate that heals at a rate of 25 healt
 simple = "Attach a healing beam to a nearby teammate."
 cooldown = 0.0
 image = "http://www.roblox.com/asset/?id=1032918680"
+
+[majors.empyrean-reignment.changelog]
+2018-11-23 = ["Holy Nova no longer checks line of sight.", "Holy Nova now heals the wearer.", "Holy Staff now aims higher."]
+2018-10-23 = ["Added."]
 
 [majors.tee-vee]
 flavor-text = "Stored in that camera is hour long funny dog compilations. And music of questionable quality."
@@ -405,6 +618,16 @@ simple = "Give all recorded footage to a nearby teammate."
 cooldown = 1.0
 image = "http://www.roblox.com/asset/?id=834217958"
 
+[majors.tee-vee.changelog]
+2018-11-23 = ["Teammates now receive 2x as much rehearsed health.", "Max Camera Flash projectile scale lowered from 4 to 2.", "Record cooldown lowered from 12 to 8.", "Record now records twice the amount of health you receive.", "Rehearse now only gives half of your footage as health.", "Rehearse will now only take footage if it is used instead of taking all of it.", "Footage display is now rounded to an integer."]
+2018-11-14 = ["Tee Vee has been completely reworked from the ground up.", "Changed weapon from \"Sound Wave - Fire a sound wave that gets larger the more you fire it without stopping.\" to \"Camera Flash - Hold down to charge up a powerful attack. At full charge, it flies through enemies.\"", "Changed Record from \"Record the closest nearby enemy, gaining all the health, buffs, and rage they received.\" to \"Record a nearby enemy, gaining all the health and rage they received as footage.\"", "Added ability \"Rehearse (1) - Give all recorded footage to a nearby teammate.\"", "Changed rage from \"Dance-Off - You and all enemies around you dance.\" to \"Record all nearby enemies.\""]
+2018-08-05 = ["Added a tooltip to show who you're going to record."]
+2017-07-25 = ["Fixed tooltip not showing."]
+2017-07-24 = ["Dancing players can no longer use abilities."]
+2017-07-23 = ["Lowered damage from 18 to 12."]
+2017-07-20 = ["Players who are dancing cannot use their weapons."]
+2017-07-10 = ["Added."]
+
 [majors.dark-tutor]
 flavor-text = "Doesn’t have an actual teacher certification."
 name = "Dark Tutor"
@@ -429,6 +652,11 @@ advanced = "All damage done by teammates in a 120 unit radius is equally distrib
 simple = "Equally distribute damage dealt by nearby teammates in a period of time as health."
 cooldown = 8.0
 image = "http://www.roblox.com/asset/?id=186642181"
+
+[majors.dark-tutor.changelog]
+2018-11-07 = ["Increased length of \"Dark Curse\" from 5 seconds to 10 seconds.", "Dark Magic now heals as damage is being dealt rather than at the end.", "Changed weapon from \"Necromancy - Fire orbs that reload quickly.\" to \"Drain Life - Fire a wave of dark energy. When hitting an enemy, heal you and nearby teammates.\""]
+2018-08-04 = ["Enemies under the effects of Dark Curse can no longer pick up medkits despite them not healing."]
+2017-07-24 = ["Added."]
 
 [majors.valkyrie-helm]
 flavor-text = "AKA \"Search Wikipedia for Norse mythology\""
@@ -460,6 +688,10 @@ advanced = "Walk 70% faster for 8 seconds or until you get damaged, attack, or u
 simple = "Walk faster for a limited time or until you get damaged, attack, or use an ability."
 cooldown = 12.0
 image = "http://www.roblox.com/asset/?id=128313675"
+
+[majors.valkyrie-helm.changelog]
+2018-10-21 = ["Fixed a bug where spears would stay stuck in the wall."]
+2018-10-20 = ["Added."]
 
 [majors.golden-crown]
 flavor-text = "The self proclaimed \"pwner of noobs\"."
@@ -498,6 +730,9 @@ advanced = "Spin in a circle with a 45 unit diameter, dealing 25% of Linked Swor
 simple = "Spin in a circle, dealing increased weapon damage in an area."
 cooldown = 5.0
 image = ""
+
+[majors.golden-crown.changelog]
+2018-10-28 = ["Added."]
 [minors.seashell-crown]
 flavor-text = "Sea-####"
 name = "Seashell Crown"
@@ -509,6 +744,10 @@ name = "Sea-heck"
 advanced = "Passive. When enemies deal 5 damage to you, throw a 1 damage seashell at them if they're in an 80 unit radius."
 simple = "Passive. When enemies damage you, throw seashells at them."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=472605748"
+
+[minors.seashell-crown.changelog]
+2017-05-20 = ["Fixed the seashells not working. "]
+2017-04-16 = ["Added."]
 
 [minors.refs-whistle]
 flavor-text = "Get pumped up!"
@@ -523,6 +762,10 @@ simple = "Nearby teammates deal more damage."
 cooldown = 3.0
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=28672417"
 
+[minors.refs-whistle.changelog]
+2017-07-24 = ["Increased range from 15 units to 50 units."]
+2017-03-05 = ["Added."]
+
 [minors.bombface]
 flavor-text = "I’m gonna blow!"
 name = "Bombface"
@@ -534,6 +777,11 @@ name = "Kaboom!"
 advanced = "Passive. When you get bloxxed, deal 50 damage to all enemies in a 30 unit radius of you."
 simple = "Passive. When you get bloxxed, deal damage to enemies close-up."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=105344042"
+
+[minors.bombface.changelog]
+2017-09-17 = ["Changed passive icon from Bloxxer Cap to Bombface."]
+2017-09-11 = ["Changed from \"Kamikaze - Deal 60% more damage. After 3 seconds, you die. Horribly.\" to \"Kaboom! - Passive. When you get bloxxed, deal damage to enemies close-up.\""]
+2017-04-16 = ["Added."]
 
 [minors.spring-crown-of-flowers]
 flavor-text = "This hat used to give your teammates mosquito bites, but we stuck with this instead."
@@ -548,6 +796,10 @@ simple = "Heal nearby teammates."
 cooldown = 7.0
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=150337770"
 
+[minors.spring-crown-of-flowers.changelog]
+2017-09-25 = ["Changed from \"Heal all teammates in a 45 unit radius for 45 health, and heal yourself for 25 health\" to \"Heal all teammates in a 45 unit radius for 50 health over 2.5 seconds every 0.1 seconds\"."]
+2017-05-14 = ["Added."]
+
 [minors.stone-age-shades]
 flavor-text = "Grand Dad?"
 name = "Stone Age Shades"
@@ -559,6 +811,9 @@ name = "Rock Solid"
 advanced = "Passive. Increase max health by 20%."
 simple = "Passive. Increase max health."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=102633381"
+
+[minors.stone-age-shades.changelog]
+2017-01-12 = ["Added."]
 
 [minors.kitty-ears]
 flavor-text = "This only makes you a furry if you think it makes you a furry."
@@ -573,6 +828,13 @@ simple = "Pounce in the direction you're moving."
 cooldown = 2.0
 image = "rbxassetid://706789228"
 
+[minors.kitty-ears.changelog]
+2017-09-17 = ["Lowered push power from 30 to 25."]
+2017-08-18 = ["Pounce now pounces in the direction the player is moving."]
+2017-08-16 = ["Fixed a glitch involving flinging yourself against a wall to gain massive pounces."]
+2017-03-15 = ["Fixed not being pushed while moving."]
+2017-02-16 = ["Added."]
+
 [minors.lei]
 flavor-text = "Like the Spring Crown, but in the summer."
 name = "Lei"
@@ -584,6 +846,11 @@ name = "Flower Trail"
 advanced = "Passive. Every second, drop a flower on the ground. When a teammate steps on a flower, they gain 18 health. Flowers disappear after 3 seconds."
 simple = "Passive. Passively drop a flower that heals teammates."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=14128456"
+
+[minors.lei.changelog]
+2017-05-22 = ["Changed health gained from flower from 10 to 20."]
+2017-03-19 = ["Players can no longer pick up flowers when they are fully healed.", "Flower healing increased from 5 to 10."]
+2017-02-17 = ["Added."]
 
 [minors.dog-tags]
 flavor-text = "Only for people who graduated in the top of their class in the Navy Seals. "
@@ -597,6 +864,10 @@ advanced = "Passive. Every time you blox an enemy, gain +5% damage per attack. C
 simple = "Passive. Gain attack by bloxxing enemies."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=31312480"
 
+[minors.dog-tags.changelog]
+2017-07-24 = ["Added \"A stack is removed every 16 seconds\"."]
+2017-02-16 = ["Added."]
+
 [minors.unicorn-horn]
 flavor-text = "Unicorns are a lot more dangerous than I remember."
 name = "Unicorn Horn"
@@ -608,6 +879,13 @@ name = "Stab"
 advanced = "Passive. Whenever the wearer bumps into an enemy, deal 35 damage to them. Target can't be stabbed by the same person for 3 seconds."
 simple = "Passive. Damage enemies that touch you."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=9255093"
+
+[minors.unicorn-horn.changelog]
+2017-09-22 = ["Lowered damage from 40 to 35."]
+2017-09-21 = ["Increased stab cooldown from 1 second to 3 seconds."]
+2017-06-07 = ["Fixed a glitch where you would take damage after the wearer died."]
+2017-05-28 = ["Changed how the hitbox works."]
+2017-02-16 = ["Added."]
 
 [minors.bees]
 flavor-text = "Bzzzzzzzzzz..."
@@ -622,6 +900,12 @@ simple = "When toggled, deal damage to nearby enemies."
 cooldown = 1.0
 image = "http://www.roblox.com/asset/?id=42068310"
 
+[minors.bees.changelog]
+2018-10-15 = ["Changed Bees from \"Deal damage to nearby enemies\" to \"When toggled, deal damage to nearby enemies\"."]
+2017-07-24 = ["Added line of sight check."]
+2017-03-22 = ["Increased range from 35 to 60."]
+2017-02-15 = ["Added."]
+
 [minors.noob-attack---periastron]
 flavor-text = "Can someone get this sword off my head?"
 name = "Noob Attack - Periastron"
@@ -633,6 +917,9 @@ name = "Slice and Dice"
 advanced = "Passive. Whenever you blox an enemy that's less than 40 units away from you, gain 20% walking speed for 4 seconds."
 simple = "Passive. Bloxxing nearby enemies increases your walk speed."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=140481297"
+
+[minors.noob-attack---periastron.changelog]
+2018-04-15 = ["Renamed Noob Attack: Periastron to Noob Attack - Periastron because Roblox hates Unicode names or something. All future Noob Attack and Noob Assist hats will have this name change."]
 
 [minors.stage-prop]
 flavor-text = "If it's a prop...why does it hurt?"
@@ -646,6 +933,12 @@ advanced = "Passive. Deal 25% more damage but take 25% more damage."
 simple = "Passive. Deal more damage, but take more damage."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1098285"
 
+[minors.stage-prop.changelog]
+2017-04-08 = ["Changed description from \"Take 5 damage every second. Deal 15% more damage and gain 10% more walking speed.\" to \"Deal 25% more damage, but take 25% more damage\""]
+2017-03-26 = ["Dying to Stage Prop no longer counts as you killing yourself (https://trello.com/c/GLqlKPY5/147-stage-prop-can-sometimes-add-a-point-to-your-team-in-tdm-if-you-die-to-it)."]
+2017-03-25 = ["Damage dealt per second decreased from 5 to 4.", "Speed boost increased from 5% to 10%.", "Fixed how Stage Prop buffed speed."]
+2017-02-15 = ["Added."]
+
 [minors.stethoscope]
 flavor-text = "Nope, there doesn't seem to be a heartbeat in your leg, we'll have to amputate it."
 name = "Stethoscope"
@@ -658,6 +951,11 @@ advanced = "Passive. Teammates in a 35 unit radius around you gain 5 health ever
 simple = "Passive. Nearby teammates are healed every second."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=30844997"
 
+[minors.stethoscope.changelog]
+2017-08-16 = ["Fixed a glitch where no healing would occur."]
+2017-05-27 = ["Stethoscope now only heals 1 to the wearer."]
+2017-04-16 = ["Added."]
+
 [minors.peace-headband]
 flavor-text = "Make hats, not battles. "
 name = "Peace Headband"
@@ -669,6 +967,9 @@ name = "Peaceful"
 advanced = "Passive. Take 40% less damage, but deal 40% less damage."
 simple = "Passive. Take less damage, but deal less damage."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=26960094"
+
+[minors.peace-headband.changelog]
+2017-02-15 = ["Added."]
 
 [minors.recycled-cardboard-visor-2014]
 flavor-text = "What's not shown is you eating garbage."
@@ -683,6 +984,14 @@ simple = "Heal yourself."
 cooldown = 15.0
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=154415270"
 
+[minors.recycled-cardboard-visor-2014.changelog]
+2017-07-24 = ["Lowered health from 35% to 20%."]
+2017-06-15 = ["No longer inflicts a speed penalty.", "Reduced cooldown from 22 seconds to 15 seconds."]
+2017-03-17 = ["Changed cooldown to include the time of the speed debuff."]
+2017-02-14 = ["Lowered "]
+2017-01-16 = ["Fixed a bug where if someone used Recycle as someone else's Recycle's speed debuff was cooling down, and they died, the other person's speed debuff wouldn't wear off. "]
+2017-01-12 = ["Added."]
+
 [minors.sparkling-angel-wings]
 flavor-text = "A guardian angel watches over you."
 name = "Sparkling Angel Wings"
@@ -696,6 +1005,10 @@ simple = "Grant heavy defense to the user for a limited time, lowering with dama
 cooldown = 30.0
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=192557913"
 
+[minors.sparkling-angel-wings.changelog]
+2017-08-19 = ["Changed from \"Grant invincibility to the wearer for 2.5 seconds. During this time, the wearer is unable to use abilities.\" to \"Grant 100% defense to the user for 3 seconds, with every 15 damage recieved reducing the defense buff by 8%.\""]
+2017-02-17 = ["Added."]
+
 [minors.doctors-reflector]
 flavor-text = "DISCLAIMER: Will not make you a licensed doctor."
 name = "Doctor's Reflector"
@@ -707,6 +1020,14 @@ name = "Reflect"
 advanced = "Passive. Heal yourself for 15% of all damage you deal."
 simple = "Passive. Heal yourself for damage you deal."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=23630696"
+
+[minors.doctors-reflector.changelog]
+2017-07-24 = ["Lowered heal from 20% to 15%."]
+2017-06-24 = ["Lowered health given from 35% to 20%."]
+2017-06-11 = ["Fixed a bug where attacking players with forcefields would heal you."]
+2017-03-25 = ["Fixed healing even when you're dead (https://trello.com/c/PZ0ExM36/145-bloxxer-s-cap-and-doctor-reflector-can-cause-your-character-to-heal-fatal-damage)."]
+2017-03-19 = ["Increased healing multiplier from 15% to 35%."]
+2017-02-16 = ["Added."]
 
 [minors.bloxxer-cap]
 flavor-text = "dear kampf plz make this insta blox enemies thank u"
@@ -720,6 +1041,10 @@ advanced = "Passive. When you blox an enemy, they explode, dealing 25 damage to 
 simple = "Passive. When you blox an enemy they explode, dealing damage to nearby enemies."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=51353039"
 
+[minors.bloxxer-cap.changelog]
+2017-09-11 = ["Changed from \"Blox - Passive. When you die, deal damage to enemies clouse-up.\" to \"Blox - Passive. When you blox an enemy they explode, dealing damage to nearby enemies.\""]
+2017-02-16 = ["Added."]
+
 [minors.ice-pack]
 flavor-text = "Medically approved by your school nurse."
 name = "Ice Pack"
@@ -731,6 +1056,11 @@ name = "Get Better"
 advanced = "Passive. While under 50% health, heal 3 health per second. While over 50% health, heal 1 health per second."
 simple = "Passive. Heal yourself depending on your current health."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=20334446"
+
+[minors.ice-pack.changelog]
+2017-07-24 = ["Lowered healing per second from 5 when under 50%, 2 when over 50% to 3 and 1 respectively."]
+2017-06-24 = ["Lowered healing per second from 3 when over 50%, 6 when under 50% to 2 when over 50%, 5 when under 50%."]
+2017-01-19 = ["Added."]
 
 [minors.front-line-warrior]
 flavor-text = "It's exactly what you think it means."
@@ -744,6 +1074,10 @@ advanced = "Passive. Deal damage based on your health, from 0.75x at 100% to 1.7
 simple = "Passive. While at high health, deal less damage. While at low health, deal more damage."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=45630442"
 
+[minors.front-line-warrior.changelog]
+2017-05-22 = ["Minimum damage increased from 0.5x to 0.75x.", "Maximum damage decrease from 2x to 1.75x."]
+2017-02-16 = ["Added."]
+
 [minors.headrow]
 flavor-text = "Hopefully not contagious."
 name = "Headrow"
@@ -755,3 +1089,6 @@ name = "Better than One"
 advanced = "Passive. For every enemy in a 70 unit radius, get 0.5 rage per second."
 simple = "Passive. Rage rate increases the more enemies are near you. "
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1082935"
+
+[minors.headrow.changelog]
+2017-09-17 = ["Added."]

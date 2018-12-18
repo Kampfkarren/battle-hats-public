@@ -1,0 +1,1587 @@
+[[changelog]]
+date = "2018-12-05"
+
+[changelog.entries]
+"Ninja Mask of Shadows" = ["Fixed regressions on Attack from the Shadows' stun."]
+
+[[changelog]]
+date = "2018-11-25"
+
+[changelog.entries]
+General = ["Fixed a critical bug where hats with effects would not save. The solution was 2 characters."]
+
+[[changelog]]
+date = "2018-11-23"
+
+[changelog.entries]
+"Tee Vee" = ["Teammates now receive 2x as much rehearsed health.", "Max Camera Flash projectile scale lowered from 4 to 2.", "Record cooldown lowered from 12 to 8.", "Record now records twice the amount of health you receive.", "Rehearse now only gives half of your footage as health.", "Rehearse will now only take footage if it is used instead of taking all of it.", "Footage display is now rounded to an integer."]
+"Empyrean Reignment" = ["Holy Nova no longer checks line of sight.", "Holy Nova now heals the wearer.", "Holy Staff now aims higher."]
+
+[[changelog]]
+date = "2018-11-14"
+
+[changelog.entries]
+"Tee Vee" = ["Tee Vee has been completely reworked from the ground up.", "Changed weapon from \"Sound Wave - Fire a sound wave that gets larger the more you fire it without stopping.\" to \"Camera Flash - Hold down to charge up a powerful attack. At full charge, it flies through enemies.\"", "Changed Record from \"Record the closest nearby enemy, gaining all the health, buffs, and rage they received.\" to \"Record a nearby enemy, gaining all the health and rage they received as footage.\"", "Added ability \"Rehearse (1) - Give all recorded footage to a nearby teammate.\"", "Changed rage from \"Dance-Off - You and all enemies around you dance.\" to \"Record all nearby enemies.\""]
+
+[[changelog]]
+date = "2018-11-07"
+
+[changelog.entries]
+"Dark Tutor" = ["Increased length of \"Dark Curse\" from 5 seconds to 10 seconds.", "Dark Magic now heals as damage is being dealt rather than at the end.", "Changed weapon from \"Necromancy - Fire orbs that reload quickly.\" to \"Drain Life - Fire a wave of dark energy. When hitting an enemy, heal you and nearby teammates.\""]
+
+[[changelog]]
+date = "2018-10-28"
+
+[changelog.entries]
+"Golden Crown" = ["Added."]
+"Rubber Duckie" = ["Quack Attack now fires 4 ducks in a row instead of just one.", "Lowered Quack Attack damage from 44 to 18."]
+
+[[changelog]]
+date = "2018-10-24"
+
+[changelog.entries]
+General = ["It should now be easier to use targeted abilities."]
+
+[[changelog]]
+date = "2018-10-23"
+
+[changelog.entries]
+"Empyrean Reignment" = ["Added."]
+
+[[changelog]]
+date = "2018-10-22"
+
+[changelog.entries]
+General = ["Fixed projectile sounds not playing.", "Line of sight checks are now more consistent."]
+
+[[changelog]]
+date = "2018-10-21"
+
+[changelog.entries]
+General = ["Fixed speed buffs not working.", "Fixed an issue where going to the cafe would leave your old character."]
+"Valkyrie Helm" = ["Fixed a bug where spears would stay stuck in the wall."]
+
+[[changelog]]
+date = "2018-10-20"
+
+[changelog.entries]
+General = ["There is now no delay between rounds. This is a huge change, and we want to playtest it extensively.", "Added 4x XP Bonus game pass.", "Buying Coffee Head (from the game page store) will give you 3x the coffee effects."]
+"Valkyrie Helm" = ["Added."]
+
+[[changelog]]
+date = "2018-10-16"
+
+[changelog.entries]
+General = ["You can now use Page Up and Page Down to pan the camera up and down."]
+"Fire Wizard" = ["Smoothed out the visuals of Fire Wizard's Meteor Ring"]
+
+[[changelog]]
+date = "2018-10-15"
+
+[changelog.entries]
+Bees = ["Changed Bees from \"Deal damage to nearby enemies\" to \"When toggled, deal damage to nearby enemies\"."]
+
+[[changelog]]
+date = "2018-10-14"
+
+[changelog.entries]
+General = ["Crates now give easier to use hats before harder hats."]
+
+[[changelog]]
+date = "2018-10-11"
+
+[changelog.entries]
+General = ["Player profiles on the Tab menu now use a headshoto of the player instead of their full body.", "Fixed N/A images on player profiles on the Tab menu."]
+
+[[changelog]]
+date = "2018-08-09"
+
+[changelog.entries]
+Fedora = ["Fixes the katana from Neckbeard's Rage."]
+
+[[changelog]]
+date = "2018-08-06"
+
+[changelog.entries]
+General = ["Changes the way things play sounds in the game. Some sounds may not play anymore (tell me about these) or will not move with the character.", "Changed every number in the game to use a configuration file. I definitely had to have missed some spots/mistyped some numbers so tell me if anything doesn't work right."]
+"Mad Scientist Hair" = ["Being bloxxed will no longer remove the flask dropped by Supersaturation."]
+"Mining Helmet" = ["Added diamond particle effect when using Diamonds!"]
+
+[[changelog]]
+date = "2018-08-05"
+
+[changelog.entries]
+General = ["Possibly fixed First Blood appraisal not showing your hats.", "Fixed lobby music not looping properly.", "Buying a premium crate will force a database save.", "Added a green background to the buy buttons for coffee."]
+"Mad Scientist Hair" = ["Fixes Supersaturation and Wild Vial smoke."]
+"The Specialist's Helmet" = ["Added a parachute animation to placed Medkits.", "Replaced sound for Medkit to one of a parachute dropping. Credit information has been placed on the Creative Commons Attributions spreadsheet.", "Medkits dropped from Resupply! now look like they're falling from the sky."]
+"Tee Vee" = ["Added a tooltip to show who you're going to record."]
+
+[[changelog]]
+date = "2018-08-04"
+
+[changelog.entries]
+General = ["Data stores have been heavily optimized and thus loading in game is now magnitudes faster. All data that isn't your loadouts or inventory has been lost (e.g. crates, coins, sprays, etc). If you seriously want your old data back, DM me on Discord and I'll see what I can do for you."]
+"Mad Scientist Hair" = ["Fixed an issue with smoke not coming out of the flasks."]
+"Dark Tutor" = ["Enemies under the effects of Dark Curse can no longer pick up medkits despite them not healing."]
+
+[[changelog]]
+date = "2018-08-03"
+
+[changelog.entries]
+General = ["Controllers can now use abilities, their rage, and open up the F and F2 menus.", "Fixed inaccurate attack/defense numbers on the GUI."]
+Doge = ["The Wow! laser pointer will now pull enemies in more aggressively and will also apply vertical force."]
+
+[[changelog]]
+date = "2018-08-02"
+
+[changelog.entries]
+General = ["You can now walk and move your camera with an Xbox controller. There's still a long way to go until Battle Hats is playable on Xbox, but this is a good start.", "Taking damage will vibrate your controller depending on how much damage you take.", "Fixed a bug where player lists were not updating.", "Removed old unused but still displayed ability wheel visual."]
+
+[[changelog]]
+date = "2018-07-30"
+
+[changelog.entries]
+General = ["Added new BLOXXED notification alongside everything else."]
+
+[[changelog]]
+date = "2018-07-29"
+
+[changelog.entries]
+General = ["Fixed dots in the ability wheel on the loadouts menu being white and inconsistent."]
+
+[[changelog]]
+date = "2018-06-30"
+
+[changelog.entries]
+General = ["Fixed a bug when equipping skins and probably some more along the way.", "Fixed a bug where normal crates would only give you the WIP taunt rather than hats.", "Fixed several game breaking bugs with skins."]
+
+[[changelog]]
+date = "2018-06-29"
+
+[changelog.entries]
+General = ["Fixed a critical issue with players not getting their hats, abilities, or weapons.", "Fixed hats with local bars (Shaggy and Tee Vee) throwing errors and the bars not working.", "Fixed a major issue where getting a skin from a premium crate would softlock the game."]
+
+[[changelog]]
+date = "2018-06-28"
+
+[changelog.entries]
+General = ["Heavily cut back on load times by decreasing the amount of data required to load.", "Fixed a bug where players who weren't fully loaded in yet would be put into a team prematurely.", "Fixed everyone being invincible. The game is now public again."]
+Backend = ["Updated DataStore2 to the latest version."]
+
+[[changelog]]
+date = "2018-06-24"
+
+[changelog.entries]
+General = ["Added backend for taunts. You can get one taunt (will be replaced when art is done) from premium crates, but as of yet you can not put it on. This is because I don't have the time free to work on UI, but I don't want to halt further progress on the game and keep it unplayable."]
+
+[[changelog]]
+date = "2018-05-11"
+
+[changelog.entries]
+General = ["Finally fixed every single hat saving issue, seriously."]
+
+[[changelog]]
+date = "2018-05-08"
+
+[changelog.entries]
+General = ["Fixed critical saving issue. Game is now public again."]
+
+[[changelog]]
+date = "2018-05-02"
+
+[changelog.entries]
+General = ["Added hat effects to premium crates. Temporarily, the chance to get one is 10% for each major hat you uncrate. This will be changed in the future."]
+
+[[changelog]]
+date = "2018-04-21"
+
+[changelog.entries]
+General = ["Instead of normal spawning forcefields, you will have a forcefield for as long as you are in your team's spawn."]
+
+[[changelog]]
+date = "2018-04-20"
+
+[changelog.entries]
+General = ["Fixed loadout problems. The game is now public again.", "Spawns are now controlled by scripts rather than default Roblox behaviour. This should result in no more issues of spawning on top of ceilings.", "Fixed issues with buying crates."]
+
+[[changelog]]
+date = "2018-04-19"
+
+[changelog.entries]
+General = ["Changed how loadouts are represented in data storage. These will not be recovered because it's just not worth the effort to. Tell me if you have any issues with loadouts!", "You can now strafe with the arrow keys."]
+
+[[changelog]]
+date = "2018-04-17"
+
+[changelog.entries]
+General = ["Completely refactored old inventory system. As with the last data wipe, ask me if you want your inventory restored."]
+
+[[changelog]]
+date = "2018-04-15"
+
+[changelog.entries]
+General = ["Changed the way data is stored to use a clever method by berezaa. Your data shouldn't ever be lost ever again (assuming I did everything right). This means, ironically, your data has been wiped. However, your old data still exists. If you want your hats, coins, crates, whatever back, DM me on Discord."]
+"Noob Attack - Periastron" = ["Renamed Noob Attack: Periastron to Noob Attack - Periastron because Roblox hates Unicode names or something. All future Noob Attack and Noob Assist hats will have this name change."]
+
+[[changelog]]
+date = "2018-04-13"
+
+[changelog.entries]
+General = ["Every day, receive coins or crates just by logging in. Remember that you also get a crate every day by winning a game."]
+
+[[changelog]]
+date = "2018-04-10"
+
+[changelog.entries]
+"Noob Attack: Periastron" = ["Renamed to use a different colon to make saving code in folders easier."]
+
+[[changelog]]
+date = "2018-04-09"
+
+[changelog.entries]
+General = ["You can now change teams (without being an admin). Press the period key on your keyboard to open the menu.", "Along with switching teams, you can also choose to go to the cafe, if fighting isn't your thing."]
+
+[[changelog]]
+date = "2018-04-08"
+
+[changelog.entries]
+General = ["Sorry for the long hiatus, I'm working on a lot of projects right now and I'm the only scripter!", "Player list (Tab) no longer shows skins, but instead the original hat."]
+
+[[changelog]]
+date = "2018-02-27"
+
+[changelog.entries]
+General = ["We're experimenting with the HUD right now. Tell us what you think!", "Ability shortcuts have been changed. 1 and 2 will ALWAYS be your major hat abilities, 3 will ALWAYS be your 1st minor hat's ability, and 4 will ALWAYS be your 2nd minor hat's ability. ", "Hats over people's heads will no longer show skins.", "Fixed a bug where projectiles would look like they're firing twice."]
+
+[[changelog]]
+date = "2018-02-24"
+
+[changelog.entries]
+Fedora = ["Fixed rage not working after someone used it the first time.", "Fixed error when using Cheese Snacks after leaving the game."]
+
+[[changelog]]
+date = "2018-02-18"
+
+[changelog.entries]
+General = ["Changed the way projectiles work. Tell us if you notice any problems. The only known issue is that projectiles will fire from where you used to be rather than where you currently are."]
+"Rubber Duckie" = ["Fixed the, albeit funny, glitch where sometimes when you spawned with Rubber Duckie or Epic Duck Racer your duck would be huge and you would fly in the air, and eventually to your death."]
+Doge = ["Changed look of the laser from a part to a beam."]
+
+[[changelog]]
+date = "2018-02-17"
+
+[changelog.entries]
+General = ["Changed internally how damage is done to clean up code."]
+"Ninja Mask of Shadows" = ["Fixed a glitch where ninja stars would only ever go up."]
+
+[[changelog]]
+date = "2018-02-08"
+
+[changelog.entries]
+General = ["We're back!"]
+"Mining Helmet" = ["Fixed a bug where Diamonds wouldn't work correctly if you were under 30 health."]
+
+[[changelog]]
+date = "2018-01-04"
+
+[changelog.entries]
+General = ["Fixed more issues with hats and playing sounds."]
+Doge = ["Possibly fixed network issues with Doge's target changing.", "Doge's dogs will now properly reset when the player's team changes."]
+"Secret Kid Wizard Goggles" = ["Fix Magic Missile firing behind you."]
+
+[[changelog]]
+date = "2018-01-03"
+
+[changelog.entries]
+General = ["Fixed problems with projectiles reflecting off of other parts when firing.", "Fixed crates giving the exact same results."]
+
+[[changelog]]
+date = "2018-01-02"
+
+[changelog.entries]
+General = ["Fixed crates never giving duplicates.", "Fixed Cappuccino not working.", "Fixed skins selectively not playing sounds that their original hats do, occasionally breaking them (ex. Fire Wizard's skins rages would not work).", "Increased lobby time from 90 seconds to 120 seconds."]
+
+[[changelog]]
+date = "2018-01-01"
+
+[changelog.entries]
+General = ["Premium crates can now give any combination of majors and minors, instead of only 1 major and 2 minors each crate.", "Remodeled the barista's cafe.", "Fixed no animations showing behind the buttons for buying and opening crates.", "Fixed a glitch where level up rewards would be incorrectly given."]
+"Rubber Duckie" = ["Fixed a glitch where hat skins would fire their skins instead of the duck with the Quackier Attackier."]
+"The Great Lion" = ["Lowered claw damage from 42 to 28."]
+
+[[changelog]]
+date = "2017-12-31"
+
+[changelog.entries]
+General = ["Replaced store in F menu with store in the lobby.", "Removed Americano."]
+
+[[changelog]]
+date = "2017-12-10"
+
+[changelog.entries]
+General = ["Fixed lag on projectiles."]
+Doge = ["RURURURU no longer checks line of sight."]
+
+[[changelog]]
+date = "2017-11-28"
+
+[changelog.entries]
+General = ["Fixed inaccuracies in level up rewards.", "Added debug messages for a so far unreproducable error."]
+
+[[changelog]]
+date = "2017-11-27"
+
+[changelog.entries]
+General = ["Redesigned lobby screen without any 2D GUIs. There is now a chalkboard of actions and a coffee table on the side to buy the coffee from."]
+
+[[changelog]]
+date = "2017-11-14"
+
+[changelog.entries]
+General = ["Fixed 0x19 in normal gameplay.", "Fixed opening the wrong types of crates."]
+
+[[changelog]]
+date = "2017-11-13"
+
+[changelog.entries]
+General = ["You can now get rewards from leveling up.", "You can now see levels on the player list.", "You now get a crate for your first win of the day.", "Fixed a glitch where you could load in just as the match was starting without your data loading in."]
+
+[[changelog]]
+date = "2017-11-10"
+
+[changelog.entries]
+General = ["You can now unlock crates from outside sources."]
+
+[[changelog]]
+date = "2017-11-08"
+
+[changelog.entries]
+General = ["Clicking on hats in your inventory will now brag about them. ", "Crates received outside the store will show up in your inventory.", "Fixed duplicate minor hats on the store tab preview."]
+
+[[changelog]]
+date = "2017-11-01"
+
+[changelog.entries]
+General = ["Hovering over items in your inventory will now display an outline of themselves."]
+
+[[changelog]]
+date = "2017-10-16"
+
+[changelog.entries]
+General = ["Added back leveling. Note it is still a work in progress in that more will be added onto it in the future.", "Fixed timing issues and inconsistencies with the coins GUI."]
+
+[[changelog]]
+date = "2017-10-14"
+
+[changelog.entries]
+General = ["Temporarily disabled Doge GUI. "]
+
+[[changelog]]
+date = "2017-10-13"
+
+[changelog.entries]
+General = ["Added new visual for coins and gaining coins."]
+
+[[changelog]]
+date = "2017-10-11"
+
+[changelog.entries]
+General = ["Fixed bug where hats on the right sidebar of the Store tab could show duplicate hats."]
+
+[[changelog]]
+date = "2017-10-09"
+
+[changelog.entries]
+General = ["Updated message box look of the barista's messages to fit on smaller screens."]
+
+[[changelog]]
+date = "2017-10-07"
+
+[changelog.entries]
+General = ["Fixed glitch where if you bought too many crates you couldn't buy anymore. Pretend this in all caps because that is what I'm feeling as I type this.", "Fixed glitch with loadouts and kick code 4.", "Duplicate hats now actually give you coins."]
+
+[[changelog]]
+date = "2017-10-04"
+
+[changelog.entries]
+"Mining Helmet" = ["Increased Slateskin defense from 50% to 70%.", "Decreased Gold Rush activation damage from 25 to 20."]
+Slingshot = ["Lowered maximum damage from 85 to 75."]
+"Rubber Duckie" = ["Lowered lifetime of duck projectiles during rage from 1 second to 0.5 seconds."]
+
+[[changelog]]
+date = "2017-09-28"
+
+[changelog.entries]
+Fedora = ["Fixed Cheese Snack's cooldown from 5 back to 8.", "Increased reload speed from 0.7s to 1.3s.", "Lowered projectile speed from 250 u/s to 180 u/s."]
+
+[[changelog]]
+date = "2017-09-27"
+
+[changelog.entries]
+General = ["Fixed glitch where inventories would not save.", "Replaced blox log with a new one.", "Fixed glitch where rage could show up as a decimal in the player menu."]
+
+[[changelog]]
+date = "2017-09-25"
+
+[changelog.entries]
+General = ["Added sprays. Press \"T\" to spray. There are only a couple so far, but we look forward to adding more.", "Added custom top bar with attack, defense, and speed percentages clearly shown. "]
+Fedora = ["Changed weapon from \"Keyboard Warrior - Fire a wide keyboard.\" to \"Tendies - Throw chicken tenders.\".", "Changed Cheese Snacks from \"Heal yourself based on your current health missing.\" to \"Heal yourself immediately and gain health over time.\".", "Added \"Feast - Eat your Tendies, increasing movement speed and reducing damage taken.\"."]
+"Spring Crown of Flowers" = ["Changed from \"Heal all teammates in a 45 unit radius for 45 health, and heal yourself for 25 health\" to \"Heal all teammates in a 45 unit radius for 50 health over 2.5 seconds every 0.1 seconds\"."]
+
+[[changelog]]
+date = "2017-09-24"
+
+[changelog.entries]
+General = ["Fixed a glitch that prevented buying crates."]
+
+[[changelog]]
+date = "2017-09-22"
+
+[changelog.entries]
+"Unicorn Horn" = ["Lowered damage from 40 to 35."]
+
+[[changelog]]
+date = "2017-09-21"
+
+[changelog.entries]
+"Unicorn Horn" = ["Increased stab cooldown from 1 second to 3 seconds."]
+
+[[changelog]]
+date = "2017-09-20"
+
+[changelog.entries]
+General = ["Fixed a glitch where coins would sometimes not show in the lobby."]
+
+[[changelog]]
+date = "2017-09-17"
+
+[changelog.entries]
+General = ["At long last, the infamous \"mouse locked in the center of the screen in the lobby fix\" has been locked away to the depths of the underground. "]
+Headrow = ["Added."]
+"Mining Helmet" = ["Fixed a glitch where Slateskin would massively increase your knockback."]
+"Kitty Ears" = ["Lowered push power from 30 to 25."]
+Bombface = ["Changed passive icon from Bloxxer Cap to Bombface."]
+
+[[changelog]]
+date = "2017-09-11"
+
+[changelog.entries]
+General = ["Correctly renamed ROBLOX's Veteran's Helmet to ROBLOX's Veteran's Medal.", "The loadouts tab is now the first tab rather than inventory."]
+Bombface = ["Changed from \"Kamikaze - Deal 60% more damage. After 3 seconds, you die. Horribly.\" to \"Kaboom! - Passive. When you get bloxxed, deal damage to enemies close-up.\""]
+"Bloxxer Cap" = ["Changed from \"Blox - Passive. When you die, deal damage to enemies clouse-up.\" to \"Blox - Passive. When you blox an enemy they explode, dealing damage to nearby enemies.\""]
+
+[[changelog]]
+date = "2017-09-10"
+
+[changelog.entries]
+Doge = ["Man's Best Friend no longer deals damage but instead lowers victim's attack by 30%.", "Removed Good Boy.", "Added \"RURURURU - Bark at enemies, disabling their enemies.\"", "Changed Wow! from \"Summon a puppy that follows you for a while. Can't use Good Boy.\" to \"Point a laser pointer, pulling in enemies.\""]
+
+[[changelog]]
+date = "2017-09-07"
+
+[changelog.entries]
+General = ["Created new loadouts menu.", "Added another attempted fix to the mouse locking issue."]
+
+[[changelog]]
+date = "2017-08-29"
+
+[changelog.entries]
+General = ["Appraisal NPCs now correctly remove their hats. Blame Roblox."]
+
+[[changelog]]
+date = "2017-08-28"
+
+[changelog.entries]
+Cicada = ["Increased health given by all health packs from 40% to 70%.", "Blue will now respawn in 7 seconds rather than 4."]
+
+[[changelog]]
+date = "2017-08-27"
+
+[changelog.entries]
+General = ["Fixed actions with coins not working.", "A possible fix for not being able to move your mouse in the lobby has been pushed. Because of the lack of a repro case for this bug, we will only assume it is fixed if after a week or so nobody reports it."]
+"Firefighter Helmet" = ["Fixed a glitch where when you were stunned, you could still fire your hose.", "Decreased Fire Hose damage from 25 to 14.", "Decreased Fire Hose reload time from 0.45s to 0.2s.", "The amount enemies are knocked back from your Fire Hose will now depend on how close they are to you."]
+
+[[changelog]]
+date = "2017-08-23"
+
+[changelog.entries]
+Backend = ["Added better analytical system instead of using Discord."]
+
+[[changelog]]
+date = "2017-08-19"
+
+[changelog.entries]
+"Sparkling Angel Wings" = ["Changed from \"Grant invincibility to the wearer for 2.5 seconds. During this time, the wearer is unable to use abilities.\" to \"Grant 100% defense to the user for 3 seconds, with every 15 damage recieved reducing the defense buff by 8%.\""]
+"Firefighter Helmet" = ["Taken measures to try and prevent excessive flinging from Fire Hose and Fire Hydrant."]
+
+[[changelog]]
+date = "2017-08-18"
+
+[changelog.entries]
+"Kitty Ears" = ["Pounce now pounces in the direction the player is moving."]
+
+[[changelog]]
+date = "2017-08-16"
+
+[changelog.entries]
+General = ["Lowered crate duplicate rate from 40% to 10%.", "Decreased projectile lag.", "Fixed being able to emote."]
+"Ninja Mask of Shadows" = ["Increased time frozen while using Attack From the Shadows from 1 second to 1.2 seconds.", "Decreased length of double damage time from 3.5 seconds to 1.5 seconds."]
+"Firefighter Helmet" = ["Increased reload time from 0.2 seconds to 0.45 seconds."]
+"Kitty Ears" = ["Fixed a glitch involving flinging yourself against a wall to gain massive pounces."]
+Stethoscope = ["Fixed a glitch where no healing would occur."]
+
+[[changelog]]
+date = "2017-08-15"
+
+[changelog.entries]
+General = ["The hats tab is now the first tab as opposed to the inventory tab.", "Fixed appraisals not working correctly.", "Fixed a glitch where buttons from the lobby would sometimes show during normal gameplay.", "Fixed preview hats in the store tab sometimes showing duplicate minor hats.", "Fixed a 1 in 1000000000 chance for a sound to do something weird.", "Changed how character sounds are played."]
+"The Great Lion" = ["Fixed a glitch where if a player left while they were using Swipe the claw marks would stay in the world."]
+
+[[changelog]]
+date = "2017-08-14"
+
+[changelog.entries]
+General = ["Converted everything from R6 to R15. ", "You can no longer see your enemy's rage counts."]
+
+[[changelog]]
+date = "2017-08-13"
+
+[changelog.entries]
+General = ["New lobby is finally out!", "Added barista.", "Added coffee.", "Added transitions between maps.", "Improved algorithm for crates (less duplicates!)."]
+
+[[changelog]]
+date = "2017-08-01"
+
+[changelog.entries]
+General = ["As a hacky solution until a repro case is found, any negative damage will be flipped to positive before dealing."]
+
+[[changelog]]
+date = "2017-07-31"
+
+[changelog.entries]
+General = ["Moved game from HatWarsOfficial's account to the Battle Hats group.", "Fixed inventories not saving."]
+
+[[changelog]]
+date = "2017-07-29"
+
+[changelog.entries]
+General = ["Crosshair will no longer show up in the lobby."]
+
+[[changelog]]
+date = "2017-07-28"
+
+[changelog.entries]
+General = ["Added new lobby. Functionality is still in development.", "Completely redid player list as the old one was ugly and bad on performance.", "Increased rage rate from 1 per 2.5s to 1 per 1.5s.", "Fixed several issues with appraisals.", "Fixed hats and coins not showing in the lobby after a game."]
+"Firefighter Helmet" = ["Fixed Fire Hydrants acting as black holes. ", "Fixed fire truck shadows sometimes being stuck in the air."]
+"Fire Wizard" = ["Added dirty fix for fire particles staying on enemies."]
+
+[[changelog]]
+date = "2017-07-25"
+
+[changelog.entries]
+General = ["Lowered duplicate rate in crates from no check to 40%.", "Fixed a glitch where the hat counters in the store would not update."]
+"Tee Vee" = ["Fixed tooltip not showing."]
+
+[[changelog]]
+date = "2017-07-24"
+
+[changelog.entries]
+General = ["Fixed a glitch relating to the hat selection screen and buying crates.", "Fixed delay issue with buying crates."]
+"Dark Tutor" = ["Added."]
+"Rubber Duckie" = ["Rage will now stop firing while effected by Tee Vee's rage."]
+"Firefighter Helmet" = ["Lowered spray length from 35 units to 20 units.", "Lowered spray damage from 35 damage to 25 units."]
+"Deluxe Paintball Helmet" = ["Increased speed from 80 to 100.", "Hoser now increases the speed of your darts by 30%."]
+"The Specialist's Helmet" = ["Lowered damage from 30 to 21."]
+"Tee Vee" = ["Dancing players can no longer use abilities."]
+"Dog Tags" = ["Added \"A stack is removed every 16 seconds\"."]
+"Noob Attack: Periastron" = ["Increased range from 25 units to 40 units."]
+"Ref's Whistle" = ["Increased range from 15 units to 50 units."]
+"Recycled Cardboard Visor 2014" = ["Lowered health from 35% to 20%."]
+"Doctor's Reflector" = ["Lowered heal from 20% to 15%."]
+Bees = ["Added line of sight check."]
+"Ice Pack" = ["Lowered healing per second from 5 when under 50%, 2 when over 50% to 3 and 1 respectively."]
+
+[[changelog]]
+date = "2017-07-23"
+
+[changelog.entries]
+General = ["All projectiles now fade out of existence. A side effect of this design is increased performance when multiple projectiles are fired.", "Fixed inconsistencies in the kill log.", "Fixed players getting stuck inside payload carts."]
+"Fire Wizard" = ["Projectiles from Fire Ring will follow around your player until they are fired."]
+"Tee Vee" = ["Lowered damage from 18 to 12."]
+"Ninja Mask of Shadows" = ["A previously unknown glitch with Ninja Star has been fixed where the stars would only last for 0.3 seconds. They will now properly go up to 0.5 seconds."]
+Fedora = ["Fixed a glitch where you could not attack with your katana."]
+"Deluxe Paintball Helmet" = ["Fixed a glitch where paint cans from your rage would hit non-collidable parts."]
+
+[[changelog]]
+date = "2017-07-22"
+
+[changelog.entries]
+General = ["Added tab text to buttons on the F menu.", "Added crosshair.", "Moved abilities display more to the right."]
+
+[[changelog]]
+date = "2017-07-21"
+
+[changelog.entries]
+General = ["Added taunting for major hats. Press G to taunt. Only on specific hats at the moment."]
+"Deluxe Paintball Helmet" = ["Added taunt."]
+Fedora = ["Added taunt."]
+"The Great Lion" = ["Added taunt."]
+"Mining Helmet" = ["Added taunt."]
+
+[[changelog]]
+date = "2017-07-20"
+
+[changelog.entries]
+General = ["Fixed appraisals not updating.", "Matches can now only go up to a 6v6.", "Added art for coins.", "Increased size of coin counter in bottom left."]
+"Tee Vee" = ["Players who are dancing cannot use their weapons."]
+Fedora = ["Added art for Cheese Snacks."]
+"Mining Helmet" = ["Added art for Slateskin."]
+
+[[changelog]]
+date = "2017-07-19"
+
+[changelog.entries]
+General = ["Finished store tab on the new F menu."]
+
+[[changelog]]
+date = "2017-07-18"
+
+[changelog.entries]
+General = ["Finished loadouts tab on the new F menu."]
+
+[[changelog]]
+date = "2017-07-17"
+
+[changelog.entries]
+General = ["Replaced old F menu with a new, in development one. "]
+
+[[changelog]]
+date = "2017-07-16"
+
+[changelog.entries]
+"Rubber Duckie" = ["Added transparent gradient around Quack's icon."]
+
+[[changelog]]
+date = "2017-07-12"
+
+[changelog.entries]
+General = ["Fixed coins being able to go into the negatives.", "New players can no longer get high skill hats as part of their free hats when they start the game. These currently include Ninja Mask of Shadows and Tee Vee."]
+
+[[changelog]]
+date = "2017-07-10"
+
+[changelog.entries]
+General = ["Hats no longer fall through bricks when you die."]
+"Tee Vee" = ["Added."]
+
+[[changelog]]
+date = "2017-07-09"
+
+[changelog.entries]
+General = ["Fixed crevices in Cicada."]
+"Firefighter Helmet" = ["Temporarily replaced fire truck model with a long brick to prevent lag."]
+
+[[changelog]]
+date = "2017-07-08"
+
+[changelog.entries]
+General = ["End game screen now prioritizes different players on stands."]
+
+[[changelog]]
+date = "2017-07-07"
+
+[changelog.entries]
+General = ["Added new end game screen."]
+
+[[changelog]]
+date = "2017-07-06"
+
+[changelog.entries]
+General = ["Fixed ability cooldowns being slow."]
+Shaggy = ["Added visual bar showing your charge meter."]
+Doge = ["Added visual showing Man's Best Friend targets."]
+
+[[changelog]]
+date = "2017-07-05"
+
+[changelog.entries]
+General = ["Changed look of the abilities GUI from a linear list of abilities on the bottom-right to a radial menu on the left-center.", "Fixed health bar being inconsistent occasionally."]
+Shaggy = ["Bombs will now flash with the user's team color."]
+
+[[changelog]]
+date = "2017-07-04"
+
+[changelog.entries]
+General = ["You can now move your character with the gamepad."]
+
+[[changelog]]
+date = "2017-07-02"
+
+[changelog.entries]
+General = ["Updated design of F2 menu."]
+"Firefighter Helmet" = ["Fixed fire hydrants acting strangely with non-colliding parts."]
+Shaggy = ["Fixed bombs acting strangely with non-colliding parts."]
+
+[[changelog]]
+date = "2017-07-01"
+
+[changelog.entries]
+General = ["Added overtime to Payload.", "Fixed speed buffs not being able to stack."]
+
+[[changelog]]
+date = "2017-06-30"
+
+[changelog.entries]
+General = ["Removed Siege.", "Added Cicada."]
+"Buddy Baseball Cap" = ["Added \"Up to Bat - Passive. Move faster\"."]
+
+[[changelog]]
+date = "2017-06-29"
+
+[changelog.entries]
+"Buddy Baseball Cap" = ["Fixed a glitch where Baseball Bat would regularly not deal damage."]
+"Mining Helmet" = ["Fixed a glitch where Pickaxe would regularly not deal damage."]
+Doge = ["Removed range buff from Good Boy."]
+
+[[changelog]]
+date = "2017-06-28"
+
+[changelog.entries]
+"The Great Lion" = ["Stampede no longer stacks."]
+
+[[changelog]]
+date = "2017-06-28"
+
+[changelog.entries]
+General = ["Fixed a bug where rage would sometimes not show for teammates in the player list."]
+
+[[changelog]]
+date = "2017-06-27"
+
+[changelog.entries]
+General = ["Added a bell sound when someone dies in Team Deathmatch."]
+Doge = ["Fixed a glitch where Man's Best Friend would keep its speed nerf."]
+"The Great Lion" = ["Stampede no longer stacks."]
+
+[[changelog]]
+date = "2017-06-26"
+
+[changelog.entries]
+General = ["Mobile users can now use the slip on the right to open up the menu.", "Mobile users will now have their abilities displayed on the left of the screen.", "Mobile users can now control their camera by rotating their device if they have a gyroscope."]
+
+[[changelog]]
+date = "2017-06-25"
+
+[changelog.entries]
+"Fire Wizard" = ["When burning, fire will emit from your torso."]
+
+[[changelog]]
+date = "2017-06-24"
+
+[changelog.entries]
+General = ["Fixed player points given absurdly large values."]
+Doge = ["Added \"Good Boy - Give your dog a treat, increase its damage and range for a limited time. If your dog is attacking someone they stop.\"."]
+"Ice Pack" = ["Lowered healing per second from 3 when over 50%, 6 when under 50% to 2 when over 50%, 5 when under 50%."]
+"Doctor's Reflector" = ["Lowered health given from 35% to 20%."]
+
+[[changelog]]
+date = "2017-06-23"
+
+[changelog.entries]
+General = ["Kill logs will now align to the far right of the screen.", "Enlarged tip bar."]
+
+[[changelog]]
+date = "2017-06-22"
+
+[changelog.entries]
+General = ["Fixed stats always showing 0 on the Tab menu."]
+
+[[changelog]]
+date = "2017-06-20"
+
+[changelog.entries]
+Fedora = ["Added animation to Cheese Snacks."]
+
+[[changelog]]
+date = "2017-06-19"
+
+[changelog.entries]
+General = ["Players are now awarded player points at the end of a match for how helpful they were in the round.", "You are now always shown as the first on the Tab menu, because you're awesome.", "Added more stats to the Tab menu.", "Fixed a glitch where coins in the F menu would sometimes not display correctly."]
+Shaggy = ["Slingshot pellets now fade out."]
+"Firefighter Helmet" = ["Fixed fire hydrants not pushing back or dealing damage."]
+"Mining Helmet" = ["Optimized Gold Rush slightly after remembering division existed."]
+
+[[changelog]]
+date = "2017-06-18"
+
+[changelog.entries]
+General = ["When using an ability, the icon will go gray while it is in use."]
+Backend = ["Optimized data storage of loadouts and coins."]
+
+[[changelog]]
+date = "2017-06-16"
+
+[changelog.entries]
+"Mad Scientist Hair" = ["Changed rage from \"Cover all enemies' screens with smoke\" with \"Place a flask that weakens and damages enemies in an area around it the longer they remain in it\"."]
+"Firefighter Helmet" = ["Water from fire hose will now go through teammates."]
+"The Specialist's Helmet" = ["Medkits will now play a sound when they are spawned in."]
+"Mining Helmet" = ["Players hit by the Pickaxe will have dirt splatter out of them."]
+"Buddy Baseball Cap" = ["Fixed a bug where Grand Slam would never inflict its effect."]
+"The Great Lion" = ["Fixed a bug where Swipe wouldn't deal damage and would never fire again after the first shot."]
+"Fire Wizard" = ["Fixed a bug where Pyromancy would rarely connect."]
+
+[[changelog]]
+date = "2017-06-15"
+
+[changelog.entries]
+General = ["Added line of sight checks to several attacks.", "Fixed a glitch where during unbalance, if a player from the imbalanced team died, it would say they were moved to their team."]
+"Mining Helmet" = ["Added."]
+"Buddy Baseball Cap" = ["Changed Home Run's time projectiles fly from .22 seconds to .4 seconds."]
+"Recycled Cardboard Visor 2014" = ["No longer inflicts a speed penalty.", "Reduced cooldown from 22 seconds to 15 seconds."]
+"Rubber Duckie" = ["Increase projectile speed from 74 units to 97 units."]
+Shaggy = ["Increased Banana cooldown from 4 seconds to 5 seconds."]
+
+[[changelog]]
+date = "2017-06-14"
+
+[changelog.entries]
+General = ["Added assists. Assisters receive 3 coins.", "Fixed a visual glitch with the hats in your nametag.", "Fixed a bug where player's names would sometimes be white in the kill log.", "Fixed more inconsistencies with the player list."]
+Backend = ["Telemetric messages are much simpler, meaning more telemetric data can be sent."]
+Shaggy = ["Added."]
+"The Specialist's Helmet" = ["Changed damage from 12-24 to 30.", "Changed projectile speed from 150 to 225.", "Changed maximum projectile range from 100 to 200."]
+
+[[changelog]]
+date = "2017-06-11"
+
+[changelog.entries]
+General = ["Redesigned kill log."]
+"Doctor's Reflector" = ["Fixed a bug where attacking players with forcefields would heal you."]
+
+[[changelog]]
+date = "2017-06-10"
+
+[changelog.entries]
+General = ["Your hats now show next to your name in chat.", "Added :bug: emote.", "Fixed emotes not fading correctly."]
+
+[[changelog]]
+date = "2017-06-09"
+
+[changelog.entries]
+General = ["Typing a message containing just an emote will now show that emote. The only emote right now is :thinking:.", "Fixed lobby music constantly stopping and going silent."]
+"Firefighter Helmet" = ["Trucks from Red Alert now have a large shadow showing where they're going to be.", "Trucks from Red Alert will now no longer destroy themselves when touching, and instead will plow through."]
+
+[[changelog]]
+date = "2017-06-08"
+
+[changelog.entries]
+"Rubber Duckie" = ["Quack Attack only fires one duck instead of four.", "Increased damage of Quack Attack from 22 to 44.", "Quackier Attackier now fires one duck every 0.3 seconds instead of 13 ducks. To anyone reading in the future, yes that's what it used to be.", "Increased damage of Quackier Attackier from 22 to 77.", "Quackier Attackier ducks fly for 148 units/second and disappear after 1 second."]
+Fedora = ["Fixed music not playing during rage."]
+
+[[changelog]]
+date = "2017-06-07"
+
+[changelog.entries]
+General = ["Fixed players being kicked for \"4\" and \"16\" during normal gameplay.", "Fixed issues with visibility after a game.", "Fixed a glitch where changing your loadout while alive depletes your rage then, instead of waiting until you die.", "Added up and down arrows to the loadout selection for users without scroll wheels.", "Fixed errors with the player list.", "Hat images are now preloaded.", "Added damage indicators."]
+Doge = ["Changed Tennis Ball from dealing 20-60 damage based on your distance to 40 damage flat.", "Increased the damage of dogs from 15 to 16."]
+"Firefighter Helmet" = ["Fixed a glitch where trucks would push back teammates.", "Fixed a glitch where firing your hose at someone with their back turned towards you would suck them in, creating a black hole and destroying the universe.", "The fire hose beam stops at the closest part."]
+"The Specialist's Helmet" = ["Fixed a glitch where medkits would stay after a player leaves."]
+"Unicorn Horn" = ["Fixed a glitch where you would take damage after the wearer died."]
+
+[[changelog]]
+date = "2017-05-28"
+
+[changelog.entries]
+General = ["Hats now update properly on the player list.", "Sped up crate spin animation.", "Fixed a glitch where you would see the wrong hats when you bought a crate."]
+"Unicorn Horn" = ["Changed how the hitbox works."]
+
+[[changelog]]
+date = "2017-05-27"
+
+[changelog.entries]
+General = ["Fixed a glitch where the animation for premium crates would never finish."]
+Doge = ["Fixed a glitch where killing someone with Tennis Ball with Doge in range would cause the Doge to stay there."]
+"Secret Kid Wizard Goggles" = ["Added."]
+Stethoscope = ["Stethoscope now only heals 1 to the wearer."]
+"Teakettle Hat" = ["Fixed Teakettle Hat not playing its sound."]
+
+[[changelog]]
+date = "2017-05-26"
+
+[changelog.entries]
+General = ["Fixed a bug where in the loadout menu you could pick two of a minor hat, causing a kick."]
+"Fire Wizard" = ["Changed particles."]
+"The Great Lion" = ["Swipe now swipes twice with a 0.3s damage.", "Increased swipe damage from 30 to 42.", "Increased swipe range from 15 to 30.", "Increased swipe reload time from 0.75s to 1.4s.", "Roar no longer increases speed but instead increases defense.", "Decreased stampede's buff from 25% to 20%.", "Stampede now buffs you and teammates in a 60 unit radius."]
+"Buddy Baseball Cap" = ["Increased rage range from 55 to 75.", "Lowered rage damage from 90 to 80.", "Changed Home Run from making balls disappear at 94 units to now disappear after .22 seconds.", "Increased cooldown on Home Run from 5s to 6s."]
+
+[[changelog]]
+date = "2017-05-26"
+
+[changelog.entries]
+"Ninja Mask of Shadows" = ["Fixed a mistake where the ninja star was a mace. Whoops.", "Ninja star now throws sideways."]
+
+[[changelog]]
+date = "2017-05-25"
+
+[changelog.entries]
+General = ["Fixed a bug where in the loadout menu you could pick two of a minor hat, causing a kick."]
+"Fire Wizard" = ["Changed particles."]
+"The Great Lion" = ["Swipe now swipes twice with a 0.3s damage.", "Increased swipe damage from 30 to 42.", "Increased swipe range from 15 to 30.", "Increased swipe reload time from 0.75s to 1.4s.", "Roar no longer increases speed but instead increases defense.", "Decreased stampede's buff from 25% to 20%.", "Stampede now buffs you and teammates in a 60 unit radius."]
+"Buddy Baseball Cap" = ["Increased rage range from 55 to 75.", "Lowered rage damage from 90 to 80.", "Changed Home Run from making balls disappear at 94 units to now disappear after .22 seconds.", "Increased cooldown on Home Run from 5s to 6s."]
+
+[[changelog]]
+date = "2017-05-24"
+
+[changelog.entries]
+General = ["Finished F menu."]
+"Ninja Mask of Shadows" = ["Added an effect and sound to Attack from the Shadows.", "Added a sound effect for firing weapon."]
+
+[[changelog]]
+date = "2017-05-23"
+
+[changelog.entries]
+General = ["The current lobby has been sold to a very wealthy Battle Hattler. We are allowed to use it for a small amount of time, but we will all soon be kicked out and put into another lobby. Due to this, the shopkeeper has left and is helping on construction on the new lobby."]
+
+[[changelog]]
+date = "2017-05-22"
+
+[changelog.entries]
+General = ["You can no longer manually respawn or change your loadout from death. You can only use the new menu now.", "Removed Team Deathmatch timer."]
+Fedora = ["Changed Keyboard reload time from 1.3 to 1.", "Changed Keyboard size from 4x2 to 6x2.", "Changed Keyboard damage from 40 to 34."]
+"Buddy Baseball Cap" = ["Changed Grand Slam damage from 70 to 90.", "Changed Grand Slam range from 55 to 70.", "Changed Buddy Baseball Bat damage from 45 to 66.", "Changed Home Run maximum balls fired from 5 to 7."]
+Lei = ["Changed health gained from flower from 10 to 20."]
+"Teakettle Hat" = ["Changed damage from 35% to 25%.", "Added 25% armor gained while active.", "Added 25% speed gained while active."]
+"Front Line Warrior" = ["Minimum damage increased from 0.5x to 0.75x.", "Maximum damage decrease from 2x to 1.75x."]
+"The Specialist's Helmet" = ["Fixed bug causing weapon to deal no damage."]
+
+[[changelog]]
+date = "2017-05-20"
+
+[changelog.entries]
+General = ["The GUI will no longer show during the end game cutscene.", "Fixed a glitch where the curtain would cover the top killers."]
+Doge = ["Fixed a glitch where whenever a player leaves their dogs were left behind. The players will now take the dogs home, where they will have a good loving family."]
+"Firefighter's Helmet" = ["Fixed a glitch where you could use your weapon while you're dead."]
+"The Specialist's Helmet" = ["Fixed a glitch where the pistol wouldn't fire."]
+"Seashell Crown" = ["Fixed the seashells not working. "]
+
+[[changelog]]
+date = "2017-05-19"
+
+[changelog.entries]
+"Firefighter's Helmet" = ["Changed rage from \"Spray nearby enemies and push them back to spawn.\" to \"Fire trucks fall out of the sky, forcibly pushing those who get hit.\"."]
+
+[[changelog]]
+date = "2017-05-17"
+
+[changelog.entries]
+General = ["Teammates no longer collide with each other."]
+
+[[changelog]]
+date = "2017-05-16"
+
+[changelog.entries]
+General = ["Fixed a glitch where some sounds wouldn't play (i.e. Bees)."]
+"Firefighter Helmet" = ["Added paticles for when you fire your hose."]
+
+[[changelog]]
+date = "2017-05-15"
+
+[changelog.entries]
+General = ["Whole numbers will now show with one decimal place in ability cooldowns (ex. 4 will show as 4.0)."]
+"Mad Scientist Hair" = ["Changed ability from \"Special Vial - hrow a special flask that slows enemies, makes them more vulnerable, and makes them deal less damage.\" to \"Wild Vial - Throw a vial at your feet that explodes, causing you to move faster, making enemies move slower, and dealing damage.\""]
+"Firefighter Helmet" = ["Changed ability from \"Emergency - Spray nearby enemies for more damage and push them back farther.\" to \"Fire Hydrant - Place a fire hydrant in front of you that sprays water in a ring around it, dealing damage and knocking back enemies.\""]
+
+[[changelog]]
+date = "2017-05-14"
+
+[changelog.entries]
+"Mad Scientist Hair" = ["Changed the way the flask is thrown. It is now much more natural."]
+"Firefighter's Helmet" = ["Lowered reload speed from 1.25s to 0.25s.", "Decreased size of water.", "Holding down will now rapidly fire, equivalent to constantly clicking.", "Lowered volume of spray sound."]
+"Spring Crown of Flowers" = ["Added."]
+
+[[changelog]]
+date = "2017-05-13"
+
+[changelog.entries]
+General = ["Changed text size on the Respawn and Change Loadout buttons to be smaller."]
+"Deluxe Paintball Helmet" = ["Added."]
+
+[[changelog]]
+date = "2017-05-12"
+
+[changelog.entries]
+General = ["Change Loadout button now shows how many hats you have and how many hats there are total."]
+"Fire Wizard" = ["Changed wait time between fire balls in Fire Ring from 0.1 to 0.05"]
+
+[[changelog]]
+date = "2017-05-11"
+
+[changelog.entries]
+General = ["Fixed a glitch where entries in the player list would collapse onto each other.", "Fixed a glitch where enemies' rages would appear as 100% on the player list."]
+
+[[changelog]]
+date = "2017-05-08"
+
+[changelog.entries]
+General = ["Whenever your character spawns, you will now see a message telling you to press F2."]
+
+[[changelog]]
+date = "2017-05-07"
+
+[changelog.entries]
+General = ["Removed tips on death in chat.", "Added a bar when you die to show a random tip.", "Added weapon-specific tips.", "Changed the game end screen.", "You no longer have to wait 30 minutes in between games (oops).", "Killer is now shown when you die.", "Camera follows your killer (and your killer's killer, and your...).", "Added a wedge to the stage.", "Moved things around on the death screen."]
+"The Specialist's Helmet" = ["Fixed an error with its weapon."]
+Doge = ["Any leftover glitched dogs are removed when the game starts."]
+
+[[changelog]]
+date = "2017-05-04"
+
+[changelog.entries]
+"The Specialist's Helmet" = ["Changed laser pistol reload speed from .6 to .4", "Added damage falloff to laser pistol"]
+
+[[changelog]]
+date = "2017-04-25"
+
+[changelog.entries]
+"The Specialist's Helmet" = ["Changed how beams fire so that they rotate towards where the mouse is firing."]
+
+[[changelog]]
+date = "2017-04-22"
+
+[changelog.entries]
+General = ["Added player list when you press Tab.", "Moved some things around in the HUD.", "Temporarily hid multipliers.", "Added extra security. Please tell me if anything breaks.", "Changed the way sound plays because Roblox thinks that having a property that lets people play sounds bypass FilteringEnabled on purpose is a good idea."]
+"Rubber Duckie" = ["Added new icon for Quack.", "Rage now gets rid of ducks after 2 seconds, rather than after a certain range."]
+
+[[changelog]]
+date = "2017-04-18"
+
+[changelog.entries]
+General = ["Removed King of the Hill from Siege due to it being a bad map for it.", "Team Deathmatch now has a timer, and has been changed. Instead of \"kill x people\", it's now \"kill x people or as many people until time runs out\".", "Rage chat message will now show the actual hat, rather than a skin should the user be wearing one."]
+
+[[changelog]]
+date = "2017-04-16"
+
+[changelog.entries]
+"Rubber Duckie" = ["Optimized rage. It should now be faster to use and possibly hit more reliably."]
+"Andrew's Beard" = ["AAAAAAAdded a scream when Manly Mode is used."]
+Bombface = ["Added."]
+"Seashell Crown" = ["Added."]
+Stethoscope = ["Added."]
+
+[[changelog]]
+date = "2017-04-15"
+
+[changelog.entries]
+General = ["Fixed a bug relating to GUIs not showing up.", "Removed Team Deathmatch and replaced it with King of the Hill", "You now no longer get 1 point of rage every time you deal damage.", "Fixed team chat not working.", "Added anti-chat flood."]
+"Fire Wizard" = ["Changed Pyromancy to deal damage while held down, rather than one quick burst.", "Removed Scorched (Enemies on fire take more damage).", "Added Fire Ring (Fire a ring of fireballs that deal damage over time)."]
+"Blue Buddy Baseball Cap" = ["Added as a skin for Buddy Baseball Cap."]
+"Lucky Doge" = ["Added as a skin for Doge."]
+"New Years Doge" = ["Added as a skin for Doge."]
+"Zombie Doge" = ["Added as a skin for Doge."]
+"Captain Doge" = ["Added as a skin for Doge."]
+"Chill Dog" = ["Added as a skin for Doge."]
+"Epic Duck Racer" = ["Added as a skin for Rubber Duckie."]
+"Ninja Fox" = ["Added as a skin for Ninja Mask of Shadows."]
+"Ninja Guinea Pig" = ["Added as a skin for Ninja Mask of Shadows."]
+"Blue Hydromage Wizard Hat" = ["Added as a skin for Fire Wizard."]
+"ROBLOX Veteran's Medal" = ["Added as a skin for Dog Tags."]
+"Cat Tags" = ["Added as a skin for Dog Tags."]
+"Violet Fairy of Twilight" = ["Added as a skin for Sparkling Angel Wings."]
+"Golden Teapot of Pwnage" = ["Added as a skin for Teakettle Hat."]
+"Unicorn Beanie" = ["Added as a skin for Unicorn Horn."]
+
+[[changelog]]
+date = "2017-04-14"
+
+[changelog.entries]
+General = ["Fixed a bug where you could use abilities in spawn.", "Added sparkles.", "Added team autobalancing."]
+Fedora = ["Fixed a bug where Fedora would not get his katana back after the rage was over (https://trello.com/c/xqxVEnw0/163-fedora-will-not-get-his-keyboard-back-after-his-rage-is-over)."]
+"Ninja Mask of Shadows" = ["hanged Ninja Star's range from 100 to 50"]
+
+[[changelog]]
+date = "2017-04-13"
+
+[changelog.entries]
+General = ["Increased how high you can aim the camera."]
+"Camp Director Whistle" = ["Added as a skin for Ref's Whistle."]
+
+[[changelog]]
+date = "2017-04-12"
+
+[changelog.entries]
+General = ["Added extra security measures to prevent irregular player movement.", "Optimized how projectiles die."]
+"Ninja Mask of Shadows" = ["Change rage from \"Deal 30 damage to all enemies after 4 seconds. If damaged during this period, deal 65 damage to yourself instead.\" to \"Double Attack from the Shadow's range and set it's cooldown to 1 for 8 seconds.\""]
+
+[[changelog]]
+date = "2017-04-09"
+
+[changelog.entries]
+"Mad Scientist Hair" = ["Fixed passives not showing correctly.", "Fixed ability having an incorrect cooldown."]
+
+[[changelog]]
+date = "2017-04-08"
+
+[changelog.entries]
+"Stage Prop" = ["Changed description from \"Take 5 damage every second. Deal 15% more damage and gain 10% more walking speed.\" to \"Deal 25% more damage, but take 25% more damage\""]
+"Ninja Mask of Shadows" = ["Attack from the Shadows now waits 0.25 seconds before doubling damage."]
+"Bees Hat" = ["Added as a skin for Bees."]
+
+[[changelog]]
+date = "2017-04-07"
+
+[changelog.entries]
+Fedora = ["Increased projectile speed from 130 to 150."]
+"Ninja Mask of Shadows" = ["Increased projectile speed from 130 to 150.", "Increased max range from 25 to 100."]
+"Rubber Duckie" = ["Increased projectile speed from 50 to 74."]
+
+[[changelog]]
+date = "2017-04-06"
+
+[changelog.entries]
+"Buddy Baseball Cap" = ["Increased projectile speed of balls from Home run from 113 to 160."]
+
+[[changelog]]
+date = "2017-03-28"
+
+[changelog.entries]
+General = ["Resized multipliers in the top right to be smaller."]
+Doge = ["Fixed a glitch where dogs could harm their owner.", "Probably fixed a glitch where dogs would sometimes just hang around (https://trello.com/c/lPd1HUkx/153-doge-randomly-leaves-dogs-around-while-this-seems-like-the-best-thing-ever-it-s-kind-of-annoying)."]
+"The Specialist's Helmet" = ["Changed design of medkits."]
+
+[[changelog]]
+date = "2017-03-26"
+
+[changelog.entries]
+"The Specialist's Helmet" = ["Added."]
+"Stage Prop" = ["Dying to Stage Prop no longer counts as you killing yourself (https://trello.com/c/GLqlKPY5/147-stage-prop-can-sometimes-add-a-point-to-your-team-in-tdm-if-you-die-to-it)."]
+"The Great Lion" = ["Fixed being able to Swipe yourself (https://trello.com/c/TqpVmlSG/148-great-lion-is-able-to-damage-itself)."]
+"Buddy Baseball Cap" = ["Fixed error with Home Run (https://trello.com/c/uCwIkctl/151-weapon-is-not-a-valid-member-for-model-buddy-baseball-cap-s-home-run)."]
+
+[[changelog]]
+date = "2017-03-25"
+
+[changelog.entries]
+General = ["Fixed self-harming giving rage."]
+"Stage Prop" = ["Damage dealt per second decreased from 5 to 4.", "Speed boost increased from 5% to 10%.", "Fixed how Stage Prop buffed speed."]
+"Buddy Baseball Cap" = ["Home Run projectile speed increased from 90 units to 113.", "Cooldown decreased from 7 to 5."]
+"The Great Lion" = ["Roar damage boost decreased from 25% to 15%.", "Roar 20% speed boost added.", "Roar range increased from 30 units to 45 units.", "Roar duration increased from 2 seconds to 4 seconds.", "Roar cooldown increased from 5 seconds to 7 seconds."]
+"Doctor's Reflector" = ["Fixed healing even when you're dead (https://trello.com/c/PZ0ExM36/145-bloxxer-s-cap-and-doctor-reflector-can-cause-your-character-to-heal-fatal-damage)."]
+
+[[changelog]]
+date = "2017-03-24"
+
+[changelog.entries]
+"Fire Wizard" = ["Fixed Pyromancy showing up as \"Fire Wizard\" in damage logs."]
+
+[[changelog]]
+date = "2017-03-23"
+
+[changelog.entries]
+Gameplay = ["Hovering over hats in the loadout menu shows their explanation."]
+
+[[changelog]]
+date = "2017-03-22"
+
+[changelog.entries]
+Gameplay = ["Added \"seconds\" to the cooldown in the F2 menu after some confusion.", "Finished outfits."]
+Doge = ["Lowered maximum damage of the Tennis Ball from 90 to 60.", "Increased range of dogs from 45 to 75."]
+Bees = ["Increased range from 35 to 60."]
+"Recycled Cardboard Visor" = ["Fixed a typo in the hat explanation."]
+
+[[changelog]]
+date = "2017-03-21"
+
+[changelog.entries]
+General = ["Removed RoboHouse and added Siege from Team Deathmatch rotation.", "Changed the way defense multiplier is displayed.", "When a player joins and the teams are equal, they are put on the team with less score.", "Ability cooldowns reset on death.", "Started work on outfits."]
+"Fire Wizard" = ["Fixed a visual glitch relating to fire."]
+
+[[changelog]]
+date = "2017-03-20"
+
+[changelog.entries]
+Gameplay = ["Holding down mouse fire constantly fires the weapon."]
+RoboHouse = ["Added health kits."]
+"Team Deathmatch" = ["Changed winning kills from 50 to 30. "]
+"Mad Scientist Hair" = ["Increased reload speed from 1.5 seconds to 2 seconds."]
+
+[[changelog]]
+date = "2017-03-19"
+
+[changelog.entries]
+Gameplay = ["Fixed attack and defense multiplier not working.", "Resized respawn button.", "Added stage in lobby.", "Fixed an exploit where a hacker could give themselves loadouts that didn't consist of 1 major hat and 2 minor hats.", "Fixed an exploit where a hacker could give themselves duplicates of minor.", "Added display for multipliers. "]
+Hats = ["Fixed being able to wear two of the same minor hat if you had the skin for it."]
+Lei = ["Players can no longer pick up flowers when they are fully healed.", "Flower healing increased from 5 to 10."]
+"Rubber Duckie" = ["Changed rage from...every tenth of a second.....to every quarter of a second."]
+"Fire Wizard" = ["Pyromancy range increased from 20 units to 35 units.", "Pyromancy fire DoT applied time increased from 3 seconds to 6 seconds."]
+"The Great Lion" = ["Roar attack buff increased from 10% to 25%."]
+"Ninja Mask of Shadows" = ["Shuriken damage increased from 15 to 20.", "Attack from the Shadows attack time decreased from 1.5 seconds to 1 second.", "Attack from the Shadows range increased from 35 units to 60 units.", "Attack from the Shadows now doubles damage dealt for 3.5 seconds.", "Removed Stealth."]
+"Mad Scientist Hair" = ["Flask splash increased from 20 units to 40 units."]
+"Fire Fighter Helmet" = ["Red Alert time before attack decreased from 1.5 seconds to .75 seconds."]
+Fedora = ["Neckbeard's Rage speed boost increased from 35% to 65%.", "Soda drinking animation cut by 1 second."]
+"Doctor's Reflector" = ["Increased healing multiplier from 15% to 35%."]
+"Noob Attack: Periastron" = ["Slice and Dice activation range increased from 15 units to 25 units.", "Slice and Dice speed boost time increased from 1 second to 4 seconds."]
+
+[[changelog]]
+date = "2017-03-18"
+
+[changelog.entries]
+Gameplay = ["Changed size of rage percentage.", "Played sound when you get all your rage.", "Fixed skins of hats not transferring passives.", "Added better hitboxes."]
+
+[[changelog]]
+date = "2017-03-17"
+
+[changelog.entries]
+Gameplay = ["Fixed a bug relating to the F2 menu."]
+"Recycled Cardboard Visor 2014" = ["Changed cooldown to include the time of the speed debuff."]
+
+[[changelog]]
+date = "2017-03-15"
+
+[changelog.entries]
+"Kitty Ears" = ["Fixed not being pushed while moving."]
+"Buddy Baseball Cap" = ["Fixed rage not pushing back people moving."]
+
+[[changelog]]
+date = "2017-03-14"
+
+[changelog.entries]
+Gameplay = ["Fixed first person hats not being fully transparent."]
+"Firefighter's Helmet" = ["Increased range of all attacks from 20 to 35."]
+
+[[changelog]]
+date = "2017-03-13"
+
+[changelog.entries]
+Gameplay = ["Fixed chat collapsing.", "Whenever your character is frozen, you can no longer spin around."]
+Doge = ["Fixed dogs not spawning."]
+
+[[changelog]]
+date = "2017-03-12"
+
+[changelog.entries]
+Gameplay = ["Fixed the second hat display not showing a hat."]
+Backend = ["Removed Freya."]
+Tutorial = ["Use new HUD.", "Fixed rage doing jack."]
+
+[[changelog]]
+date = "2017-03-11"
+
+[changelog.entries]
+Gameplay = ["Remodeled lobby room."]
+
+[[changelog]]
+date = "2017-03-10"
+
+[changelog.entries]
+Gameplay = ["Slightly optimized dressup spinning by using a BodyAngularVelocity instead of a script.", "Removed portraits in loadout box due to bad wood grain."]
+
+[[changelog]]
+date = "2017-03-09"
+
+[changelog.entries]
+Gameplay = ["Added premium crates and skins.", "Dressup model in loadout box now changes their hats to match your loadout: https://trello.com/c/ZwL0X5oD/73-have-the-dressup-in-the-loadout-box-show-equipped-hats#.", "Fixed a glitch where if someone with the username LoadoutBox joined the name, there would be unexpected behaviors with the loadout box.", "Loadout dummy now spins.", "Changed the design of the loadout box."]
+
+[[changelog]]
+date = "2017-03-08"
+
+[changelog.entries]
+Gameplay = ["Accidently reintroduced the bug where players could play the game.", "You can only get your free hats from the classic set."]
+
+[[changelog]]
+date = "2017-03-06"
+
+[changelog.entries]
+Gameplay = ["Fixed a bug where players could play the game because, fuck why not. Roblox Studio won't give me any errors or warnings."]
+
+[[changelog]]
+date = "2017-03-05"
+
+[changelog.entries]
+Gameplay = ["Fix a typo in the hat explanation display.", "Games now restart for updates."]
+"The Great Lion" = ["Added."]
+"Ref's Whistle" = ["Added."]
+
+[[changelog]]
+date = "2017-03-03"
+
+[changelog.entries]
+Gameplay = ["Removed player list.", "Removed tips about player list. :(", "Resized rage meter.", "Fixed how control points are captured."]
+
+[[changelog]]
+date = "2017-03-01"
+
+[changelog.entries]
+Gameplay = ["At the end of the game, there is now an animation. This will eventually be replaced by something good."]
+
+[[changelog]]
+date = "2017-02-28"
+
+[changelog.entries]
+Gameplay = ["Fixed lobby timer always being 30 seconds, rather than only on the first time."]
+
+[[changelog]]
+date = "2017-02-26"
+
+[changelog.entries]
+General = ["Added first person mode.", "First lobby will be 30 seconds, rather than 2 minutes.", "Changed free hats given from 1 to 5.", "Fixed a bug where players joining after the first game ended would join a team, even when they should be neutral."]
+"Buddy Baseball Cap" = ["Added."]
+"Noob Attack: Periastron" = ["Fixed typo in description."]
+Backend = ["Added chat telemetry."]
+
+[[changelog]]
+date = "2017-02-25"
+
+[changelog.entries]
+Gameplay = ["Removed circle around rage meter."]
+Backend = ["Added Freya.", "Added discord webhooks for telemetry.", "Telemetry shows JobId.", "Changed how damage calculator works."]
+
+[[changelog]]
+date = "2017-02-24"
+
+[changelog.entries]
+Gameplay = ["Revamped GUI."]
+
+[[changelog]]
+date = "2017-02-23"
+
+[changelog.entries]
+Doge = ["Added."]
+"Fire Wizard" = ["Added."]
+"Mad Scientist" = ["Increased flask range from 15 to 20."]
+"Firefighter's Helmet" = ["Added weapon to F2 menu."]
+
+[[changelog]]
+date = "2017-02-22"
+
+[changelog.entries]
+Gameplay = ["Added tutorial.", "Fixed a visual glitch with ability cooldowns. Text would stack over each other."]
+
+[[changelog]]
+date = "2017-02-20"
+
+[changelog.entries]
+Gameplay = ["Fixed glitch where abilities would usually not show.", "You now get 5 coins whenever you kill someone.", "Rage is now reset on game start.", "(Probably) fixed a bug relating to respawning and game ending.", "Anchored control point.", "A random tip is now shown when you die.", "Added tips to the display screen in the lobby."]
+"Rubber Duckie" = ["Fixed a teamkilling glitch."]
+"Firefighter's Helmet" = ["Added."]
+
+[[changelog]]
+date = "2017-02-19"
+
+[changelog.entries]
+Gameplay = ["Changed how the F2 menu shows abilities. It used to require the main ability script, but this would usually break as most abilities require something from ServerScriptService. This has been changed so that abilities are in HatExplanation like passives are.", "Fixed tools being able to go back into your backpack."]
+"Mad Scientist Hair" = ["Added."]
+
+[[changelog]]
+date = "2017-02-18"
+
+[changelog.entries]
+Gameplay = ["Removed quests. Roblox's data stores are awful."]
+"Ninja Mask of Shadows" = ["Added."]
+
+[[changelog]]
+date = "2017-02-17"
+
+[changelog.entries]
+Gameplay = ["Added hat display over heads.", "Fixed a bug where if you used an ability, switched that hat with another hat with an ability, the other ability would still have to wait for the last hat's cooldown to wear off."]
+Lei = ["Added."]
+"Sparkling Angel Wings" = ["Added."]
+
+[[changelog]]
+date = "2017-02-16"
+
+[changelog.entries]
+Gameplay = ["Added F2 menu."]
+"Kitty Ears" = ["Added."]
+"Unicorn Horn" = ["Added."]
+"Doctor's Reflector" = ["Added."]
+"Dog Tags" = ["Added."]
+"Bloxxer Cap" = ["Added."]
+"Front Line Warrior" = ["Added."]
+
+[[changelog]]
+date = "2017-02-15"
+
+[changelog.entries]
+Gameplay = ["Fixed a bug relating to ability cooldowns and their display."]
+Bees = ["Added."]
+"Andrew's Beard" = ["Added."]
+"Peace Headband" = ["Added."]
+"Stage Prop" = ["Added."]
+"Noob Attack: Periastron" = ["Added."]
+
+[[changelog]]
+date = "2017-02-14"
+
+[changelog.entries]
+Gameplay = ["Finished quest giver. Probably.", "Rage now clears when you switch loadouts."]
+"Recycled Cardboard Visor 2014" = ["Lowered "]
+"Teakettle Hat" = ["Added."]
+Backend = ["Added telemetry."]
+
+[[changelog]]
+date = "2017-02-13"
+
+[changelog.entries]
+Gameplay = ["Pressing Z shows your current quests.", "Red part above quest booth now \"hovers\".", "Disabled the green bars for music in the lobby due to lag.", "Battle Hats trying to convince me to play Rec Fedora](https://cdn.discordapp.com/attachments/213930516653670400/280773013207646208/unknown.png)"]
+
+[[changelog]]
+date = "2017-02-12"
+
+[changelog.entries]
+Gameplay = ["Crate buying now works!", "Removed Karatakena from the lobby music selection because megahammer wouldn't stop crying about it.", "Coins now hide when you change your loadout.", "Resetting shows in the death log."]
+
+[[changelog]]
+date = "2017-02-11"
+
+[changelog.entries]
+Gameplay = ["Coins now properly work. Note to self: OnUpdate and UpdateAsync are not the same thing..."]
+
+[[changelog]]
+date = "2017-02-10"
+
+[changelog.entries]
+Gameplay = ["Optimized music bars script so it doesn't attempt to show bars if the player is not in the lobby.", "When a game ends, the respawn time is set to 0.", "Added coin counter in the bottom right.", "Added \"Rhythm Tengoku - Karateka\" as a possible lobby song."]
+
+[[changelog]]
+date = "2017-02-09"
+
+[changelog.entries]
+Gameplay = ["Rounds now end 0.09x faster. Thank god.", "Added crate information part to the store.", "Added shop controls.", "Added music bars to the left and right of the stats screen in the lobby.", "Fixed a player shooting at another player's weapon not counting as a hit.", "Fixed hat animation in the shop not working on real games.", "Fixed hearing the ticks of the hat displays in the shop playing even when you weren't in the lobby."]
+"Rubber Duckie" = ["Actually fixed the ear rape during the rage. Promise."]
+
+[[changelog]]
+date = "2017-02-07"
+
+[changelog.entries]
+Gameplay = ["Added lobby music."]
+
+[[changelog]]
+date = "2017-02-06"
+
+[changelog.entries]
+Gameplay = ["Added function store ticker.", "Store displays selected crate.", "HUD now properly hides during the lobby stage.", "Death and loadout GUIs now hide when the game starts."]
+
+[[changelog]]
+date = "2017-02-05"
+
+[changelog.entries]
+Gameplay = ["Work on stands in the lobby for quests and the shop.", "Scaled down the lobby."]
+"Rubber Duckie" = ["Fixed ear rape on rage."]
+
+[[changelog]]
+date = "2017-02-03"
+
+[changelog.entries]
+Backend = ["Removed all coroutines and replaced them with either `spawn` or a more optimal solution. Most notable (maybe not noticeable) was Rubber Duckie's rage. It created a coroutine for every duck, on every fire. "]
+
+[[changelog]]
+date = "2017-01-31"
+
+[changelog.entries]
+Gameplay = ["Started work on control points."]
+Backend = ["Renamed all scripts that were originally named \"Script\" or \"LocalScript\" to now describe what their purpose is."]
+
+[[changelog]]
+date = "2017-01-28"
+
+[changelog.entries]
+Fedora = ["Fixed a bug where if the player hit another player with the keyboard or katana and it hit one of their hats, it wouldn't count as a hit."]
+"Rubber Duckie" = ["Fixed a bug where if the player hit another player with ducks and it hit one of their hats, it wouldn't count as a hit."]
+
+[[changelog]]
+date = "2017-01-25"
+
+[changelog.entries]
+Gameplay = ["Fixed https://trello.com/c/Nlc2QS1U"]
+
+[[changelog]]
+date = "2017-01-24"
+
+[changelog.entries]
+Gameplay = ["Fixed a bug where the scoreboard would show the score as -1.", "Added a temporary gamemode where a random winner is chosen after 5 seconds."]
+
+[[changelog]]
+date = "2017-01-21"
+
+[changelog.entries]
+Gameplay = ["Added lobby and gamemode system.", "Removed test dummies.", "Added kill log."]
+Fedora = ["Finished rage."]
+
+[[changelog]]
+date = "2017-01-20"
+
+[changelog.entries]
+Gameplay = ["Fixed damage calculation thinking there was never an inflictor. This means any attack buffs a player had never had any effect. This also means now https://trello.com/c/vCbaPeiF preventing damaging teammates now works.", "1 rage is given every time a player inflicts damage, and 2 extra rage is given after a player deals 50 damage (collectively, not all in one hit)."]
+
+[[changelog]]
+date = "2017-01-19"
+
+[changelog.entries]
+Gameplay = ["A message is added to the chat when somebody uses their rage.", "Fixed multiple loadouts not working. (Note: This also means that loadouts are 100% done).", "Fixed a bug with showing ability cooldowns on minor hats."]
+"Ice Pack" = ["Added."]
+Fedora = ["Added."]
+"Rubber Duckie" = ["Ducks pass through teammates."]
+
+[[changelog]]
+date = "2017-01-18"
+
+[changelog.entries]
+Gameplay = ["Added saved loadout buttons (A-D).", "Added hat lists for loadouts.", "Players are given a random loadout and 3 free hats (1 major, 2 minor). When more hats are added, this number will increase."]
+
+[[changelog]]
+date = "2017-01-17"
+
+[changelog.entries]
+Gameplay = ["Respawn button shows how much time is left until they can respawn.", "Loadout button now moves the camera to a temporary room.", "You can no longer damage teammates."]
+
+[[changelog]]
+date = "2017-01-16"
+
+[changelog.entries]
+Gameplay = ["Added respawn and change loadout buttons (only respawn works).", "Added dynamic respawn time, right now it's 4 seconds long. TODO: Have the respawn buttons show time left until respawn."]
+"Recycled Cardboard Visor 2014" = ["Fixed a bug where if someone used Recycle as someone else's Recycle's speed debuff was cooling down, and they died, the other person's speed debuff wouldn't wear off. "]
+Optimization = ["Camera script is a little more optimized."]
+
+[[changelog]]
+date = "2017-01-12"
+
+[changelog.entries]
+Gameplay = ["Added ability cooldowns.", "Added rage.", "Fixed having multiple hats with abilities never working as intended.", "Fixed a bug where if a hat had multiple abilities it would only use the newest one.", "Fixed a bug where you could use abilities while dead.", "Optimized camera script a bit."]
+"Rubber Duckie" = ["Finished abilities.", "Finished rage.", "Optimized weapon script. Children and events were connected after putting the duck in workspace, but this has now been switched. EDIT: This has been undone, as it messed up the lag compensation script Rubber Duckie uses."]
+"Stone Age Shades" = ["Added."]
+"Recycled Cardboard Visor 2014" = ["Added."]
+
+[[changelog]]
+date = "2017-01-11"
+
+[changelog.entries]
+Gameplay = ["Added abilities."]
+"Rubber Duckie" = ["Added \"Quack\" ability."]
+
+[[changelog]]
+date = "2017-01-10"
+
+[changelog.entries]
+Gameplay = ["Added damage indicators."]
+"Rubber Duckie" = ["Fixed duck sounds cutting off when hitting a part."]
+
+[[changelog]]
+date = "2017-01-09"
+
+[changelog.entries]
+Gameplay = ["Players are now mostly transparent on their screen.", "Players are temporarily given a random setup every time they spawn. This will soon be replaced with an inventory and loadout system.", "Made the camera not suck."]
+HUD = ["Changed the silhouette in the player list from ROBLOX's avatar to John Doe's avatar."]
+"Rubber Duckie" = ["Added. "]
+
+[[changelog]]
+date = "2017-01-08"
+
+[changelog.entries]
+Game = ["Removed default Roblox emotes. There was a glitch if you used an emote, you could turn the camera and be rotated strangely. ", "Glitch](http://i.imgur.com/prWpjn3.jpg)", "'s much easier to simply remove emotes, as they can only cause problems while developing, rather than fix the camera. Speaking of which..."]
+Gameplay = ["Added custom third person camera script.", "Added status bar saying when a teammate dies, respawns, or is under 45 health.", "Added teams.", "Added player list at the top of the screen."]
+HUD = ["Added health bar."]
+
+[[changelog]]
+date = "2017-01-07"
+
+[changelog.entries]
+Game = ["Completely restarted development. Old codebase was exploitable to hacks that bypassed FilteringEnabled, was made harder to write on with the Roblox accessory update, and was built without thought for later added features. Maps will be kept, but all scripting, hats, and anything that wasn't purely visual is being overhauled."]
