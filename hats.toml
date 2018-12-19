@@ -2,6 +2,7 @@
 flavor-text = "Nice meme!"
 name = "Doge"
 series = "Classic"
+major = true
 stars = 1
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=151784320"
 
@@ -70,6 +71,7 @@ skill_type = "Ability"
 flavor-text = "Turned himself into a pickle."
 name = "Mad Scientist Hair"
 series = "Classic"
+major = true
 stars = 2
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=154818848"
 
@@ -150,6 +152,7 @@ skill_type = "Ability"
 flavor-text = "Not to be confused with Fire Wizard."
 name = "Fire Wizard"
 series = "Classic"
+major = true
 stars = 1
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=462220417"
 
@@ -219,6 +222,7 @@ skill_type = "Ability"
 flavor-text = "Stay back! Wait, not TOO far back. A little bit closer, so I can push you farther!"
 name = "Firefighter Helmet"
 series = "Classic"
+major = true
 stars = 1
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1081381"
 
@@ -281,6 +285,7 @@ skill_type = "Ability"
 flavor-text = "M’lady..."
 name = "Fedora"
 series = "Classic"
+major = true
 stars = 2
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1029025"
 
@@ -375,6 +380,7 @@ skill_type = "Ability"
 flavor-text = "Touchdown! Slam Dunk! Sports!"
 name = "Buddy Baseball Cap"
 series = "Classic"
+major = true
 stars = 1
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=68259961"
 
@@ -444,6 +450,7 @@ skill_type = "Ability"
 flavor-text = "Tryhard at heart."
 name = "Deluxe Paintball Helmet"
 series = "Classic"
+major = true
 stars = 3
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=113326348"
 
@@ -489,6 +496,7 @@ skill_type = "Ability"
 flavor-text = "With The Great Lion, use your Roar on yourself if you're being cornered by enemies."
 name = "The Great Lion"
 series = "Classic"
+major = true
 stars = 2
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=14860728"
 
@@ -552,6 +560,7 @@ skill_type = "Ability"
 flavor-text = "His time to strike is now."
 name = "Ninja Mask of Shadows"
 series = "Classic"
+major = true
 stars = 2
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1309911"
 
@@ -611,6 +620,7 @@ skill_type = "Ability"
 flavor-text = "Quack."
 name = "Rubber Duckie"
 series = "Classic"
+major = true
 stars = 1
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=9254254"
 
@@ -689,6 +699,7 @@ skill_type = "Ability"
 flavor-text = "Word has it that he's a time traveler from 2009. He is constantly whining that the old days were better."
 name = "Shaggy"
 series = "Classic"
+major = true
 stars = 2
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=20573078"
 
@@ -733,6 +744,7 @@ skill_type = "Ability"
 flavor-text = "The Specialist’s Helmet specialises in the especially special specialty of supporting specially."
 name = "The Specialist's Helmet"
 series = "Classic"
+major = true
 stars = 2
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=232525495"
 
@@ -785,6 +797,7 @@ skill_type = "Ability"
 flavor-text = "We're gonna be rich..."
 name = "Mining Helmet"
 series = "Classic"
+major = true
 stars = 1
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1609609"
 
@@ -845,6 +858,7 @@ skill_type = "Ability"
 flavor-text = "We're not completely sure it's a hat yet."
 name = "Empyrean Reignment"
 series = "Classic"
+major = true
 stars = 1
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=15967743"
 
@@ -899,6 +913,7 @@ skill_type = "Ability"
 flavor-text = "Stored in that camera is hour long funny dog compilations. And music of questionable quality."
 name = "Tee Vee"
 series = "Classic"
+major = true
 stars = 2
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=15857936"
 
@@ -965,6 +980,7 @@ skill_type = "Ability"
 flavor-text = "Doesn’t have an actual teacher certification."
 name = "Dark Tutor"
 series = "Classic"
+major = true
 stars = 3
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=87261753"
 
@@ -1010,6 +1026,7 @@ skill_type = "Ability"
 flavor-text = "AKA \"Search Wikipedia for Norse mythology\""
 name = "Valkyrie Helm"
 series = "Classic"
+major = true
 stars = 1
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1365767"
 
@@ -1069,6 +1086,7 @@ skill_type = "Ability"
 flavor-text = "The self proclaimed \"pwner of noobs\"."
 name = "Golden Crown"
 series = "Classic"
+major = true
 stars = 1
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1081300"
 
@@ -1135,6 +1153,7 @@ skill_type = "Ability"
 flavor-text = "Sea-####"
 name = "Seashell Crown"
 series = "Classic"
+major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=472605748"
 
 [minors.seashell-crown.config]
@@ -1157,6 +1176,7 @@ skill_type = "Passive"
 flavor-text = "Get pumped up!"
 name = "Ref's Whistle"
 series = "Classic"
+major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=28672417"
 
 [minors.refs-whistle.config]
@@ -1180,6 +1200,7 @@ skill_type = "Ability"
 flavor-text = "I’m gonna blow!"
 name = "Bombface"
 series = "Classic"
+major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=105344042"
 
 [minors.bombface.config]
@@ -1202,6 +1223,7 @@ skill_type = "Passive"
 flavor-text = "This hat used to give your teammates mosquito bites, but we stuck with this instead."
 name = "Spring Crown of Flowers"
 series = "Classic"
+major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=150337770"
 
 [minors.spring-crown-of-flowers.config]
@@ -1227,6 +1249,7 @@ skill_type = "Ability"
 flavor-text = "Grand Dad?"
 name = "Stone Age Shades"
 series = "Classic"
+major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=102633381"
 
 [minors.stone-age-shades.config]
@@ -1246,6 +1269,7 @@ skill_type = "Passive"
 flavor-text = "This only makes you a furry if you think it makes you a furry."
 name = "Kitty Ears"
 series = "Classic"
+major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1374269"
 
 [minors.kitty-ears.config]
@@ -1271,6 +1295,7 @@ skill_type = "Ability"
 flavor-text = "Like the Spring Crown, but in the summer."
 name = "Lei"
 series = "Classic"
+major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=14128456"
 
 [minors.lei.config]
@@ -1294,6 +1319,7 @@ skill_type = "Passive"
 flavor-text = "Only for people who graduated in the top of their class in the Navy Seals. "
 name = "Dog Tags"
 series = "Classic"
+major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=31312480"
 
 [minors.dog-tags.config]
@@ -1316,6 +1342,7 @@ skill_type = "Passive"
 flavor-text = "Unicorns are a lot more dangerous than I remember."
 name = "Unicorn Horn"
 series = "Classic"
+major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=9255093"
 
 [minors.unicorn-horn.config]
@@ -1340,6 +1367,7 @@ skill_type = "Passive"
 flavor-text = "Bzzzzzzzzzz..."
 name = "Bees"
 series = "Classic"
+major = false
 hat-image = "http://www.roblox.com/asset/?id=49178292"
 
 [minors.bees.config]
@@ -1365,6 +1393,7 @@ skill_type = "Ability"
 flavor-text = "Can someone get this sword off my head?"
 name = "Noob Attack - Periastron"
 series = "Classic"
+major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=140481297"
 
 [minors.noob-attack---periastron.config]
@@ -1386,6 +1415,7 @@ skill_type = "Passive"
 flavor-text = "If it's a prop...why does it hurt?"
 name = "Stage Prop"
 series = "Classic"
+major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1098285"
 
 [minors.stage-prop.config]
@@ -1408,6 +1438,7 @@ skill_type = "Passive"
 flavor-text = "Nope, there doesn't seem to be a heartbeat in your leg, we'll have to amputate it."
 name = "Stethoscope"
 series = "Classic"
+major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=30844997"
 
 [minors.stethoscope.config]
@@ -1432,6 +1463,7 @@ skill_type = "Passive"
 flavor-text = "Make hats, not battles. "
 name = "Peace Headband"
 series = "Classic"
+major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=26960094"
 
 [minors.peace-headband.config]
@@ -1451,6 +1483,7 @@ skill_type = "Passive"
 flavor-text = "What's not shown is you eating garbage."
 name = "Recycled Cardboard Visor 2014"
 series = "Classic"
+major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=154415270"
 
 [minors.recycled-cardboard-visor-2014.config]
@@ -1477,6 +1510,7 @@ skill_type = "Ability"
 flavor-text = "A guardian angel watches over you."
 name = "Sparkling Angel Wings"
 series = "Classic"
+major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=192557913"
 
 [minors.sparkling-angel-wings.config]
@@ -1502,6 +1536,7 @@ skill_type = "Ability"
 flavor-text = "DISCLAIMER: Will not make you a licensed doctor."
 name = "Doctor's Reflector"
 series = "Classic"
+major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=23630696"
 
 [minors.doctors-reflector.config]
@@ -1526,6 +1561,7 @@ skill_type = "Passive"
 flavor-text = "dear kampf plz make this insta blox enemies thank u"
 name = "Bloxxer Cap"
 series = "Classic"
+major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=51353039"
 
 [minors.bloxxer-cap.config]
@@ -1547,6 +1583,7 @@ skill_type = "Passive"
 flavor-text = "Medically approved by your school nurse."
 name = "Ice Pack"
 series = "Classic"
+major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=20334446"
 
 [minors.ice-pack.config]
@@ -1571,6 +1608,7 @@ skill_type = "Passive"
 flavor-text = "It's exactly what you think it means."
 name = "Front Line Warrior"
 series = "Classic"
+major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=45630442"
 
 [minors.front-line-warrior.config]
@@ -1593,6 +1631,7 @@ skill_type = "Passive"
 flavor-text = "Hopefully not contagious."
 name = "Headrow"
 series = "Classic"
+major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1082935"
 
 [minors.headrow.config]
