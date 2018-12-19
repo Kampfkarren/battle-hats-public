@@ -23,18 +23,21 @@ RageMassForceMagic = 1000.0
 name = "Wow!"
 advanced = "Point a laser pointer, pulling in enemies for 5 seconds."
 simple = "Point a laser pointer, pulling in enemies."
+skill_type = "Rage"
 
 [majors.doge.weapon]
 name = "Tennis Ball"
 advanced = "Throw a tennis ball, dealing 40 damage. Can toss once every second. Flies at 130 units a second for 1 second."
 simple = "Throw a tennis ball."
 image = ""
+skill_type = "Weapon"
 
 [majors.doge.passive]
 name = "Man's Best Friend"
 advanced = "Passive. Have a small dog follow you around. Any time you attack someone, your dog rushes towards them and lowers their attack by 30%, you attack someone else, or walk 75 units away from them. Does not stack."
 simple = "Passive. Dog at your side weakens enemies."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=151784320"
+skill_type = "Passive"
 
 [[majors.doge.abilities]]
 name = "RURURURU"
@@ -42,6 +45,7 @@ advanced = "Bark at enemies in a 50 unit radius cannot use any abilities for 3 s
 simple = "Bark at enemies, disabling their abilities."
 cooldown = 12.0
 image = "http://www.roblox.com/asset/?id=1036910764"
+skill_type = "Ability"
 
 [majors.doge.changelog]
 2018-08-03 = ["The Wow! laser pointer will now pull enemies in more aggressively and will also apply vertical force."]
@@ -113,12 +117,14 @@ z = 75.0
 name = "Supersaturation"
 advanced = "Place a flask that deals 4 damage every .33 seconds, and decreases attack and defense by 3% each time it deals damage in a 175 unit radius for 10 seconds. Attack and defense debuffs last for 4 seconds."
 simple = "Place a flask that weakens and damages enemies in an area around it the longer they remain in it."
+skill_type = "Rage"
 
 [majors.mad-scientist-hair.weapon]
 name = "Flask"
 advanced = "Throwing weapon with an arc. 0.5 seconds after impact, leaves a cloud of chemicals that lasts for 3 seconds, doing 15 damage per second, slowing enemies by 20% as long as they’re in the cloud. 2 second reload."
 simple = "Throw a flask that damages and slows enemies."
 image = ""
+skill_type = "Weapon"
 
 [[majors.mad-scientist-hair.abilities]]
 name = "Wild Vial"
@@ -126,6 +132,7 @@ advanced = "After a .4 second cast, throw a vial at your feet that explodes in a
 simple = "Throw a vial at your feet that explodes, causing you to move faster, making enemies move slower, and dealing damage."
 cooldown = 10.0
 image = "http://www.roblox.com/asset/?id=131178113"
+skill_type = "Ability"
 
 [majors.mad-scientist-hair.changelog]
 2018-08-06 = ["Being bloxxed will no longer remove the flask dropped by Supersaturation."]
@@ -176,12 +183,14 @@ z = 35.0
 name = "Molten Barricade"
 advanced = "Summon a 70 unit large, 15 unit high fiery wall that enemies can't pass through for 5 seconds."
 simple = "Summon a large fiery wall that enemies can't pass through.  "
+skill_type = "Rage"
 
 [majors.fire-wizard.weapon]
 name = "Pyromancy"
 advanced = "While held down, burn all enemies 35 units in front of you, making them take 3.5 damage, and take 1 damage every second for 3 seconds, every .1 seconds."
 simple = "While held down, burn nearby enemies."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=462220417"
+skill_type = "Weapon"
 
 [[majors.fire-wizard.abilities]]
 name = "Meteor Ring"
@@ -189,6 +198,7 @@ advanced = "Fire 12 meteors at enemies, 0.05 seconds after each other. Meteors d
 simple = "Fire a ring of meteors that deal damage over time."
 cooldown = 10.0
 image = "http://www.roblox.com/asset/?id=62775787"
+skill_type = "Ability"
 
 [majors.fire-wizard.changelog]
 2018-10-16 = ["Smoothed out the visuals of Fire Wizard's Meteor Ring"]
@@ -235,12 +245,14 @@ RedAlertTruckElevation = 200.0
 name = "Red Alert"
 advanced = "Fire trucks fall out of the sky, 2 fire trucks a second for 7 seconds. Enemies hit by the fire trucks take 70 damage and are forcibly knocked back."
 simple = "Fire trucks fall out of the sky, forcibly pushing those who get hit."
+skill_type = "Rage"
 
 [majors.firefighter-helmet.weapon]
 name = "Fire Hose"
 advanced = "Spray all enemies in a 20 unit line, dealing 14 damage and pushing them back. Can be fired once every 0.2 seconds. The farther away the enemy, the less knockback they will receive, up to 50% less."
 simple = "Spray nearby enemies and push them back."
 image = ""
+skill_type = "Weapon"
 
 [[majors.firefighter-helmet.abilities]]
 name = "Fire Hydrant"
@@ -248,6 +260,7 @@ advanced = "After a 1.5s cast, place a fire hydrant in front of you that lasts f
 simple = "Place a fire hydrant in front of you that sprays water in a ring around it, dealing damage and knocking back enemies."
 cooldown = 9.0
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1081381"
+skill_type = "Ability"
 
 [majors.firefighter-helmet.changelog]
 2017-08-27 = ["Fixed a glitch where when you were stunned, you could still fire your hose.", "Decreased Fire Hose damage from 25 to 14.", "Decreased Fire Hose reload time from 0.45s to 0.2s.", "The amount enemies are knocked back from your Fire Hose will now depend on how close they are to you."]
@@ -308,18 +321,21 @@ RageStunLength = 1.25
 name = "Neckbeard's Rage"
 advanced = "Take a swig of Gaming Drink, buffing walk speed by 65% and increasing damage taken by 10% and giving the user an Anime Katana. The anime katana swings once every 1 second and does 150 damage per swing. Lasts for 7 seconds."
 simple = "Take a swig of Gaming Drink, increasing walk speed, damage taken. Get a fast swinging, heavy damage dealing katana. "
+skill_type = "Rage"
 
 [majors.fedora.weapon]
 name = "Tendies"
 advanced = "Throw chicken tenders that travel at 180 units per second and travel for .5 seconds. Deals 26 damage and can be fired every 1.3 seconds."
 simple = "Throw chicken tenders."
 image = ""
+skill_type = "Weapon"
 
 [majors.fedora.passive]
 name = "Bulk"
 advanced = "Passive. Increases health by 30%, but walk 15% slower."
 simple = "Passive. Increased health but slower walk speed."
 image = "http://www.roblox.com/asset/?id=147208511"
+skill_type = "Passive"
 
 [[majors.fedora.abilities]]
 name = "Cheese Snacks"
@@ -327,6 +343,7 @@ advanced = "Heals the user for 90 health and heals for 9 health a second for 8 s
 simple = "Heal yourself immediately and gain health over time."
 cooldown = 8.0
 image = "http://www.roblox.com/asset/?id=928596457"
+skill_type = "Ability"
 
 [[majors.fedora.abilities]]
 name = "Feast"
@@ -334,6 +351,7 @@ advanced = "After 1 second, eat your Tendies, increasing movement speed by 35% a
 simple = "Eat your Tendies, increasing movement speed and reducing damage taken."
 cooldown = 9.0
 image = "http://www.roblox.com/asset/?id=649904125"
+skill_type = "Ability"
 
 [majors.fedora.changelog]
 2018-08-09 = ["Fixes the katana from Neckbeard's Rage."]
@@ -384,18 +402,21 @@ z = 70.0
 name = "Grand Slam"
 advanced = "Strike the ground with your baseball bat, all players 70 units in front of where you fire take 80 damage and are flung backwards."
 simple = "Nearby players in front of you take heavy damage and are flung backwards."
+skill_type = "Rage"
 
 [majors.buddy-baseball-cap.weapon]
 name = "Buddy Baseball Bat"
 advanced = "Melee baseball bat, deals 66 damage to anyone close. Can swing 2 swings per second."
 simple = "Melee baseball bat."
 image = ""
+skill_type = "Weapon"
 
 [majors.buddy-baseball-cap.passive]
 name = "Up to Bat"
 advanced = "Passive. Move 20% faster. "
 simple = "Passive. Move faster."
 image = "http://www.roblox.com/asset/?id=46489784"
+skill_type = "Passive"
 
 [[majors.buddy-baseball-cap.abilities]]
 name = "Home Run"
@@ -403,6 +424,7 @@ advanced = "Fling 7 baseballs in your direction for 1.2 seconds. Each baseball d
 simple = "Fling multiple baseballs in your direction for a small amount of time."
 cooldown = 6.0
 image = "http://www.roblox.com/asset/?id=117356883"
+skill_type = "Ability"
 
 [majors.buddy-baseball-cap.changelog]
 2017-06-30 = ["Added \"Up to Bat - Passive. Move faster\"."]
@@ -440,12 +462,14 @@ RageBubbleLifetime = 0.5
 name = "Paint Can-non"
 advanced = "Throw a paint can that explodes to deal 65 damage to enemies in a 125 unit range and cover their screens with paint for 5 seconds."
 simple = "Throw a paint can that explodes to damage enemies and cover their screens."
+skill_type = "Rage"
 
 [majors.deluxe-paintball-helmet.weapon]
 name = "Paintball Gun"
 advanced = "Shoot a small dart of paint. The darts travel at 100 units per second, disappearing at 0.75 seconds. Enemies hit by this dart will take 25 damage. Can be shot once every 0.2 seconds."
 simple = "Shoots paint darts."
 image = ""
+skill_type = "Weapon"
 
 [[majors.deluxe-paintball-helmet.abilities]]
 name = "Hoser"
@@ -453,6 +477,7 @@ advanced = "Your next 5 shots deal 65% more damage and travel 30% faster."
 simple = "Your next few shots deal more damage. "
 cooldown = 8.0
 image = "http://www.roblox.com/asset/?id=17498132"
+skill_type = "Ability"
 
 [majors.deluxe-paintball-helmet.changelog]
 2017-07-24 = ["Increased speed from 80 to 100.", "Hoser now increases the speed of your darts by 30%."]
@@ -485,18 +510,21 @@ SwipeReload = 1.4
 name = "ALLLPGHHHHAA!"
 advanced = "After a .5 second delay, swipe every .5 seconds in front of the user, with each swipe dealing 42 damage per swipe in a 30 unit range for 5 seconds."
 simple = "After a short delay, swipe rapidly in front of the user."
+skill_type = "Rage"
 
 [majors.the-great-lion.weapon]
 name = "Claws"
 advanced = "Swipe twice at nearby enemies dealing 42 damage per swipe every 1.4 seconds, with a .3 second delay between swipes in a 30 unit range."
 simple = "Swipe twice at nearby enemies."
 image = ""
+skill_type = "Weapon"
 
 [majors.the-great-lion.passive]
 name = "Stampede"
 advanced = "Passive. Walk 20% faster when not attacking, also applies to teammates in a 60 unit radius. If you attack, you must wait 2 seconds after to reactivate this effect."
 simple = "Passive. Walk faster when not attacking, and cause teammates to walk faster as well."
 image = "http://www.roblox.com/asset/?id=41907180"
+skill_type = "Passive"
 
 [[majors.the-great-lion.abilities]]
 name = "Roar"
@@ -504,6 +532,7 @@ advanced = "Increase damage and defense of yourself and nearby teammates by 30% 
 simple = "Increase damage and defense of yourself and nearby teammates."
 cooldown = 8.0
 image = "http://www.roblox.com/asset/?id=128539144"
+skill_type = "Ability"
 
 [majors.the-great-lion.changelog]
 2018-01-01 = ["Lowered claw damage from 42 to 28."]
@@ -547,12 +576,14 @@ RageTimer = 8.0
 name = "Embrace the Shadows"
 advanced = "For 8 seconds, double Attack from the Shadow’s range, and set its cooldown to 1."
 simple = "Increase Attack from the Shadow’s range, and decrease its cooldown for a limited time."
+skill_type = "Rage"
 
 [majors.ninja-mask-of-shadows.weapon]
 name = "Ninja Star"
 advanced = "Deals 20 damage at 150 units per second. Can fire once every 0.25 seconds, and lasts for 0.5 seconds.  "
 simple = "Deal small damage to a nearby enemy, but can be fired fast."
 image = ""
+skill_type = "Weapon"
 
 [[majors.ninja-mask-of-shadows.abilities]]
 name = "Attack from the Shadows"
@@ -560,6 +591,7 @@ advanced = "After being frozen for 1.2 seconds, teleport to the closest enemy in
 simple = "After a short period of time, teleport to a nearby enemy and deal damage, and increase your damage."
 cooldown = 6.0
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1309911"
+skill_type = "Ability"
 
 [majors.ninja-mask-of-shadows.changelog]
 2018-12-05 = ["Fixed regressions on Attack from the Shadows' stun."]
@@ -605,12 +637,14 @@ DuckInterval = 0.1
 name = "Quackiest Attackiest"
 advanced = "Shoot golden rubber ducks in the direction you're facing, every .30 seconds. Each duck deals 77 damage and goes 148 units/second. Ducks fly for .5 seconds. Lasts for 6.5 seconds."
 simple = "Shoot golden ducks in front of the user for a limited time."
+skill_type = "Rage"
 
 [majors.rubber-duckie.weapon]
 name = "Quack Attack"
 advanced = "Shoot a rubber duck in the direction you're facing, dealing 60 damage and goes 100 units/second. Can fire ducks once every 0.5 seconds. Ducks fly for .8 seconds."
 simple = "Shoot a rubber duck in the direction you're facing."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=9254254"
+skill_type = "Weapon"
 
 [[majors.rubber-duckie.abilities]]
 name = "Quack"
@@ -618,6 +652,7 @@ advanced = "Emit a sound, a form of audio-based communication, that resembles th
 simple = "Quack."
 cooldown = 0.1
 image = "http://www.roblox.com/asset/?id=919950584"
+skill_type = "Ability"
 
 [[majors.rubber-duckie.abilities]]
 name = "Quackier Attackier"
@@ -625,6 +660,7 @@ advanced = "Shoot 3 large ducks in the direction you’re facing, each 0.25 seco
 simple = "Shoot large ducks in the direction you’re facing."
 cooldown = 7.0
 image = "http://www.roblox.com/asset/?id=710698060"
+skill_type = "Ability"
 
 [majors.rubber-duckie.changelog]
 2018-10-28 = ["Quack Attack now fires 4 ducks in a row instead of just one.", "Lowered Quack Attack damage from 44 to 18."]
@@ -668,12 +704,14 @@ WeaponMinSpeed = 80.0
 name = "Bomb"
 advanced = "User drops a bomb that detonates after 3.5 seconds. The bomb does 500 damage in a 120 unit radius around it."
 simple = "Drop a bomb that detonates after a period of time."
+skill_type = "Rage"
 
 [majors.shaggy.weapon]
 name = "Slingshot"
 advanced = "Deals 25 - 75 damage when not charged and fires a projectile that travels 80 - 210 units per second and lasts for 3 seconds. Can be charged for up to 2.5 seconds. Can be fired once every 0.75 seconds."
 simple = "A slingshot that can charge to be more powerful."
 image = ""
+skill_type = "Weapon"
 
 [[majors.shaggy.abilities]]
 name = "Banana Peel"
@@ -681,6 +719,7 @@ advanced = "Places a banana peel where the user is standing. Any enemies that st
 simple = "Place a banana peel that trips and slows down enemies that step on it. Can have 2 peels out at a time."
 cooldown = 5.0
 image = "http://www.roblox.com/asset/?id=112107054"
+skill_type = "Ability"
 
 [majors.shaggy.changelog]
 2017-07-06 = ["Added visual bar showing your charge meter."]
@@ -711,12 +750,14 @@ RageDelay = 2.0
 name = "Resupply!"
 advanced = "Spawn a Medkit on each teammate that can be used 2 times. The medkit heals for 75% of health and respawns after 7.5 seconds. All Medkits spawned this way disappear after 25 seconds."
 simple = "After 2 seconds, spawn a Medkit on each teammate that can be used 2 times."
+skill_type = "Rage"
 
 [majors.the-specialists-helmet.weapon]
 name = "Laser Blaster"
 advanced = "A blaster that deals 21 damage and shoots every .4 seconds. Projectile travels for 0.88 seconds at 225 units a second."
 simple = "Blast lasers."
 image = ""
+skill_type = "Weapon"
 
 [[majors.the-specialists-helmet.abilities]]
 name = "Medkit"
@@ -724,6 +765,7 @@ advanced = "Place a medkit that only your team can use. The medkit heals for 75%
 simple = "Place a medkit that only your team can use. Disappears after your spawn another medkit or die."
 cooldown = 18.0
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=232525495"
+skill_type = "Ability"
 
 [majors.the-specialists-helmet.changelog]
 2018-08-05 = ["Added a parachute animation to placed Medkits.", "Replaced sound for Medkit to one of a parachute dropping. Credit information has been placed on the Creative Commons Attributions spreadsheet.", "Medkits dropped from Resupply! now look like they're falling from the sky."]
@@ -763,18 +805,21 @@ RageLength = 6.0
 name = "Diamonds!"
 advanced = "For 6 seconds, your health cannot drop below 30."
 simple = "For a limited time, your health cannot drop below 30."
+skill_type = "Rage"
 
 [majors.mining-helmet.weapon]
 name = "Pickaxe"
 advanced = "Swing a pickaxe, dealing 62 damage every second."
 simple = "Swing a pickaxe."
 image = ""
+skill_type = "Weapon"
 
 [majors.mining-helmet.passive]
 name = "Gold Rush"
 advanced = "Passive. Every time you take 20 damage, gain a stack of Gold Rush which causes you to move 10% faster for 4 seconds. Can stack up to 4 times. Have +50 health."
 simple = "Passive. Taking damage can grant you a stack of speed."
 image = ""
+skill_type = "Passive"
 
 [[majors.mining-helmet.abilities]]
 name = "Slateskin"
@@ -782,6 +827,7 @@ advanced = "Turn your skin into stone for 6 seconds, taking 70% less damage whil
 simple = "Turn your skin into stone for a limited time, taking massively reduced damage while active."
 cooldown = 8.0
 image = "http://www.roblox.com/asset/?id=928772927"
+skill_type = "Ability"
 
 [majors.mining-helmet.changelog]
 2018-08-06 = ["Added diamond particle effect when using Diamonds!"]
@@ -821,18 +867,21 @@ HolyNovaRange = 150.0
 name = "Holy Nova"
 advanced = "Rapidly heal nearby allies and yourself at a rate of 70 health per second for 4 seconds in a 160 unit radius."
 simple = "Rapidly heal nearby allies and yourself."
+skill_type = "Rage"
 
 [majors.empyrean-reignment.weapon]
 name = "Holy Staff"
 advanced = "Shoot a projectile that travels at 180 units a second and deals 35 damage every second. Projectile lasts for 1.5 seconds. "
 simple = "Shoot a fast projectile that deals light damage."
 image = ""
+skill_type = "Weapon"
 
 [majors.empyrean-reignment.passive]
 name = "Divination"
 advanced = "Passive. While healing a teammate with Heal Ray or Holy Nova, gain a 15 % boost to attack, defense, speed, and heal at a rate of 9 health per second. Can stack if used with Holy Nova."
 simple = "Passive. Healing teammates grants small buffs."
 image = ""
+skill_type = "Passive"
 
 [[majors.empyrean-reignment.abilities]]
 name = "Heal Ray"
@@ -840,6 +889,7 @@ advanced = "Attach a healing beam to a teammate that heals at a rate of 25 healt
 simple = "Attach a healing beam to a nearby teammate."
 cooldown = 0.0
 image = "http://www.roblox.com/asset/?id=1032918680"
+skill_type = "Ability"
 
 [majors.empyrean-reignment.changelog]
 2018-11-23 = ["Holy Nova no longer checks line of sight.", "Holy Nova now heals the wearer.", "Holy Staff now aims higher."]
@@ -876,12 +926,14 @@ RecordHealthGiveScale = 0.5
 name = "Feature Film"
 advanced = "Record all enemies in a 140 unit radius for 6 seconds. "
 simple = "Record all nearby enemies."
+skill_type = "Rage"
 
 [majors.tee-vee.weapon]
 name = "Camera Flash"
 advanced = "Hold down to charge up a powerful attack for up 1.4 seconds, dealing 50 damage at full charge and 10 damage at no charge, increasing the projectiles base size by up to 2x. Travels at 125 units per second for 1.33 seconds. Pierces enemies at maximum charge. Can fire every .5 seconds."
 simple = "Hold down to charge up a powerful attack. At full charge, it flies through enemies."
 image = ""
+skill_type = "Weapon"
 
 [[majors.tee-vee.abilities]]
 name = "Record"
@@ -889,6 +941,7 @@ advanced = "Record an enemy in an 80 unit radius. After recording for up to 3.5 
 simple = "Record a nearby enemy, gaining all the health and rage they received as footage."
 cooldown = 12.0
 image = "http://www.roblox.com/asset/?id=155312179"
+skill_type = "Ability"
 
 [[majors.tee-vee.abilities]]
 name = "Rehearse"
@@ -896,6 +949,7 @@ advanced = "Give all recorded footage to a teammate in a 60 unit radius."
 simple = "Give all recorded footage to a nearby teammate."
 cooldown = 1.0
 image = "http://www.roblox.com/asset/?id=834217958"
+skill_type = "Ability"
 
 [majors.tee-vee.changelog]
 2018-11-23 = ["Teammates now receive 2x as much rehearsed health.", "Max Camera Flash projectile scale lowered from 4 to 2.", "Record cooldown lowered from 12 to 8.", "Record now records twice the amount of health you receive.", "Rehearse now only gives half of your footage as health.", "Rehearse will now only take footage if it is used instead of taking all of it.", "Footage display is now rounded to an integer."]
@@ -930,12 +984,14 @@ WeaponHealAmount = 25.0
 name = "Dark Curse"
 advanced = "Enemies cannot heal for 10 seconds."
 simple = "Enemies cannot heal for a period of time."
+skill_type = "Rage"
 
 [majors.dark-tutor.weapon]
 name = "Drain Life"
 advanced = "Fire a wave of dark energy that travels at 100 units for 2 seconds and deals 40 damage every second. When hitting an enemy, heal 25 health for you and teammates in a 125 unit radius."
 simple = "Fire a wave of dark energy. When hitting an enemy, heal you and nearby teammates."
 image = ""
+skill_type = "Weapon"
 
 [[majors.dark-tutor.abilities]]
 name = "Dark Magic"
@@ -943,6 +999,7 @@ advanced = "All damage done by teammates in a 120 unit radius is equally distrib
 simple = "Equally distribute damage dealt by nearby teammates in a period of time as health."
 cooldown = 8.0
 image = "http://www.roblox.com/asset/?id=186642181"
+skill_type = "Ability"
 
 [majors.dark-tutor.changelog]
 2018-11-07 = ["Increased length of \"Dark Curse\" from 5 seconds to 10 seconds.", "Dark Magic now heals as damage is being dealt rather than at the end.", "Changed weapon from \"Necromancy - Fire orbs that reload quickly.\" to \"Drain Life - Fire a wave of dark energy. When hitting an enemy, heal you and nearby teammates.\""]
@@ -980,18 +1037,21 @@ SpearEffectCount = 5.0
 name = "Ragnarok"
 advanced = "For 9 seconds, any damage dealt to enemies (by any teammate) will deal 3 damage per second for 3 seconds. "
 simple = "Any damage dealt to enemies will deal extra damage over time for a period of time."
+skill_type = "Rage"
 
 [majors.valkyrie-helm.weapon]
 name = "Odin's Spear"
 advanced = "Throw a spear. Wherever the spear lands, all enemies in a 30 unit radius around it will take 5 damage per second for 5 seconds. Spear pierces through enemies, dealing 40 direct damage. Spear flies through the air for 3 seconds, and if it has not hit a wall by then it will fade away, and will be given back to the player. Can be fired once every 2 seconds. Spears move at a rate of 180 units per second."
 simple = "Throw a spear that gradually damages nearby enemies."
 image = ""
+skill_type = "Weapon"
 
 [majors.valkyrie-helm.passive]
 name = "Valhalla"
 advanced = "Passive. If a teammate is bloxxed in a 60 unit radius around you, they respawn 80% faster. "
 simple = "Passive. If a teammate is bloxxed near you, they respawn faster. "
 image = "http://www.roblox.com/asset/?id=1097027192"
+skill_type = "Passive"
 
 [[majors.valkyrie-helm.abilities]]
 name = "Sleipnir"
@@ -999,6 +1059,7 @@ advanced = "Walk 70% faster for 8 seconds or until you get damaged, attack, or u
 simple = "Walk faster for a limited time or until you get damaged, attack, or use an ability."
 cooldown = 12.0
 image = "http://www.roblox.com/asset/?id=128313675"
+skill_type = "Ability"
 
 [majors.valkyrie-helm.changelog]
 2018-10-21 = ["Fixed a bug where spears would stay stuck in the wall."]
@@ -1036,18 +1097,21 @@ WeaponTouchConnectionLifetime = 0.5
 name = "Change Sword"
 advanced = "Change your Linked Sword to the Illumina, Darkheart, or Firebrand for 14 seconds. The Illumina slashes deals 56 damage. The Firebrand deals 48 damage and all abilities have their range increased by 35%. The Darkheart deals 40 damage and steals 30% of all damage it deals as health. All slash at the same rate as the Linked Sword."
 simple = "Change your Linked Sword to the Illumina, Darkheart, or Firebrand for a limited time."
+skill_type = "Rage"
 
 [majors.golden-crown.weapon]
 name = "Linked Sword"
 advanced = "A sword that slashes every .8 seconds, dealing 32 damage."
 simple = "A sword that slashes quickly."
 image = ""
+skill_type = "Weapon"
 
 [majors.golden-crown.passive]
 name = "Battle Armor"
 advanced = "Passive. Have 25% more defense."
 simple = "Passive. Have more defense."
 image = "http://www.roblox.com/asset/?id=1193579056"
+skill_type = "Passive"
 
 [[majors.golden-crown.abilities]]
 name = "Lunge"
@@ -1055,6 +1119,7 @@ advanced = "Lunge your sword forward, dealing 50% of Linked Sword's damage up to
 simple = "Lunge your sword forward, dealing increased damage with a long range."
 cooldown = 3.0
 image = "http://www.roblox.com/asset/?id=304507631"
+skill_type = "Ability"
 
 [[majors.golden-crown.abilities]]
 name = "Spin"
@@ -1062,6 +1127,7 @@ advanced = "Spin in a circle with a 45 unit diameter, dealing 25% of Linked Swor
 simple = "Spin in a circle, dealing increased weapon damage in an area."
 cooldown = 5.0
 image = ""
+skill_type = "Ability"
 
 [majors.golden-crown.changelog]
 2018-10-28 = ["Added."]
@@ -1081,6 +1147,7 @@ name = "Sea-heck"
 advanced = "Passive. When enemies deal 5 damage to you, throw a 1 damage seashell at them if they're in an 80 unit radius."
 simple = "Passive. When enemies damage you, throw seashells at them."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=472605748"
+skill_type = "Passive"
 
 [minors.seashell-crown.changelog]
 2017-05-20 = ["Fixed the seashells not working. "]
@@ -1103,6 +1170,7 @@ advanced = "All teammates in a 50 unit radius deal 15% more damage for 1.5 secon
 simple = "Nearby teammates deal more damage."
 cooldown = 3.0
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=28672417"
+skill_type = "Ability"
 
 [minors.refs-whistle.changelog]
 2017-07-24 = ["Increased range from 15 units to 50 units."]
@@ -1123,6 +1191,7 @@ name = "Kaboom!"
 advanced = "Passive. When you get bloxxed, deal 50 damage to all enemies in a 30 unit radius of you."
 simple = "Passive. When you get bloxxed, deal damage to enemies close-up."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=105344042"
+skill_type = "Passive"
 
 [minors.bombface.changelog]
 2017-09-17 = ["Changed passive icon from Bloxxer Cap to Bombface."]
@@ -1148,6 +1217,7 @@ advanced = "Heal all teammates in a 45 unit radius for 50 health over 2.5 second
 simple = "Heal nearby teammates."
 cooldown = 7.0
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=150337770"
+skill_type = "Ability"
 
 [minors.spring-crown-of-flowers.changelog]
 2017-09-25 = ["Changed from \"Heal all teammates in a 45 unit radius for 45 health, and heal yourself for 25 health\" to \"Heal all teammates in a 45 unit radius for 50 health over 2.5 seconds every 0.1 seconds\"."]
@@ -1167,6 +1237,7 @@ name = "Rock Solid"
 advanced = "Passive. Increase max health by 20%."
 simple = "Passive. Increase max health."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=102633381"
+skill_type = "Passive"
 
 [minors.stone-age-shades.changelog]
 2017-01-12 = ["Added."]
@@ -1187,6 +1258,7 @@ advanced = "Pounce in the direction you're moving."
 simple = "Pounce in the direction you're moving."
 cooldown = 2.0
 image = "rbxassetid://706789228"
+skill_type = "Ability"
 
 [minors.kitty-ears.changelog]
 2017-09-17 = ["Lowered push power from 30 to 25."]
@@ -1211,6 +1283,7 @@ name = "Flower Trail"
 advanced = "Passive. Every second, drop a flower on the ground. When a teammate steps on a flower, they gain 18 health. Flowers disappear after 3 seconds."
 simple = "Passive. Passively drop a flower that heals teammates."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=14128456"
+skill_type = "Passive"
 
 [minors.lei.changelog]
 2017-05-22 = ["Changed health gained from flower from 10 to 20."]
@@ -1233,6 +1306,7 @@ name = "Streak"
 advanced = "Passive. Every time you blox an enemy, gain +5% damage per attack. Caps at 25% damage bonus. A stack is removed every 16 seconds."
 simple = "Passive. Gain attack by bloxxing enemies."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=31312480"
+skill_type = "Passive"
 
 [minors.dog-tags.changelog]
 2017-07-24 = ["Added \"A stack is removed every 16 seconds\"."]
@@ -1253,6 +1327,7 @@ name = "Stab"
 advanced = "Passive. Whenever the wearer bumps into an enemy, deal 35 damage to them. Target can't be stabbed by the same person for 3 seconds."
 simple = "Passive. Damage enemies that touch you."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=9255093"
+skill_type = "Passive"
 
 [minors.unicorn-horn.changelog]
 2017-09-22 = ["Lowered damage from 40 to 35."]
@@ -1278,6 +1353,7 @@ advanced = "When toggled, deal 5 damage to all enemies in a 60 unit radius every
 simple = "When toggled, deal damage to nearby enemies."
 cooldown = 1.0
 image = "http://www.roblox.com/asset/?id=42068310"
+skill_type = "Ability"
 
 [minors.bees.changelog]
 2018-10-15 = ["Changed Bees from \"Deal damage to nearby enemies\" to \"When toggled, deal damage to nearby enemies\"."]
@@ -1301,6 +1377,7 @@ name = "Slice and Dice"
 advanced = "Passive. Whenever you blox an enemy that's less than 40 units away from you, gain 20% walking speed for 4 seconds."
 simple = "Passive. Bloxxing nearby enemies increases your walk speed."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=140481297"
+skill_type = "Passive"
 
 [minors.noob-attack---periastron.changelog]
 2018-04-15 = ["Renamed Noob Attack: Periastron to Noob Attack - Periastron because Roblox hates Unicode names or something. All future Noob Attack and Noob Assist hats will have this name change."]
@@ -1319,6 +1396,7 @@ name = "Play the Part"
 advanced = "Passive. Deal 25% more damage but take 25% more damage."
 simple = "Passive. Deal more damage, but take more damage."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1098285"
+skill_type = "Passive"
 
 [minors.stage-prop.changelog]
 2017-04-08 = ["Changed description from \"Take 5 damage every second. Deal 15% more damage and gain 10% more walking speed.\" to \"Deal 25% more damage, but take 25% more damage\""]
@@ -1343,6 +1421,7 @@ name = "Heartbeat"
 advanced = "Passive. Teammates in a 35 unit radius around you gain 5 health every second, you gain 1 health per second."
 simple = "Passive. Nearby teammates are healed every second."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=30844997"
+skill_type = "Passive"
 
 [minors.stethoscope.changelog]
 2017-08-16 = ["Fixed a glitch where no healing would occur."]
@@ -1363,6 +1442,7 @@ name = "Peaceful"
 advanced = "Passive. Take 40% less damage, but deal 40% less damage."
 simple = "Passive. Take less damage, but deal less damage."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=26960094"
+skill_type = "Passive"
 
 [minors.peace-headband.changelog]
 2017-02-15 = ["Added."]
@@ -1383,6 +1463,7 @@ advanced = "Heal yourself by 20%."
 simple = "Heal yourself."
 cooldown = 15.0
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=154415270"
+skill_type = "Ability"
 
 [minors.recycled-cardboard-visor-2014.changelog]
 2017-07-24 = ["Lowered health from 35% to 20%."]
@@ -1411,6 +1492,7 @@ advanced = "Grant 100% defense to the user for 3 seconds, with every 15 damage r
 simple = "Grant heavy defense to the user for a limited time, lowering with damage."
 cooldown = 30.0
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=192557913"
+skill_type = "Ability"
 
 [minors.sparkling-angel-wings.changelog]
 2017-08-19 = ["Changed from \"Grant invincibility to the wearer for 2.5 seconds. During this time, the wearer is unable to use abilities.\" to \"Grant 100% defense to the user for 3 seconds, with every 15 damage recieved reducing the defense buff by 8%.\""]
@@ -1430,6 +1512,7 @@ name = "Reflect"
 advanced = "Passive. Heal yourself for 15% of all damage you deal."
 simple = "Passive. Heal yourself for damage you deal."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=23630696"
+skill_type = "Passive"
 
 [minors.doctors-reflector.changelog]
 2017-07-24 = ["Lowered heal from 20% to 15%."]
@@ -1454,6 +1537,7 @@ name = "Blox"
 advanced = "Passive. When you blox an enemy, they explode, dealing 25 damage to nearby enemies in a 50 unit radius. Enemies bloxxed this way can also explode."
 simple = "Passive. When you blox an enemy they explode, dealing damage to nearby enemies."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=51353039"
+skill_type = "Passive"
 
 [minors.bloxxer-cap.changelog]
 2017-09-11 = ["Changed from \"Blox - Passive. When you die, deal damage to enemies clouse-up.\" to \"Blox - Passive. When you blox an enemy they explode, dealing damage to nearby enemies.\""]
@@ -1476,6 +1560,7 @@ name = "Get Better"
 advanced = "Passive. While under 50% health, heal 3 health per second. While over 50% health, heal 1 health per second."
 simple = "Passive. Heal yourself depending on your current health."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=20334446"
+skill_type = "Passive"
 
 [minors.ice-pack.changelog]
 2017-07-24 = ["Lowered healing per second from 5 when under 50%, 2 when over 50% to 3 and 1 respectively."]
@@ -1498,6 +1583,7 @@ name = "Compensating For Something"
 advanced = "Passive. Deal damage based on your health, from 0.75x at 100% to 1.75x at 30%"
 simple = "Passive. While at high health, deal less damage. While at low health, deal more damage."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=45630442"
+skill_type = "Passive"
 
 [minors.front-line-warrior.changelog]
 2017-05-22 = ["Minimum damage increased from 0.5x to 0.75x.", "Maximum damage decrease from 2x to 1.75x."]
@@ -1519,6 +1605,7 @@ name = "Better than One"
 advanced = "Passive. For every enemy in a 70 unit radius, get 0.5 rage per second."
 simple = "Passive. Rage rate increases the more enemies are near you. "
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1082935"
+skill_type = "Passive"
 
 [minors.headrow.changelog]
 2017-09-17 = ["Added."]
