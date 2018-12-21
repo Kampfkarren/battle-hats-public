@@ -282,11 +282,11 @@ skill_type = "Ability"
 2017-05-15 = ["Changed ability from \"Emergency - Spray nearby enemies for more damage and push them back farther.\" to \"Fire Hydrant - Place a fire hydrant in front of you that sprays water in a ring around it, dealing damage and knocking back enemies.\""]
 
 [majors.fedora]
-flavor-text = "M’lady..."
+flavor-text = "M'lady..."
 name = "Fedora"
 series = "Classic"
 major = true
-stars = 2
+stars = 3
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1029025"
 
 [majors.fedora.config]
@@ -296,9 +296,9 @@ WeaponLifetime = 1.5
 WeaponReload = 1.0
 BulkHealthBuff = 150.0
 Ability2Cooldown = 8.0
-RageDrinkDelay = 2.0
-RageSpeedBuff = 0.65
-RageLength = 7.0
+BodybuildHealing = 15.0
+BodybuildRageCap = 10.0
+BodybuildRage = 1.0
 WeaponDamage = 30.0
 SnackChoiceInterval = 0.5
 SnackChickenNuggetDefenseBuff = 0.25
@@ -313,48 +313,51 @@ BodybuildLength = 7.0
 BodybuildSnackAttackCooldown = 1.0
 BodybuildSnackAttackCooldownMax = 7.9
 BodybuildDamageInterval = 25.0
-BodybuildRage = 1.0
-BodybuildRageCap = 10.0
-BodybuildHealing = 15.0
-RageDrinkLength = 2.0
-RageDamage = 50.0
-RageScreamLength = 2.0
-RageRange = 175.0
-RageStunLength = 1.25
+RageLength = 6.0
+RageDamage = 16.0
+RageStompInterval = 0.5
+RageRange = 95.0
+RageSpeedBuff = 0.15
+RageDefenseBuff = 0.15
+
+[majors.fedora.config.RageAvatarOffset]
+x = 0.0
+y = 10.0
+z = 0.0
 
 [majors.fedora.rage]
-name = "Neckbeard's Rage"
-advanced = "Take a swig of Gaming Drink, buffing walk speed by 65% and increasing damage taken by 10% and giving the user an Anime Katana. The anime katana swings once every 1 second and does 150 damage per swing. Lasts for 7 seconds."
-simple = "Take a swig of Gaming Drink, increasing walk speed, damage taken. Get a fast swinging, heavy damage dealing katana. "
+name = "Gamer Rage"
+advanced = "Take a swig of gamer drink and unleash your inner gamer for 6 seconds, stomping every .5 seconds over its duration and dealing 16 damage in a 95 unit radius. During the duration you also gain 15% movement speed and 15% defense. You cannot use abilities or fire your weapon during the duration."
+simple = "Take a swig of gamer drink and unleash your inner gamer, stomping over its duration and dealing damage, while gaining bonus stats."
 skill_type = "Rage"
 
 [majors.fedora.weapon]
-name = "Tendies"
-advanced = "Throw chicken tenders that travel at 180 units per second and travel for .5 seconds. Deals 26 damage and can be fired every 1.3 seconds."
-simple = "Throw chicken tenders."
+name = "Keyboard Warrior"
+advanced = "Throw a wide keyboard that travels 144 units per second for 1.5 seconds, dealing 30 damage every second."
+simple = "Throw a wide keyboard, dealing moderate damage."
 image = ""
 skill_type = "Weapon"
 
 [majors.fedora.passive]
 name = "Bulk"
-advanced = "Passive. Increases health by 30%, but walk 15% slower."
-simple = "Passive. Increased health but slower walk speed."
+advanced = "Passive. +150 Health."
+simple = "Passive. Extra health."
 image = "http://www.roblox.com/asset/?id=147208511"
 skill_type = "Passive"
 
 [[majors.fedora.abilities]]
-name = "Cheese Snacks"
-advanced = "Heals the user for 90 health and heals for 9 health a second for 8 seconds."
-simple = "Heal yourself immediately and gain health over time."
+name = "Snack Attack"
+advanced = "Choose between three different snacks, which all have different positive effects. The chicken nugget gives you 25% defense and 25% attack for 5 seconds. The cheese puffs restore 50 health, and then 50% of your maximum health gradually over 5 seconds. The coffee grants 15% speed for 4 seconds. Snacks alternate with each choice every 0.5 seconds; attacking or using your rage chooses the snack. Snack order goes from Cheese Puffs -> Nuggets -> Coffee."
+simple = "Choose between three different snacks: cheese puffs for health, chicken nuggets for attack and defense, and coffee for speed."
 cooldown = 8.0
 image = "http://www.roblox.com/asset/?id=928596457"
 skill_type = "Ability"
 
 [[majors.fedora.abilities]]
-name = "Feast"
-advanced = "After 1 second, eat your Tendies, increasing movement speed by 35% and reducing damage taken by 25% for 3.5 seconds. Can’t attack during the duration."
-simple = "Eat your Tendies, increasing movement speed and reducing damage taken."
-cooldown = 9.0
+name = "Bodybuild"
+advanced = "For 7 seconds, focus on your inner fat to reduce their Snack Attack cooldown by 1 second, up to 8 seconds, and charge their Rage by 1%, up to 10%, whenever they take 25 damage. Gain gradual 15 health per second during this time."
+simple = "Focus on inner fat to reduce Snack Attack cooldown, charge rage whenever you take damage, and regenerate health."
+cooldown = 11.0
 image = "http://www.roblox.com/asset/?id=649904125"
 skill_type = "Ability"
 
@@ -493,7 +496,7 @@ skill_type = "Ability"
 2017-05-13 = ["Added."]
 
 [majors.the-great-lion]
-flavor-text = "With The Great Lion, use your Roar on yourself if you're being cornered by enemies."
+flavor-text = "Greater than the Good Lion. We're worried he could close his mouth any second now."
 name = "The Great Lion"
 series = "Classic"
 major = true
@@ -660,7 +663,7 @@ skill_type = "Weapon"
 name = "Quack"
 advanced = "Emit a sound, a form of audio-based communication, that resembles that of a duck quacking from the handle of your weapon, that being the duck you use to shoot with, at a volume loud enough for enemies to hear you if they are close enough, equal to \"1\" volume in Roblox Studio. For reference, this is the same quack emitted when you fire your weapon. "
 simple = "Quack."
-cooldown = 0.1
+cooldown = 0.0
 image = "http://www.roblox.com/asset/?id=919950584"
 skill_type = "Ability"
 
