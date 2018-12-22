@@ -1,4 +1,11 @@
 [[changelog]]
+date = "2018-12-21"
+
+[changelog.entries]
+Fedora = ["Fedora has been completely reworked from the ground up.", "Changed weapon from \"Tendies - Throw chicken tenders\" to \"Keyboard Warrior - Throw a wide keyboard, dealing moderate damage.\"", "Changed first ability from \"Cheese Snacks - Heal yourself immediately and gain health over time.\" to \"Snack Attack - Choose between three different snacks: cheese puffs for health, chicken nuggets for attack and defense, and coffee for speed.\"", "Changed second ability from \"Feast - Eat your Tendies, increasing movement speed and reducing damage taken.\" to \"Bodybuild - Focus on inner fat to reduce Snack Attack cooldown, charge rage whenever you take damage, and regenerate health.\"", "Changed passive from \"Bulk - Increased health but slower walk speed.\" to \"Bulk - Extra health.\"", "Changed rage from \"Neckbeard's Rage - Take a swig of Gaming Drink, increasing walk speed, damage taken. Get a fast swinging, heavy damage dealing katana.\" to \"Gamer Rage - Take a swig of gamer drink and unleash your inner gamer, stomping over its duration and dealing damage, while gaining bonus stats.\"", "Upped difficulty from 2 to 3 stars."]
+"Rubber Duckie" = ["Quack Attack now only fires 1 duck instead of 4.", "Raised Quack Attack damage from 18 damage to 60 damage.", "Raised Quack Attack duck lifetime from 0.7s to 0.8s.", "Raised Quack Attack reload from 0.6s to 0.7s."]
+
+[[changelog]]
 date = "2018-12-05"
 
 [changelog.entries]

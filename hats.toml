@@ -362,6 +362,7 @@ image = "http://www.roblox.com/asset/?id=649904125"
 skill_type = "Ability"
 
 [majors.fedora.changelog]
+2018-12-21 = ["Fedora has been completely reworked from the ground up.", "Changed weapon from \"Tendies - Throw chicken tenders\" to \"Keyboard Warrior - Throw a wide keyboard, dealing moderate damage.\"", "Changed first ability from \"Cheese Snacks - Heal yourself immediately and gain health over time.\" to \"Snack Attack - Choose between three different snacks: cheese puffs for health, chicken nuggets for attack and defense, and coffee for speed.\"", "Changed second ability from \"Feast - Eat your Tendies, increasing movement speed and reducing damage taken.\" to \"Bodybuild - Focus on inner fat to reduce Snack Attack cooldown, charge rage whenever you take damage, and regenerate health.\"", "Changed passive from \"Bulk - Increased health but slower walk speed.\" to \"Bulk - Extra health.\"", "Changed rage from \"Neckbeard's Rage - Take a swig of Gaming Drink, increasing walk speed, damage taken. Get a fast swinging, heavy damage dealing katana.\" to \"Gamer Rage - Take a swig of gamer drink and unleash your inner gamer, stomping over its duration and dealing damage, while gaining bonus stats.\"", "Upped difficulty from 2 to 3 stars."]
 2018-08-09 = ["Fixes the katana from Neckbeard's Rage."]
 2018-02-24 = ["Fixed rage not working after someone used it the first time.", "Fixed error when using Cheese Snacks after leaving the game."]
 2017-09-28 = ["Fixed Cheese Snack's cooldown from 5 back to 8.", "Increased reload speed from 0.7s to 1.3s.", "Lowered projectile speed from 250 u/s to 180 u/s."]
@@ -630,10 +631,10 @@ hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&asset
 [majors.rubber-duckie.config]
 Ability2Cooldown = 7.0
 Ability1Cooldown = 0.1
-DuckDamage = 18.0
+DuckDamage = 60.0
 BigDuckSpeed = 50.0
-DuckReload = 0.6
-DuckLifetime = 0.7
+DuckReload = 0.7
+DuckLifetime = 0.8
 BigDuckDamage = 35.0
 BigDuckLifetime = 1.0
 DuckSpeed = 100.0
@@ -643,8 +644,6 @@ RageDuckDamage = 77.0
 RageDuckLifetime = 0.5
 RageDuckInterval = 0.3
 RageLength = 6.5
-DuckCount = 4.0
-DuckInterval = 0.1
 
 [majors.rubber-duckie.rage]
 name = "Quackiest Attackiest"
@@ -654,7 +653,7 @@ skill_type = "Rage"
 
 [majors.rubber-duckie.weapon]
 name = "Quack Attack"
-advanced = "Shoot a rubber duck in the direction you're facing, dealing 60 damage and goes 100 units/second. Can fire ducks once every 0.5 seconds. Ducks fly for .8 seconds."
+advanced = "Shoot a rubber duck in the direction you're facing, dealing 60 damage and goes 100 units/second. Can fire ducks once every 0.7 seconds. Ducks fly for .8 seconds."
 simple = "Shoot a rubber duck in the direction you're facing."
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=9254254"
 skill_type = "Weapon"
@@ -676,6 +675,7 @@ image = "http://www.roblox.com/asset/?id=710698060"
 skill_type = "Ability"
 
 [majors.rubber-duckie.changelog]
+2018-12-21 = ["Quack Attack now only fires 1 duck instead of 4.", "Raised Quack Attack damage from 18 damage to 60 damage.", "Raised Quack Attack duck lifetime from 0.7s to 0.8s.", "Raised Quack Attack reload from 0.6s to 0.7s."]
 2018-10-28 = ["Quack Attack now fires 4 ducks in a row instead of just one.", "Lowered Quack Attack damage from 44 to 18."]
 2018-02-18 = ["Fixed the, albeit funny, glitch where sometimes when you spawned with Rubber Duckie or Epic Duck Racer your duck would be huge and you would fly in the air, and eventually to your death."]
 2018-01-01 = ["Fixed a glitch where hat skins would fire their skins instead of the duck with the Quackier Attackier."]
