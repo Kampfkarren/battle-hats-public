@@ -701,7 +701,7 @@ skill_type = "Ability"
 [majors.shaggy]
 flavor-text = "Word has it that he's a time traveler from 2009. He is constantly whining that the old days were better."
 name = "Shaggy"
-series = "Classic"
+series = "???"
 major = true
 stars = 2
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=20573078"
@@ -1629,6 +1629,27 @@ skill_type = "Passive"
 [minors.front-line-warrior.changelog]
 2017-05-22 = ["Minimum damage increased from 0.5x to 0.75x.", "Maximum damage decrease from 2x to 1.75x."]
 2017-02-16 = ["Added."]
+
+[minors.secret-kid-wizard-glasses]
+flavor-text = "Known for being worn by hairy wizards."
+name = "Secret Kid Wizard Glasses"
+series = "Classic"
+major = false
+hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=22070802"
+
+[minors.secret-kid-wizard-glasses.config]
+WeaponSpeed = 175.0
+WeaponDamage = 35.0
+WeaponLifetime = 5.0
+Ability1Cooldown = 7.0
+
+[[minors.secret-kid-wizard-glasses.abilities]]
+name = "Magic Missile"
+advanced = "Fire a projectile that deals 35 damage. Projectile travels at 175 units a second and lasts for 5 seconds, or until it hits a wall."
+simple = "Fire a damaging projectile."
+cooldown = 7.0
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=22070802"
+skill_type = "Ability"
 
 [minors.headrow]
 flavor-text = "Hopefully not contagious."
