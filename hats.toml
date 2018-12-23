@@ -1514,18 +1514,19 @@ major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=154415270"
 
 [minors.recycled-cardboard-visor-2014.config]
-Ability1Cooldown = 15.0
-Heal = 0.2
+Ability1Cooldown = 8.0
+Heal = 0.25
 
 [[minors.recycled-cardboard-visor-2014.abilities]]
 name = "Recycle"
-advanced = "Heal yourself by 20%."
+advanced = "Heal yourself by 25%."
 simple = "Heal yourself."
-cooldown = 15.0
+cooldown = 8.0
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=154415270"
 skill_type = "Ability"
 
 [minors.recycled-cardboard-visor-2014.changelog]
+2018-12-23 = ["Lowered cooldown from 15 to 8 seconds.", "Increased healing from 20% to 25%."]
 2017-07-24 = ["Lowered health from 35% to 20%."]
 2017-06-15 = ["No longer inflicts a speed penalty.", "Reduced cooldown from 22 seconds to 15 seconds."]
 2017-03-17 = ["Changed cooldown to include the time of the speed debuff."]
