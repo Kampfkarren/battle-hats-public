@@ -1248,6 +1248,30 @@ skill_type = "Ability"
 2017-09-25 = ["Changed from \"Heal all teammates in a 45 unit radius for 45 health, and heal yourself for 25 health\" to \"Heal all teammates in a 45 unit radius for 50 health over 2.5 seconds every 0.1 seconds\"."]
 2017-05-14 = ["Added."]
 
+[minors.andrews-beard]
+flavor-text = "We don't know who Andrew is, but he sounds cool."
+name = "Andrew's Beard"
+series = "Classic"
+major = false
+hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=158066137"
+
+[minors.andrews-beard.config]
+AttackBuff = 0.15
+SpeedBuff = 0.15
+Ability1Cooldown = 8.0
+
+[[minors.andrews-beard.abilities]]
+name = "Manly Mode"
+advanced = "Increase damage and movement speed by 15% for 5 seconds, cooldown starts after the 5 seconds are over."
+simple = "Increase damage and movement speed for a limited time."
+cooldown = 8.0
+image = "http://www.roblox.com/asset/?id=707998752"
+skill_type = "Ability"
+
+[minors.andrews-beard.changelog]
+2017-04-16 = ["AAAAAAAdded a scream when Manly Mode is used."]
+2017-02-15 = ["Added."]
+
 [minors.stone-age-shades]
 flavor-text = "Grand Dad?"
 name = "Stone Age Shades"
@@ -1606,6 +1630,28 @@ skill_type = "Passive"
 2017-07-24 = ["Lowered healing per second from 5 when under 50%, 2 when over 50% to 3 and 1 respectively."]
 2017-06-24 = ["Lowered healing per second from 3 when over 50%, 6 when under 50% to 2 when over 50%, 5 when under 50%."]
 2017-01-19 = ["Added."]
+
+[minors.teakettle-hat]
+flavor-text = "Only allowed to be worn if you're British."
+name = "Teakettle Hat"
+series = "Classic"
+major = false
+hat-image = "http://www.roblox.com/asset/?id=2106960"
+
+[minors.teakettle-hat.config]
+Buff = 0.25
+
+[minors.teakettle-hat.passive]
+name = "Whiiiiiiieeee"
+advanced = "Passive. While you are using your rage, deal 25% more damage, take 25% less damage, and move 25% faster."
+simple = "Passive. While you are using your rage, deal more damage."
+image = "http://www.roblox.com/asset/?id=2106960"
+skill_type = "Passive"
+
+[minors.teakettle-hat.changelog]
+2017-05-27 = ["Fixed Teakettle Hat not playing its sound."]
+2017-05-22 = ["Changed damage from 35% to 25%.", "Added 25% armor gained while active.", "Added 25% speed gained while active."]
+2017-02-14 = ["Added."]
 
 [minors.front-line-warrior]
 flavor-text = "It's exactly what you think it means."
