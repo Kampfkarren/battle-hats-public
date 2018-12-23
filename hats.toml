@@ -7,17 +7,17 @@ stars = 1
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=151784320"
 
 [majors.doge.config]
-AttackDebuff = 0.3
-MaxRange = 75.0
 Ability1Cooldown = 12.0
-AbilityStunLength = 1.0
-AbilityRange = 50.0
 AbilityDebuffLength = 3.0
-RageLength = 5.0
-BallSpeed = 130.0
+AbilityRange = 50.0
+AbilityStunLength = 1.0
+AttackDebuff = 0.3
 BallDamage = 40.0
 BallLifetime = 1.0
 BallReload = 1.0
+BallSpeed = 130.0
+MaxRange = 75.0
+RageLength = 5.0
 RageMassForceMagic = 1000.0
 
 [majors.doge.rage]
@@ -76,22 +76,17 @@ stars = 2
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=154818848"
 
 [majors.mad-scientist-hair.config]
-FlaskReload = 2.0
+Ability1Cooldown = 10.0
 FlaskDamage = 15.0
-FlaskSplashLifetime = 3.0
 FlaskLifetime = 4.6
 FlaskMaxRange = 20.0
+FlaskReload = 2.0
+FlaskSpeedNerf = -0.2
 FlaskSplashDelay = 0.5
 FlaskSplashInterval = 1.0
+FlaskSplashLifetime = 3.0
 FlaskVelocityMagic1 = 25.0
 FlaskVelocityMagic2 = 35.0
-FlaskSpeedNerf = -0.2
-Ability1Cooldown = 10.0
-WildVialDamage = 35.0
-WildVialCast = 0.4
-WildVialSpeedBuff = 0.2
-WildVialSpeedNerf = -0.1
-WildVialSmokeLength = 4.0
 SupersaturationFlaskAttackNerf = 0.03
 SupersaturationFlaskDamage = 4.0
 SupersaturationFlaskDefenseNerf = 0.03
@@ -99,16 +94,21 @@ SupersaturationFlaskInterval = 0.33
 SupersaturationFlaskNerfLength = 4.0
 SupersaturationFlaskRadius = 175.0
 SupersaturationRageLength = 10.0
-
-[majors.mad-scientist-hair.config.FlaskSmokeHitbox]
-x = 40.0
-y = 15.0
-z = 40.0
+WildVialCast = 0.4
+WildVialDamage = 35.0
+WildVialSmokeLength = 4.0
+WildVialSpeedBuff = 0.2
+WildVialSpeedNerf = -0.1
 
 [majors.mad-scientist-hair.config.FlaskAngularVelocity]
 x = 5.0
 y = 5.0
 z = 5.0
+
+[majors.mad-scientist-hair.config.FlaskSmokeHitbox]
+x = 40.0
+y = 15.0
+z = 40.0
 
 [majors.mad-scientist-hair.config.WildVialHitbox]
 x = 75.0
@@ -158,24 +158,24 @@ hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&asset
 
 [majors.fire-wizard.config]
 Ability1Cooldown = 10.0
-FireRingDamage = 35.0
 FireRingAfterburnAmount = 3.0
-FireRingSpeed = 160.0
-FireRingMeteorAmount = 12.0
-FireRingAngleInterval = 30.0
-FireRingDelayInterval = 0.05
-FireRingDelay = 0.2
-FireRingDebris = 1.5
-FireRingDamageAfterburn = 10.0
 FireRingAfterburnDelay = 1.0
-PyromancyDamageAfterburn = 1.0
+FireRingAngleInterval = 30.0
+FireRingDamage = 35.0
+FireRingDamageAfterburn = 10.0
+FireRingDebris = 1.5
+FireRingDelay = 0.2
+FireRingDelayInterval = 0.05
+FireRingMeteorAmount = 12.0
+FireRingSpeed = 160.0
 PyromancyDamage = 3.5
-PyromancyFlameSpeed = 80.0
-RageDelay = 5.0
+PyromancyDamageAfterburn = 1.0
 PyromancyDelay = 0.1
 PyromancyFlameDecay = 0.3
+PyromancyFlameSpeed = 80.0
 PyromancyMaxAfterburn = 3.0
 PyromancyRange = 35.0
+RageDelay = 5.0
 
 [majors.fire-wizard.config.PyromancyFlameSize]
 x = 5.0
@@ -228,22 +228,22 @@ hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&asset
 
 [majors.firefighter-helmet.config]
 Ability1Cooldown = 9.0
+FireHoseBeamMagic = 18.5
 FireHoseDamage = 14.0
-FireHoseLength = 20.0
 FireHoseKnockback = -25.0
 FireHoseKnockbackLoss = 0.5
-FireHoseReload = 0.2
-FireHoseBeamMagic = 18.5
+FireHoseLength = 20.0
 FireHoseMaxRange = 35.0
+FireHoseReload = 0.2
 FireHydrantDamage = 45.0
+FireHydrantDelay = 1.0
+FireHydrantKnockback = 20.0
 FireHydrantLifetime = 6.0
 FireHydrantRange = 45.0
-FireHydrantKnockback = 20.0
-FireHydrantDelay = 1.0
 RedAlertDamage = 70.0
-RedAlertTrucks = 14.0
-RedAlertTruckInterval = 0.5
 RedAlertTruckElevation = 200.0
+RedAlertTruckInterval = 0.5
+RedAlertTrucks = 14.0
 
 [majors.firefighter-helmet.rage]
 name = "Red Alert"
@@ -290,35 +290,35 @@ stars = 3
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1029025"
 
 [majors.fedora.config]
-WeaponSpeed = 144.0
 Ability1Cooldown = 8.0
-WeaponLifetime = 1.5
-WeaponReload = 1.0
-BulkHealthBuff = 150.0
 Ability2Cooldown = 8.0
+BodybuildDamageInterval = 25.0
 BodybuildHealing = 15.0
-BodybuildRageCap = 10.0
-BodybuildRage = 1.0
-WeaponDamage = 30.0
-SnackChoiceInterval = 0.5
-SnackChickenNuggetDefenseBuff = 0.25
-SnackChickenNuggetAttackBuff = 0.25
-SnackChickenNuggetLength = 5.0
-SnackCheesePuffsLength = 5.0
-SnackCheesePuffsInstantHeal = 50.0
-SnackCheesePuffsGradualHeal = 0.5
-SnackCoffeeLength = 4.0
-SnackCoffeeSpeed = 0.15
 BodybuildLength = 7.0
+BodybuildRage = 1.0
+BodybuildRageCap = 10.0
 BodybuildSnackAttackCooldown = 1.0
 BodybuildSnackAttackCooldownMax = 7.9
-BodybuildDamageInterval = 25.0
-RageLength = 6.0
+BulkHealthBuff = 150.0
 RageDamage = 16.0
-RageStompInterval = 0.5
+RageDefenseBuff = 0.15
+RageLength = 6.0
 RageRange = 95.0
 RageSpeedBuff = 0.15
-RageDefenseBuff = 0.15
+RageStompInterval = 0.5
+SnackCheesePuffsGradualHeal = 0.5
+SnackCheesePuffsInstantHeal = 50.0
+SnackCheesePuffsLength = 5.0
+SnackChickenNuggetAttackBuff = 0.25
+SnackChickenNuggetDefenseBuff = 0.25
+SnackChickenNuggetLength = 5.0
+SnackChoiceInterval = 0.5
+SnackCoffeeLength = 4.0
+SnackCoffeeSpeed = 0.15
+WeaponDamage = 30.0
+WeaponLifetime = 1.5
+WeaponReload = 1.0
+WeaponSpeed = 144.0
 
 [majors.fedora.config.RageAvatarOffset]
 x = 0.0
@@ -459,14 +459,14 @@ stars = 3
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=113326348"
 
 [majors.deluxe-paintball-helmet.config]
+Ability1Cooldown = 1.65
 DartDamage = 25.0
-DartSpeed = 100.0
 DartLifetime = 0.75
 DartReload = 0.2
+DartSpeed = 100.0
+HoserAmount = 5.0
 HoserDamageBuff = 1.65
 HoserSpeedBuff = 1.3
-Ability1Cooldown = 1.65
-HoserAmount = 5.0
 RageBubbleLifetime = 0.5
 
 [majors.deluxe-paintball-helmet.rage]
@@ -505,17 +505,17 @@ stars = 2
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=14860728"
 
 [majors.the-great-lion.config]
-RoarRange = 60.0
-RoarBuff = 0.3
-RoarLength = 4.5
-RoarDefense = 0.3
 Ability1Cooldown = 8.0
-RageRange = 40.0
 RageBuff = 0.25
 RageLength = 7.0
+RageRange = 40.0
+RoarBuff = 0.3
+RoarDefense = 0.3
+RoarLength = 4.5
+RoarRange = 60.0
+SwipeDamage = 28.0
 SwipeDelay = 0.3
 SwipeRange = 30.0
-SwipeDamage = 28.0
 SwipeReload = 1.4
 
 [majors.the-great-lion.rage]
@@ -569,21 +569,21 @@ stars = 2
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1309911"
 
 [majors.ninja-mask-of-shadows.config]
-WeaponSpeed = 150.0
-WeaponDamage = 20.0
-WeaponLifetime = 0.5
-WeaponReload = 0.25
+AttackFromTheShadowsAttackBuff = 1.0
+AttackFromTheShadowsAttackBuffDelay = 0.25
+AttackFromTheShadowsAttackBuffLifetime = 1.25
+AttackFromTheShadowsAttackVisualSmokeSpeed = 0.2
+AttackFromTheShadowsCastTime = 1.2
 AttackFromTheShadowsCooldown = 8.0
 AttackFromTheShadowsCooldownRage = 1.0
 AttackFromTheShadowsDamage = 45.0
 AttackFromTheShadowsRange = 60.0
 AttackFromTheShadowsRangeRage = 120.0
-AttackFromTheShadowsCastTime = 1.2
-AttackFromTheShadowsAttackBuff = 1.0
-AttackFromTheShadowsAttackBuffLifetime = 1.25
-AttackFromTheShadowsAttackVisualSmokeSpeed = 0.2
-AttackFromTheShadowsAttackBuffDelay = 0.25
 RageTimer = 8.0
+WeaponDamage = 20.0
+WeaponLifetime = 0.5
+WeaponReload = 0.25
+WeaponSpeed = 150.0
 
 [majors.ninja-mask-of-shadows.rage]
 name = "Embrace the Shadows"
@@ -629,20 +629,20 @@ stars = 1
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=9254254"
 
 [majors.rubber-duckie.config]
-Ability2Cooldown = 7.0
 Ability1Cooldown = 0.1
-DuckDamage = 60.0
-BigDuckSpeed = 50.0
-DuckReload = 0.7
-DuckLifetime = 0.8
-BigDuckDamage = 35.0
-BigDuckLifetime = 1.0
-DuckSpeed = 100.0
+Ability2Cooldown = 7.0
 Ability2DuckAmount = 3.0
 Ability2DuckInterval = 0.25
+BigDuckDamage = 35.0
+BigDuckLifetime = 1.0
+BigDuckSpeed = 50.0
+DuckDamage = 60.0
+DuckLifetime = 0.8
+DuckReload = 0.7
+DuckSpeed = 100.0
 RageDuckDamage = 77.0
-RageDuckLifetime = 0.5
 RageDuckInterval = 0.3
+RageDuckLifetime = 0.5
 RageLength = 6.5
 
 [majors.rubber-duckie.rage]
@@ -707,12 +707,12 @@ stars = 2
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=20573078"
 
 [majors.shaggy.config]
+WeaponLifetime = 3.0
+WeaponMaxDamage = 75.0
 WeaponMaxSpeed = 210.0
 WeaponMinDamage = 25.0
-WeaponLifetime = 3.0
-WeaponReload = 0.75
-WeaponMaxDamage = 75.0
 WeaponMinSpeed = 80.0
+WeaponReload = 0.75
 
 [majors.shaggy.rage]
 name = "Bomb"
@@ -753,13 +753,13 @@ hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&asset
 
 [majors.the-specialists-helmet.config]
 Ability1Cooldown = 18.0
+RageDelay = 2.0
+RageMedkitLifetime = 25.0
+RageUses = 2.0
 WeaponDamage = 21.0
 WeaponLifetime = 0.88
 WeaponReload = 0.4
 WeaponSpeed = 225.0
-RageMedkitLifetime = 25.0
-RageUses = 2.0
-RageDelay = 2.0
 
 [majors.the-specialists-helmet.rage]
 name = "Resupply!"
@@ -806,16 +806,16 @@ hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&asset
 
 [majors.mining-helmet.config]
 Ability1Cooldown = 8.0
-SlateskinDefenseBuff = 0.7
-SlateskinLength = 6.0
 GoldRushMaxStacks = 4.0
 GoldRushSpeedBuff = 0.08
-GoldRushStackLifetime = 4.0
 GoldRushStackDamage = 20.0
+GoldRushStackLifetime = 4.0
+PickaxeCooldown = 0.5
 PickaxeDamage = 62.0
 PickaxeReload = 1.0
-PickaxeCooldown = 0.5
 RageLength = 6.0
+SlateskinDefenseBuff = 0.7
+SlateskinLength = 6.0
 
 [majors.mining-helmet.rage]
 name = "Diamonds!"
@@ -866,19 +866,19 @@ stars = 1
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=15967743"
 
 [majors.empyrean-reignment.config]
-WeaponReload = 1.0
-WeaponDamage = 35.0
-WeaponLifetime = 1.5
-WeaponSpeed = 180.0
 Ability1Cooldown = 0.1
-HealRayMaxTimeWithoutLOS = 2.0
 Ability1Range = 60.0
-HealRayHealthRate = 25.0
 DivinationBoost = 0.15
 DivinationBuff = 9.0
-HolyNovaLength = 4.0
+HealRayHealthRate = 25.0
+HealRayMaxTimeWithoutLOS = 2.0
 HolyNovaHealthRate = 70.0
+HolyNovaLength = 4.0
 HolyNovaRange = 150.0
+WeaponDamage = 35.0
+WeaponLifetime = 1.5
+WeaponReload = 1.0
+WeaponSpeed = 180.0
 
 [majors.empyrean-reignment.rage]
 name = "Holy Nova"
@@ -923,22 +923,22 @@ hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&asset
 [majors.tee-vee.config]
 Ability1Cooldown = 8.0
 Ability1Range = 80.0
-RecordLength = 3.5
-RehearseVisualLifetime = 0.05
 Ability2Cooldown = 1.0
 Ability2Range = 60.0
-CameraFlashMaxCharge = 1.4
-CameraFlashMaxParticleRate = 18.0
 CameraFlashLifetime = 1.33
-CameraFlashSpeed = 125.0
-CameraFlashMinDamage = 10.0
+CameraFlashMaxCharge = 1.4
 CameraFlashMaxDamage = 50.0
+CameraFlashMaxParticleRate = 18.0
 CameraFlashMaxScale = 2.0
+CameraFlashMinDamage = 10.0
 CameraFlashReload = 0.5
-RageRange = 140.0
+CameraFlashSpeed = 125.0
 RageLength = 6.0
+RageRange = 140.0
 RecordHealthGainScale = 2.0
 RecordHealthGiveScale = 0.5
+RecordLength = 3.5
+RehearseVisualLifetime = 0.05
 
 [majors.tee-vee.rage]
 name = "Feature Film"
@@ -988,16 +988,16 @@ stars = 3
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=87261753"
 
 [majors.dark-tutor.config]
-WeaponReload = 1.0
 Ability1Cooldown = 8.0
 Ability1Range = 120.0
 Ability1Timer = 4.0
 RageLength = 10.0
-WeaponSpeed = 100.0
-WeaponLifetime = 2.0
 WeaponDamage = 40.0
-WeaponHealRange = 125.0
 WeaponHealAmount = 25.0
+WeaponHealRange = 125.0
+WeaponLifetime = 2.0
+WeaponReload = 1.0
+WeaponSpeed = 100.0
 
 [majors.dark-tutor.rage]
 name = "Dark Curse"
@@ -1034,24 +1034,24 @@ stars = 1
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1365767"
 
 [majors.valkyrie-helm.config]
-WeaponReload = 2.0
-WeaponDamage = 40.0
-RagnarokLength = 9.0
-WeaponSpeed = 180.0
-SpearEffectRadius = 30.0
-SpearEffectInterval = 1.0
-SpearEffectVisualLifetime = 0.5
-SpearEffectDamage = 5.0
-SleipnirBuff = 0.7
 Ability1Cooldown = 12.0
-SleipnirMaxLength = 8.0
-ValhallaRange = 60.0
-ValhallaBuff = 0.8
-WeaponLifetime = 3.0
+RagnarokCount = 3.0
 RagnarokDamage = 3.0
 RagnarokInterval = 1.0
-RagnarokCount = 3.0
+RagnarokLength = 9.0
+SleipnirBuff = 0.7
+SleipnirMaxLength = 8.0
 SpearEffectCount = 5.0
+SpearEffectDamage = 5.0
+SpearEffectInterval = 1.0
+SpearEffectRadius = 30.0
+SpearEffectVisualLifetime = 0.5
+ValhallaBuff = 0.8
+ValhallaRange = 60.0
+WeaponDamage = 40.0
+WeaponLifetime = 3.0
+WeaponReload = 2.0
+WeaponSpeed = 180.0
 
 [majors.valkyrie-helm.rage]
 name = "Ragnarok"
@@ -1094,24 +1094,24 @@ stars = 1
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1081300"
 
 [majors.golden-crown.config]
-WeaponReload = 0.8
 Ability1Cooldown = 3.0
-RageLength = 14.0
-LungeDamageBuff = 1.5
-LungeWidth = 10.0
-LungeVisualWidth = 6.0
-LungePrecision = 5.0
-LungeRange = 35.0
 Ability2Cooldown = 5.0
-SpinDamage = 1.25
-SpinRange = 45.0
 BattleArmor = 0.25
-WeaponDamage = 32.0
-DarkheartSteal = 0.3
 DarkheartDamage = 40.0
-IlluminaDamage = 56.0
+DarkheartSteal = 0.3
 FirebrandDamage = 48.0
 FirebrandRange = 1.35
+IlluminaDamage = 56.0
+LungeDamageBuff = 1.5
+LungePrecision = 5.0
+LungeRange = 35.0
+LungeVisualWidth = 6.0
+LungeWidth = 10.0
+RageLength = 14.0
+SpinDamage = 1.25
+SpinRange = 45.0
+WeaponDamage = 32.0
+WeaponReload = 0.8
 WeaponTouchConnectionLifetime = 0.5
 
 [majors.golden-crown.rage]
@@ -1161,8 +1161,8 @@ hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&asset
 
 [minors.seashell-crown.config]
 SeashellDamage = 10.0
-SeashellLifetime = 3.0
 SeashellInterval = 1.0
+SeashellLifetime = 3.0
 
 [minors.seashell-crown.passive]
 name = "Sea-heck"
@@ -1207,8 +1207,8 @@ major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=105344042"
 
 [minors.bombface.config]
-PassiveRange = 50.0
 PassiveDamage = 30.0
+PassiveRange = 50.0
 
 [minors.bombface.passive]
 name = "Kaboom!"
@@ -1230,11 +1230,11 @@ major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=150337770"
 
 [minors.spring-crown-of-flowers.config]
-HealthGiven = 50.0
-HealthTime = 2.5
 Ability1Cooldown = 7.0
-HealthRadius = 45.0
+HealthGiven = 50.0
 HealthInterval = 0.1
+HealthRadius = 45.0
+HealthTime = 2.5
 
 [[minors.spring-crown-of-flowers.abilities]]
 name = "Flower Power"
@@ -1256,9 +1256,9 @@ major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=158066137"
 
 [minors.andrews-beard.config]
+Ability1Cooldown = 8.0
 AttackBuff = 0.15
 SpeedBuff = 0.15
-Ability1Cooldown = 8.0
 
 [[minors.andrews-beard.abilities]]
 name = "Manly Mode"
@@ -1350,9 +1350,9 @@ major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=31312480"
 
 [minors.dog-tags.config]
-KillstreakMax = 5.0
-KillstreakInterval = 0.05
 KillstreakDecay = 16.0
+KillstreakInterval = 0.05
+KillstreakMax = 5.0
 
 [minors.dog-tags.passive]
 name = "Streak"
@@ -1399,8 +1399,8 @@ hat-image = "http://www.roblox.com/asset/?id=49178292"
 
 [minors.bees.config]
 Ability1Cooldown = 1.0
-Radius = 60.0
 Damage = 10.0
+Radius = 60.0
 
 [[minors.bees.abilities]]
 name = "Sting"
@@ -1424,9 +1424,9 @@ major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=140481297"
 
 [minors.noob-attack---periastron.config]
+Lifetime = 4.0
 Range = 40.0
 SpeedBuff = 0.2
-Lifetime = 4.0
 
 [minors.noob-attack---periastron.passive]
 name = "Slice and Dice"
@@ -1471,8 +1471,8 @@ hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&asset
 [minors.stethoscope.config]
 Interval = 1.0
 Range = 35.0
-YourHeal = 1.0
 TeamHeal = 5.0
+YourHeal = 1.0
 
 [minors.stethoscope.passive]
 name = "Heartbeat"
@@ -1543,9 +1543,9 @@ hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&asset
 [minors.sparkling-angel-wings.config]
 Ability1Cooldown = 30.0
 DefenseDefault = 1.0
-EffectLength = 3.0
 DefenseReduceAmount = 0.08
 DefenseReduceDamage = 15.0
+EffectLength = 3.0
 
 [[minors.sparkling-angel-wings.abilities]]
 name = "Divine Intervention"
@@ -1592,8 +1592,8 @@ major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=51353039"
 
 [minors.bloxxer-cap.config]
-BloxRange = 50.0
 BloxDamage = 25.0
+BloxRange = 50.0
 
 [minors.bloxxer-cap.passive]
 name = "Blox"
@@ -1615,8 +1615,8 @@ hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&asset
 
 [minors.ice-pack.config]
 Delay = 1.0
-Over = 1.0
 MiddleRatio = 2.0
+Over = 1.0
 Under = 3.0
 
 [minors.ice-pack.passive]
@@ -1661,9 +1661,9 @@ major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=45630442"
 
 [minors.front-line-warrior.config]
-Magic2 = -0.25
-Magic1 = 0.75
 HealthPercent = 30.0
+Magic1 = 0.75
+Magic2 = -0.25
 
 [minors.front-line-warrior.passive]
 name = "Compensating For Something"
@@ -1684,10 +1684,10 @@ major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=22070802"
 
 [minors.secret-kid-wizard-glasses.config]
-WeaponSpeed = 175.0
+Ability1Cooldown = 7.0
 WeaponDamage = 35.0
 WeaponLifetime = 5.0
-Ability1Cooldown = 7.0
+WeaponSpeed = 175.0
 
 [[minors.secret-kid-wizard-glasses.abilities]]
 name = "Magic Missile"
@@ -1705,9 +1705,9 @@ major = false
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1082935"
 
 [minors.headrow.config]
+Delay = 1.0
 Radius = 70.0
 Rage = 0.5
-Delay = 1.0
 
 [minors.headrow.passive]
 name = "Better than One"
