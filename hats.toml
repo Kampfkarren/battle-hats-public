@@ -438,7 +438,7 @@ image = "http://www.roblox.com/asset/?id=117356883"
 skill_type = "Ability"
 
 [majors.buddy-baseball-cap.changelog]
-2018-12-25 = ["Changed Grand Slam from \"Nearby players in front of you take heavy damage and are flung backwards.\" to \"Ignite your baseball bat to deal massive damage to the next enemy you hit as well as creating a flaming baseball that bounces between enemies. Gain extra defense and speed.\"", "Lowered damage of Buddy Baseball Bat from 66 to 50.", "Increased reload speed of Buddy Baseball Bat from 0.5s to 0.57s.", "Increased damage of Home Run baseballs from 25 to 30."]
+2018-12-25 = ["Changed Grand Slam from \"Nearby players in front of you take heavy damage and are flung backwards.\" to \"Ignite your baseball bat to deal massive damage to the next enemy you hit as well as creating a flaming baseball that bounces between enemies. Gain extra defense and speed.\"", "Lowered damage of Buddy Baseball Bat from 66 to 50.", "Increased reload speed of Buddy Baseball Bat from 0.5s to 0.57s.", "Increased damage of Home Run baseballs from 25 to 30.", "Changed Grand Slam from \"Nearby players in front of you take heavy damage and are flung backwards.\" to \"Ignite your baseball bat to deal massive damage to the next enemy you hit as well as creating a flaming baseball that bounces between enemies. Gain extra defense and speed.\"", "Lowered damage of Buddy Baseball Bat from 66 to 50.", "Increased reload speed of Buddy Baseball Bat from 0.5s to 0.57s.", "Increased damage of Home Run baseballs from 25 to 30."]
 2017-06-30 = ["Added \"Up to Bat - Passive. Move faster\"."]
 2017-06-29 = ["Fixed a glitch where Baseball Bat would regularly not deal damage."]
 2017-06-16 = ["Fixed a bug where Grand Slam would never inflict its effect."]
@@ -662,7 +662,7 @@ skill_type = "Weapon"
 
 [[majors.rubber-duckie.abilities]]
 name = "Quack"
-advanced = "Emit a sound, a form of audio-based communication, that resembles that of a duck quacking from the handle of your weapon, that being the duck you use to shoot with, at a volume loud enough for enemies to hear you if they are close enough, equal to \"1\" volume in Roblox Studio. For reference, this is the same quack emitted when you fire your weapon. "
+advanced = "Emit a sound, a form of audio-based communication, that resembles that of a duck quacking from the handle of your weapon, that being the tool you use to shoot with, at a volume loud enough for enemies to hear you if they are close enough, equal to \"1\" volume in Roblox Studio. However, do not be under the impression this volume will not change in the future. It is not unlikely that us, the Battle Hats team, will work on making sure the volume of the quack is both balanced and fair to the user and that whom will be quacked upon. Our goals for this \"Quack\" ability is to create a fun and enjoyable experience for all players involved, and we will work hard to achieve this future. For reference, as of December 25th 2018, this is the same quack emitted when you fire your weapon. To reiterate, this is the same weapon you use for both your Quack Attack, your Quackier Attacker, and your Quackiest Attackiest."
 simple = "Quack."
 cooldown = 0.0
 image = "http://www.roblox.com/asset/?id=919950584"
