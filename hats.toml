@@ -392,31 +392,32 @@ hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&asset
 Ability1Cooldown = 6.0
 Ability1Count = 7.0
 Ability1Interval = 0.3
-BallDamage = 25.0
+BallDamage = 30.0
 BallLifetime = 0.4
 BallSpeed = 160.0
 BatActiveBatLength = 0.5
-BatCooldown = 0.5
-BatDamage = 66.0
-RageDamage = 80.0
-RageDelay = 2.3
-RageKnockback = -150.0
+BatCooldown = 0.57
+BatDamage = 50.0
+RageBaseballDamage = 40.0
+RageBaseballRange = 60.0
+RageBaseballSpeed = 1.0
+RageBuffDefense = 0.4
+RageBuffSpeed = 0.2
+RageDebuff = 0.1
+RageDebuffLength = 4.0
+RageEffectLength = 4.0
+RageInitialDamage = 100.0
 UpToBatBuff = 0.2
-
-[majors.buddy-baseball-cap.config.RageSize]
-x = 25.0
-y = 10.0
-z = 70.0
 
 [majors.buddy-baseball-cap.rage]
 name = "Grand Slam"
-advanced = "Strike the ground with your baseball bat, all players 70 units in front of where you fire take 80 damage and are flung backwards."
-simple = "Nearby players in front of you take heavy damage and are flung backwards."
+advanced = "Ignite your baseball bat to deal 100 damage to the first enemy you hit as well as lowering their attack, defense, and speed by 10% for 4 seconds. From that enemy, create a flaming baseball that bounces to the nearest enemy within 60 units dealing 40 damage and lowering the stats by the same amount after 1 second. Can only bounce to an enemy once. Gain a 20% speed and 40% defense buff until you strike someone. After 4 seconds, if you do not hit someone, the rage effect drops and you are refunded 60% rage."
+simple = "Ignite your baseball bat to deal massive damage to the next enemy you hit as well as creating a flaming baseball that bounces between enemies. Gain extra defense and speed."
 skill_type = "Rage"
 
 [majors.buddy-baseball-cap.weapon]
 name = "Buddy Baseball Bat"
-advanced = "Melee baseball bat, deals 66 damage to anyone close. Can swing 2 swings per second."
+advanced = "Melee baseball bat, deals 50 damage to anyone close. Can swing every 0.57 seconds."
 simple = "Melee baseball bat."
 image = ""
 skill_type = "Weapon"
@@ -430,13 +431,14 @@ skill_type = "Passive"
 
 [[majors.buddy-baseball-cap.abilities]]
 name = "Home Run"
-advanced = "Fling 7 baseballs in your direction for 1.2 seconds. Each baseball deals 25 damage and flies for .4 seconds. "
+advanced = "Fling 7 baseballs in your direction for 1.2 seconds. Each baseball deals 30 damage and flies for .4 seconds. "
 simple = "Fling multiple baseballs in your direction for a small amount of time."
 cooldown = 6.0
 image = "http://www.roblox.com/asset/?id=117356883"
 skill_type = "Ability"
 
 [majors.buddy-baseball-cap.changelog]
+2018-12-25 = ["Changed Grand Slam from \"Nearby players in front of you take heavy damage and are flung backwards.\" to \"Ignite your baseball bat to deal massive damage to the next enemy you hit as well as creating a flaming baseball that bounces between enemies. Gain extra defense and speed.\"", "Lowered damage of Buddy Baseball Bat from 66 to 50.", "Increased reload speed of Buddy Baseball Bat from 0.5s to 0.57s.", "Increased damage of Home Run baseballs from 25 to 30."]
 2017-06-30 = ["Added \"Up to Bat - Passive. Move faster\"."]
 2017-06-29 = ["Fixed a glitch where Baseball Bat would regularly not deal damage."]
 2017-06-16 = ["Fixed a bug where Grand Slam would never inflict its effect."]
