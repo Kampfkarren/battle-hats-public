@@ -1,4 +1,10 @@
 [[changelog]]
+date = "2018-12-24"
+
+[changelog.entries]
+Shaggy = ["Shaggy has been removed. We didn't feel like the kit for Shaggy fit Battle Hats and couldn't think of something better."]
+
+[[changelog]]
 date = "2018-12-23"
 
 [changelog.entries]

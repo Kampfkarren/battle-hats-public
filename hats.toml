@@ -698,51 +698,6 @@ skill_type = "Ability"
 2017-01-10 = ["Fixed duck sounds cutting off when hitting a part."]
 2017-01-09 = ["Added. "]
 
-[majors.shaggy]
-flavor-text = "Word has it that he's a time traveler from 2009. He is constantly whining that the old days were better."
-name = "Shaggy"
-series = "???"
-major = true
-stars = 2
-hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=20573078"
-
-[majors.shaggy.config]
-WeaponLifetime = 3.0
-WeaponMaxDamage = 75.0
-WeaponMaxSpeed = 210.0
-WeaponMinDamage = 25.0
-WeaponMinSpeed = 80.0
-WeaponReload = 0.75
-
-[majors.shaggy.rage]
-name = "Bomb"
-advanced = "User drops a bomb that detonates after 3.5 seconds. The bomb does 500 damage in a 120 unit radius around it."
-simple = "Drop a bomb that detonates after a period of time."
-skill_type = "Rage"
-
-[majors.shaggy.weapon]
-name = "Slingshot"
-advanced = "Deals 25 - 75 damage when not charged and fires a projectile that travels 80 - 210 units per second and lasts for 3 seconds. Can be charged for up to 2.5 seconds. Can be fired once every 0.75 seconds."
-simple = "A slingshot that can charge to be more powerful."
-image = ""
-skill_type = "Weapon"
-
-[[majors.shaggy.abilities]]
-name = "Banana Peel"
-advanced = "Places a banana peel where the user is standing. Any enemies that step on the peel trip and are slowed by 60% for 5 seconds, and take 60 damage. Can have 2 peels out at a time."
-simple = "Place a banana peel that trips and slows down enemies that step on it. Can have 2 peels out at a time."
-cooldown = 5.0
-image = "http://www.roblox.com/asset/?id=112107054"
-skill_type = "Ability"
-
-[majors.shaggy.changelog]
-2017-07-06 = ["Added visual bar showing your charge meter."]
-2017-07-05 = ["Bombs will now flash with the user's team color."]
-2017-07-02 = ["Fixed bombs acting strangely with non-colliding parts."]
-2017-06-19 = ["Slingshot pellets now fade out."]
-2017-06-15 = ["Increased Banana cooldown from 4 seconds to 5 seconds."]
-2017-06-14 = ["Added."]
-
 [majors.the-specialists-helmet]
 flavor-text = "The Specialist’s Helmet specialises in the especially special specialty of supporting specially."
 name = "The Specialist's Helmet"
