@@ -2,7 +2,7 @@
 date = "2018-12-25"
 
 [changelog.entries]
-"Buddy Baseball Cap" = ["Changed Grand Slam from \"Nearby players in front of you take heavy damage and are flung backwards.\" to \"Ignite your baseball bat to deal massive damage to the next enemy you hit as well as creating a flaming baseball that bounces between enemies. Gain extra defense and speed.\"", "Lowered damage of Buddy Baseball Bat from 66 to 50.", "Increased reload speed of Buddy Baseball Bat from 0.5s to 0.57s.", "Increased damage of Home Run baseballs from 25 to 30.", "Changed Grand Slam from \"Nearby players in front of you take heavy damage and are flung backwards.\" to \"Ignite your baseball bat to deal massive damage to the next enemy you hit as well as creating a flaming baseball that bounces between enemies. Gain extra defense and speed.\"", "Lowered damage of Buddy Baseball Bat from 66 to 50.", "Increased reload speed of Buddy Baseball Bat from 0.5s to 0.57s.", "Increased damage of Home Run baseballs from 25 to 30."]
+"Buddy Baseball Cap" = ["Changed Grand Slam from \"Nearby players in front of you take heavy damage and are flung backwards.\" to \"Ignite your baseball bat to deal massive damage to the next enemy you hit as well as creating a flaming baseball that bounces between enemies. Gain extra defense and speed.\"", "Lowered damage of Buddy Baseball Bat from 66 to 50.", "Increased reload speed of Buddy Baseball Bat from 0.5s to 0.57s.", "Increased damage of Home Run baseballs from 25 to 30."]
 
 [[changelog]]
 date = "2018-12-24"

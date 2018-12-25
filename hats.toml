@@ -438,7 +438,7 @@ image = "http://www.roblox.com/asset/?id=117356883"
 skill_type = "Ability"
 
 [majors.buddy-baseball-cap.changelog]
-2018-12-25 = ["Changed Grand Slam from \"Nearby players in front of you take heavy damage and are flung backwards.\" to \"Ignite your baseball bat to deal massive damage to the next enemy you hit as well as creating a flaming baseball that bounces between enemies. Gain extra defense and speed.\"", "Lowered damage of Buddy Baseball Bat from 66 to 50.", "Increased reload speed of Buddy Baseball Bat from 0.5s to 0.57s.", "Increased damage of Home Run baseballs from 25 to 30.", "Changed Grand Slam from \"Nearby players in front of you take heavy damage and are flung backwards.\" to \"Ignite your baseball bat to deal massive damage to the next enemy you hit as well as creating a flaming baseball that bounces between enemies. Gain extra defense and speed.\"", "Lowered damage of Buddy Baseball Bat from 66 to 50.", "Increased reload speed of Buddy Baseball Bat from 0.5s to 0.57s.", "Increased damage of Home Run baseballs from 25 to 30."]
+2018-12-25 = ["Changed Grand Slam from \"Nearby players in front of you take heavy damage and are flung backwards.\" to \"Ignite your baseball bat to deal massive damage to the next enemy you hit as well as creating a flaming baseball that bounces between enemies. Gain extra defense and speed.\"", "Lowered damage of Buddy Baseball Bat from 66 to 50.", "Increased reload speed of Buddy Baseball Bat from 0.5s to 0.57s.", "Increased damage of Home Run baseballs from 25 to 30."]
 2017-06-30 = ["Added \"Up to Bat - Passive. Move faster\"."]
 2017-06-29 = ["Fixed a glitch where Baseball Bat would regularly not deal damage."]
 2017-06-16 = ["Fixed a bug where Grand Slam would never inflict its effect."]
