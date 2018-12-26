@@ -49,6 +49,7 @@ image = "http://www.roblox.com/asset/?id=1036910764"
 skill_type = "Ability"
 
 [majors.doge.changelog]
+2018-12-26 = ["Fixed RURURURU not checking range."]
 2018-08-03 = ["The Wow! laser pointer will now pull enemies in more aggressively and will also apply vertical force."]
 2018-02-18 = ["Changed look of the laser from a part to a beam."]
 2018-01-04 = ["Possibly fixed network issues with Doge's target changing.", "Doge's dogs will now properly reset when the player's team changes."]
