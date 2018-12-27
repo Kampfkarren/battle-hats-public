@@ -1,4 +1,10 @@
 [[changelog]]
+date = "2018-12-27"
+
+[changelog.entries]
+General = ["Projectiles will now interpolate from where they were fired. For now, it's linear, but in the future it'll be changed to something smoother."]
+
+[[changelog]]
 date = "2018-12-26"
 
 [changelog.entries]
