@@ -138,7 +138,7 @@ name = "Failed Experiment"
 advanced = "Throw a vial 40 units in front of you that creates a 12x1x12 puddle that slows by 25%, deals 20 damage every second gradually, and lowers defense by 25% and lasts 9 seconds."
 simple = "Throw a vial that creates a puddle that slows, damages, and lowers defense."
 cooldown = 15.0
-image = "http://www.roblox.com/asset/?id=131178113"
+image = "http://www.roblox.com/asset/?id=57082219"
 skill_type = "Ability"
 
 [[majors.mad-scientist-hair.abilities]]
@@ -146,7 +146,7 @@ name = "Science Experiment"
 advanced = "Toggle. Empower your next Flask the longer you toggle Science Experiment, up to 2.5x damage, 2x the slow percentage, 1.5x the area of effect, and 4x the slow duration if toggled for 6 seconds. You are slowed by 33% while toggled."
 simple = "Toggle. Empower your next Flask the longer you toggle Science Experiment. You are slowed while toggled."
 cooldown = 0.5
-image = ""
+image = "http://www.roblox.com/asset/?id=325174090"
 skill_type = "Ability"
 
 [majors.mad-scientist-hair.changelog]
