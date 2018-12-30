@@ -1,4 +1,11 @@
 [[changelog]]
+date = "2018-12-30"
+
+[changelog.entries]
+Bees = ["Lowered damage from 10 to 6."]
+"Deluxe Paintball Helmet" = ["Increased reload speed from 0.2 to 0.35 seconds."]
+
+[[changelog]]
 date = "2018-12-29"
 
 [changelog.entries]
