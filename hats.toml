@@ -97,12 +97,12 @@ FailedExperimentPuddleRadius = 12.0
 FailedExperimentRange = 40.0
 FailedExperimentSlow = -0.25
 FailedExperimentSpeed = 100.0
-FlaskImpactDamage = 20.0
-FlaskRadius = 90.0
+FlaskImpactDamage = 15.0
+FlaskRadius = 65.0
 FlaskReload = 2.4
 FlaskSpeedNerf = -0.15
 FlaskSpeedNerfLifetime = 1.0
-FlaskSplashDamage = 15.0
+FlaskSplashDamage = 10.0
 FlaskSplashDelay = 0.5
 FlaskSplashInterval = 1.0
 FlaskSplashLifetime = 3.0
@@ -128,7 +128,7 @@ skill_type = "Rage"
 
 [majors.mad-scientist-hair.weapon]
 name = "Flask"
-advanced = "Throwing weapon with an arc. On impact, deal 20 damage and slow enemies by 15% for 1 second in a 90 unit radius. 0.5 seconds after impact, leave a cloud that deals 15 damage per second for 3 seconds in a 90 unit radius. Can be thrown every 2.4 seconds."
+advanced = "Throwing weapon with an arc. On impact, deal 15 damage and slow enemies by 15% for 1 second in a 90 unit radius. 0.5 seconds after impact, leave a cloud that deals 10 damage per second for 3 seconds in a 65 unit radius. Can be thrown every 2.4 seconds."
 simple = "Throw a flask that damages and slows enemies."
 image = ""
 skill_type = "Weapon"
@@ -313,23 +313,23 @@ BodybuildRage = 1.0
 BodybuildRageCap = 10.0
 BodybuildSnackAttackCooldown = 1.0
 BodybuildSnackAttackCooldownMax = 7.9
-BulkHealthBuff = 150.0
-RageDamage = 16.0
+BulkHealthBuff = 125.0
+RageDamage = 13.0
 RageDefenseBuff = 0.15
 RageLength = 6.0
 RageRange = 95.0
 RageSpeedBuff = 0.15
 RageStompInterval = 0.5
-SnackCheesePuffsGradualHeal = 0.5
-SnackCheesePuffsInstantHeal = 50.0
+SnackCheesePuffsGradualHeal = 0.4
+SnackCheesePuffsInstantHeal = 25.0
 SnackCheesePuffsLength = 5.0
-SnackChickenNuggetAttackBuff = 0.25
-SnackChickenNuggetDefenseBuff = 0.25
+SnackChickenNuggetAttackBuff = 0.2
+SnackChickenNuggetDefenseBuff = 0.2
 SnackChickenNuggetLength = 5.0
 SnackChoiceInterval = 0.5
 SnackCoffeeLength = 4.0
-SnackCoffeeSpeed = 0.15
-WeaponDamage = 30.0
+SnackCoffeeSpeed = 0.22
+WeaponDamage = 25.0
 WeaponLifetime = 1.5
 WeaponReload = 1.0
 WeaponSpeed = 144.0
@@ -341,13 +341,13 @@ z = 0.0
 
 [majors.fedora.rage]
 name = "Gamer Rage"
-advanced = "Take a swig of gamer drink and unleash your inner gamer for 6 seconds, stomping every .5 seconds over its duration and dealing 16 damage in a 95 unit radius. During the duration you also gain 15% movement speed and 15% defense. You cannot use abilities or fire your weapon during the duration."
+advanced = "Take a swig of gamer drink and unleash your inner gamer for 6 seconds, stomping every .5 seconds over its duration and dealing 13 damage in a 95 unit radius. During the duration you also gain 15% movement speed and 15% defense. You cannot use abilities or fire your weapon during the duration."
 simple = "Take a swig of gamer drink and unleash your inner gamer, stomping over its duration and dealing damage, while gaining bonus stats."
 skill_type = "Rage"
 
 [majors.fedora.weapon]
 name = "Keyboard Warrior"
-advanced = "Throw a wide keyboard that travels 144 units per second for 1.5 seconds, dealing 30 damage every second."
+advanced = "Throw a wide keyboard that travels 144 units per second for 1.5 seconds, dealing 25 damage every second."
 simple = "Throw a wide keyboard, dealing moderate damage."
 image = ""
 skill_type = "Weapon"
@@ -361,7 +361,7 @@ skill_type = "Passive"
 
 [[majors.fedora.abilities]]
 name = "Snack Attack"
-advanced = "Choose between three different snacks, which all have different positive effects. The chicken nugget gives you 25% defense and 25% attack for 5 seconds. The cheese puffs restore 50 health, and then 50% of your maximum health gradually over 5 seconds. The coffee grants 15% speed for 4 seconds. Snacks alternate with each choice every 0.5 seconds; attacking or using your rage chooses the snack. Snack order goes from Cheese Puffs -> Nuggets -> Coffee."
+advanced = "Choose between three different snacks, which all have different positive effects. The chicken nugget gives you 20% defense and 20% attack for 5 seconds. The cheese puffs restore 50 health, and then 50% of your maximum health gradually over 5 seconds. The coffee grants 22% speed for 4 seconds. Snacks alternate with each choice every 0.5 seconds; attacking or using your rage chooses the snack. Snack order goes from Cheese Puffs -> Nuggets -> Coffee."
 simple = "Choose between three different snacks: cheese puffs for health, chicken nuggets for attack and defense, and coffee for speed."
 cooldown = 8.0
 image = "http://www.roblox.com/asset/?id=928596457"
@@ -376,6 +376,7 @@ image = "http://www.roblox.com/asset/?id=649904125"
 skill_type = "Ability"
 
 [majors.fedora.changelog]
+2018-12-29 = ["Lowered health buff of Bulk from 150 to 125.", "Lowered rage damage from 16 to 13", "Lowered gradual healing of cheese puffs from 50% to 40%.", "Lowered instant healing of cheese puffs from 50 to 25.", "Lowered attack and defense buffs of chicken nuggets from 25% to 20%.", "Increased speed buff of coffee from 15% to 22%.", "Lowered damage of Keyboard Warrior from 30 to 25."]
 2018-12-21 = ["Fedora has been completely reworked from the ground up.", "Changed weapon from \"Tendies - Throw chicken tenders\" to \"Keyboard Warrior - Throw a wide keyboard, dealing moderate damage.\"", "Changed first ability from \"Cheese Snacks - Heal yourself immediately and gain health over time.\" to \"Snack Attack - Choose between three different snacks: cheese puffs for health, chicken nuggets for attack and defense, and coffee for speed.\"", "Changed second ability from \"Feast - Eat your Tendies, increasing movement speed and reducing damage taken.\" to \"Bodybuild - Focus on inner fat to reduce Snack Attack cooldown, charge rage whenever you take damage, and regenerate health.\"", "Changed passive from \"Bulk - Increased health but slower walk speed.\" to \"Bulk - Extra health.\"", "Changed rage from \"Neckbeard's Rage - Take a swig of Gaming Drink, increasing walk speed, damage taken. Get a fast swinging, heavy damage dealing katana.\" to \"Gamer Rage - Take a swig of gamer drink and unleash your inner gamer, stomping over its duration and dealing damage, while gaining bonus stats.\"", "Upped difficulty from 2 to 3 stars."]
 2018-08-09 = ["Fixes the katana from Neckbeard's Rage."]
 2018-02-24 = ["Fixed rage not working after someone used it the first time.", "Fixed error when using Cheese Snacks after leaving the game."]
