@@ -78,66 +78,79 @@ hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&asset
 
 [majors.mad-scientist-hair.config]
 Ability1Cooldown = 10.0
-FlaskDamage = 15.0
-FlaskLifetime = 4.6
-FlaskMaxRange = 20.0
-FlaskReload = 2.0
-FlaskSpeedNerf = -0.2
+Ability2Cooldown = 0.5
+BigBoomTheoryCastMaximum = 4.0
+BigBoomTheoryCastMinimum = 1.5
+BigBoomTheoryDamageMaximum = 57.0
+BigBoomTheoryDefenseMaximumNerf = 0.35
+BigBoomTheoryDefenseMinimumNerf = 0.05
+BigBoomTheoryEffectRange = 100.0
+BigBoomTheoryNerfLifetime = 2.0
+BigBoomTheorySelfSlowNerf = -0.2
+BigBoomTheorySpeedMaximumNerf = 0.35
+BigBoomTheorySpeedMinimumNerf = 0.05
+FailedExperimentDamage = 20.0
+FailedExperimentDefenseNerf = -0.25
+FailedExperimentLifetime = 0.2
+FailedExperimentPuddleLifetime = 9.0
+FailedExperimentPuddleRadius = 12.0
+FailedExperimentRange = 40.0
+FailedExperimentSlow = -0.25
+FailedExperimentSpeed = 100.0
+FlaskImpactDamage = 20.0
+FlaskRadius = 90.0
+FlaskReload = 2.4
+FlaskSpeedNerf = -0.15
+FlaskSpeedNerfLifetime = 1.0
+FlaskSplashDamage = 15.0
 FlaskSplashDelay = 0.5
 FlaskSplashInterval = 1.0
 FlaskSplashLifetime = 3.0
 FlaskVelocityMagic1 = 25.0
 FlaskVelocityMagic2 = 35.0
-SupersaturationFlaskAttackNerf = 0.03
-SupersaturationFlaskDamage = 4.0
-SupersaturationFlaskDefenseNerf = 0.03
-SupersaturationFlaskInterval = 0.33
-SupersaturationFlaskNerfLength = 4.0
-SupersaturationFlaskRadius = 175.0
-SupersaturationRageLength = 10.0
-WildVialCast = 0.4
-WildVialDamage = 35.0
-WildVialSmokeLength = 4.0
-WildVialSpeedBuff = 0.2
-WildVialSpeedNerf = -0.1
+ScienceExperimentMaxAoE = 1.5
+ScienceExperimentMaxDamage = 2.5
+ScienceExperimentMaxSlowLifetime = 4.0
+ScienceExperimentMaxSlowMultiply = 2.0
+ScienceExperimentMaxTime = 6.0
+ScienceExperimentSlow = -0.33
 
 [majors.mad-scientist-hair.config.FlaskAngularVelocity]
 x = 5.0
 y = 5.0
 z = 5.0
 
-[majors.mad-scientist-hair.config.FlaskSmokeHitbox]
-x = 40.0
-y = 15.0
-z = 40.0
-
-[majors.mad-scientist-hair.config.WildVialHitbox]
-x = 75.0
-y = 75.0
-z = 75.0
-
 [majors.mad-scientist-hair.rage]
-name = "Supersaturation"
-advanced = "Place a flask that deals 4 damage every .33 seconds, and decreases attack and defense by 3% each time it deals damage in a 175 unit radius for 10 seconds. Attack and defense debuffs last for 4 seconds."
-simple = "Place a flask that weakens and damages enemies in an area around it the longer they remain in it."
+name = "Big Boom Theory"
+advanced = "Lower attack and defense of enemies near you from 5% up to 35% while slowing them from 5% up to 35% in a 100 unit range around you and charge up a massive attack for at least 1.5 seconds up to 4 seconds that deals up to 57 damage linearly interpolated based on amount charged. Fire weapon to cancel the charge and detonate. Slow self by 20% during this rage. All debuffs on enemies last for 2 seconds after detonation. While charging up, you cannot attack or use your abilities."
+simple = "Lower attack and defense of enemies near you while slowing them and charge up a massive attack."
 skill_type = "Rage"
 
 [majors.mad-scientist-hair.weapon]
 name = "Flask"
-advanced = "Throwing weapon with an arc. 0.5 seconds after impact, leaves a cloud of chemicals that lasts for 3 seconds, doing 15 damage per second, slowing enemies by 20% as long as they’re in the cloud. 2 second reload."
+advanced = "Throwing weapon with an arc. On impact, deal 20 damage and slow enemies by 15% for 1 second in a 90 unit radius. 0.5 seconds after impact, leave a cloud that deals 15 damage per second for 3 seconds in a 90 unit radius. Can be thrown every 2.4 seconds."
 simple = "Throw a flask that damages and slows enemies."
 image = ""
 skill_type = "Weapon"
 
 [[majors.mad-scientist-hair.abilities]]
-name = "Wild Vial"
-advanced = "After a .4 second cast, throw a vial at your feet that explodes in a 75 unit radius for 35 damage, increasing your speed by 20% for 4 seconds, and slowing enemies by 10% that are caught in the splash radius for 4 seconds."
-simple = "Throw a vial at your feet that explodes, causing you to move faster, making enemies move slower, and dealing damage."
-cooldown = 10.0
+name = "Failed Experiment"
+advanced = "Throw a vial 40 units in front of you that creates a 12x1x12 puddle that slows by 25%, deals 20 damage every second gradually, and lowers defense by 25% and lasts 9 seconds."
+simple = "Throw a vial that creates a puddle that slows, damages, and lowers defense."
+cooldown = 15.0
 image = "http://www.roblox.com/asset/?id=131178113"
 skill_type = "Ability"
 
+[[majors.mad-scientist-hair.abilities]]
+name = "Science Experiment"
+advanced = "Toggle. Empower your next Flask the longer you toggle Science Experiment, up to 2.5x damage, 2x the slow percentage, 1.5x the area of effect, and 4x the slow duration if toggled for 6 seconds. You are slowed by 33% while toggled."
+simple = "Toggle. Empower your next Flask the longer you toggle Science Experiment. You are slowed while toggled."
+cooldown = 0.5
+image = ""
+skill_type = "Ability"
+
 [majors.mad-scientist-hair.changelog]
+2018-12-29 = ["Mad Scientist Hair has been reworked from the ground up.", "Changed rage from \"Supersaturation - Place a flask that weakens and damages enemies in an area around it the longer they remain in it.\" to \"Big Boom Theory - Lower attack and defense of enemies near you while slowing them and charge up a massive attack.\"", "Changed weapon from \"Flask - Throwing weapon with an arc. 0.5 seconds after impact, leaves a cloud of chemicals that lasts for 3 seconds, doing 15 damage per second, slowing enemies by 20% as long as they’re in the cloud. 2 second reload.\" to \"Flask - Throwing weapon with an arc. On impact, deal 20 damage and slow enemies by 15% for 1 second in a 90 unit radius. 0.5 seconds after impact, leave a cloud that deals 15 damage per second for 3 seconds in a 90 unit radius. Can be thrown every 2.4 seconds.\"", "Removed Wild Vial.", "Added \"Failed Experiment - Throw a vial that creates a puddle that slows, damages, and lowers defense.\"", "Added \"Science Experiment - Toggle. Empower your next Flask the longer you toggle Science Experiment. You are slowed while toggled.\""]
 2018-08-06 = ["Being bloxxed will no longer remove the flask dropped by Supersaturation."]
 2018-08-05 = ["Fixes Supersaturation and Wild Vial smoke."]
 2018-08-04 = ["Fixed an issue with smoke not coming out of the flasks."]

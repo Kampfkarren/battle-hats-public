@@ -1,4 +1,10 @@
 [[changelog]]
+date = "2018-12-29"
+
+[changelog.entries]
+"Mad Scientist Hair" = ["Mad Scientist Hair has been reworked from the ground up.", "Changed rage from \"Supersaturation - Place a flask that weakens and damages enemies in an area around it the longer they remain in it.\" to \"Big Boom Theory - Lower attack and defense of enemies near you while slowing them and charge up a massive attack.\"", "Changed weapon from \"Flask - Throwing weapon with an arc. 0.5 seconds after impact, leaves a cloud of chemicals that lasts for 3 seconds, doing 15 damage per second, slowing enemies by 20% as long as they’re in the cloud. 2 second reload.\" to \"Flask - Throwing weapon with an arc. On impact, deal 20 damage and slow enemies by 15% for 1 second in a 90 unit radius. 0.5 seconds after impact, leave a cloud that deals 15 damage per second for 3 seconds in a 90 unit radius. Can be thrown every 2.4 seconds.\"", "Removed Wild Vial.", "Added \"Failed Experiment - Throw a vial that creates a puddle that slows, damages, and lowers defense.\"", "Added \"Science Experiment - Toggle. Empower your next Flask the longer you toggle Science Experiment. You are slowed while toggled.\""]
+
+[[changelog]]
 date = "2018-12-27"
 
 [changelog.entries]
