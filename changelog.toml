@@ -1,4 +1,10 @@
 [[changelog]]
+date = "2019-01-19"
+
+[changelog.entries]
+General = ["Xbox controllers plugged in will more consistently be recognized."]
+
+[[changelog]]
 date = "2018-12-30"
 
 [changelog.entries]
