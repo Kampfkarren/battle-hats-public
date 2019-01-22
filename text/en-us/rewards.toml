@@ -1,0 +1,3 @@
+coins="{1:int} coins"
+crate_singular="{1:int} crate"
+crate_plural="{1:int} plurals"

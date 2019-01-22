@@ -1,0 +1,3 @@
+coins="{1:int} monedas"
+crate_singular="{1:int} caja"
+crate_plural="{1:int} caja"
