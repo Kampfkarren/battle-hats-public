@@ -1,4 +1,10 @@
 [[changelog]]
+date = "2019-01-24"
+
+[changelog.entries]
+General = ["Fixed an exploit where you could use allied-targeted abilities on yourself."]
+
+[[changelog]]
 date = "2019-01-19"
 
 [changelog.entries]
