@@ -1,4 +1,10 @@
 [[changelog]]
+date = "2019-01-24"
+
+[changelog.entries]
+General = ["Fixed an exploit where you could use allied-targeted abilities on yourself.", "Fixed an exploit where you could target dead characters with abilities.", "Stun effects have been reverted back to anchoring the character's root part."]
+
+[[changelog]]
 date = "2019-01-19"
 
 [changelog.entries]
