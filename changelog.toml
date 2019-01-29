@@ -1,4 +1,10 @@
 [[changelog]]
+date = "2019-01-28"
+
+[changelog.entries]
+General = ["Tips can now be contributed via https://github.com/Kampfkarren/battle-hats-public/"]
+
+[[changelog]]
 date = "2019-01-24"
 
 [changelog.entries]
