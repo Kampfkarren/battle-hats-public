@@ -1,0 +1,101 @@
+# Game tips
+[[GAME]]
+tip = "Don't just pick random hats when making a loadout, pick hats that work well together, such as Fedora and Stone Age Shades."
+
+[[GAME]]
+tip = "Do not look for rats. They are not real."
+
+[[GAME]]
+tip = "Rushing into the entire enemy team probably isn't a good idea! Position yourself properly, and always know how you will escape if things go sour!"
+
+[[GAME]]
+tip = "Combine your rage with other teammate's rage! Using rages in conjunction with each other is far more powerful than using them by themselves!"
+
+[[GAME]]
+tip = "Protect your supports from flankers or other dangers, they're the ones keeping you alive! If you notice one is being attacked, make it a priority to stop the attacker."
+
+[[GAME]]
+tip = "All rages have a distinct sound when they're activated. Try to remember these sounds, so you can know when they're coming."
+
+[[GAME]]
+tip = "Press F2 to learn what your hats do."
+
+[[GAME]]
+tip = "Use /t to enter team chat."
+
+# Weapon specific tips, you can see these if you die to them
+[[WEAPON]]
+weapon = "Sting"
+tip = "Listen to the audible buzzing to know if you're close to someone using Bees."
+image = { hat = "Bees", type = "Ability", name = "Sting" }
+
+[[WEAPON]]
+weapon = "Bombface"
+tip = "When fighting someone with Bombface at close range, make sure you have enough health to survive the blast."
+image = { hat = "Bombface", type = "Passive" }
+
+[[WEAPON]]
+weapon = "Buddy Baseball Bat"
+tip = "Always keep your distance from Buddy Baseball Cap to avoid the swings of its bat."
+image = { hat = "Buddy Baseball Cap", type = "Weapon" }
+
+[[WEAPON]]
+weapon = "Home Run"
+tip = "Home Run can easily finish you off. Always make sure you have enough health to fight Buddy Baseball Cap."
+image = { hat = "Buddy Baseball Cap", type = "Ability", name = "Home Run" }
+
+[[WEAPON]]
+weapon = "Paintball Gun"
+tip = "Try and move unpredictably. The paintball gun relies heavily on aiming, so make it as hard as possible for you to get hit."
+image = { hat = "Deluxe Paintball Helmet", type = "Weapon" }
+
+[[WEAPON]]
+weapon = "Pyromancy"
+tip = "Fire Wizard is dangerous at close range, but is barely a threat at far range. Always keep your distance."
+image = { hat = "Fire Wizard", type = "Weapon" }
+
+[[WEAPON]]
+weapon = "Meteor Ring"
+tip = "Including the damage over time, Fire Ring deals about a third damage to your health. Find healing quick after being damaged by one."
+image = { hat = "Fire Wizard", type = "Ability", name = "Meteor Ring" }
+
+[[WEAPON]]
+weapon = "Ninja Star"
+tip = "The ninja stars are small and easy to avoid. Move unpredictably to avoid damage."
+image = { hat = "Ninja Mask of Shadows", type = "Weapon" }
+
+[[WEAPON]]
+weapon = "Attack from the Shadows"
+tip = "Always keep an eye on potential healing, you never know when a Ninja Mask of Shadows player may use his ability on you."
+image = { hat = "Ninja Mask of Shadows", type = "Ability", name = "Attack from the Shadows" }
+
+[[WEAPON]]
+weapon = "Quack Attack"
+tip = "Rubber Duckie's Quack Attack is less accurate the farther away you are from the person firing it. Try to keep your distance from Rubber Duckie players."
+image = { hat = "Rubber Duckie", type = "Weapon" }
+
+[[WEAPON]]
+weapon = "Quackier Attackier"
+tip = "A Rubber Duckie is vulnerable while they're using Quackier Attackier. Try and dodge the big ducks and take out the Rubber Duckie."
+image = { hat = "Rubber Duckie", type = "Ability", name = "Quackier Attackier" }
+
+[[WEAPON]]
+weapon = "Unicorn Horn"
+tip = "If you know someone is using Unicorn Horn, always try to keep an eye on your health to make sure you're not vulnerable to the stab."
+image = { hat = "Unicorn Horn", type = "Passive" }
+
+# Playing against hats
+[[HAT_AGAINST]]
+hat = "Doge"
+tip = "If you're targeted by a dog but can't find their owner, move away as far as possible to get him off of you."
+
+[[HAT_AGAINST]]
+hat = "Doge"
+tip = "Doge is very weak at close range. If you can get close to a dog's owner, you can easily take care of them."
+
+[[HAT_AGAINST]]
+hat = "Fedora"
+tip = "To easily take out a Fedora, deal heavy burst damage."
+
+# Using hats
+# TODO
