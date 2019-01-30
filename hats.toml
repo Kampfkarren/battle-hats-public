@@ -99,6 +99,7 @@ FailedExperimentRange = 40.0
 FailedExperimentSlow = -0.25
 FailedExperimentSpeed = 100.0
 FlaskImpactDamage = 15.0
+FlaskMaxRange = 75.0
 FlaskRadius = 65.0
 FlaskReload = 2.4
 FlaskSpeedNerf = -0.15
@@ -108,7 +109,10 @@ FlaskSplashDelay = 0.5
 FlaskSplashInterval = 1.0
 FlaskSplashLifetime = 3.0
 FlaskVelocityMagic1 = 25.0
-FlaskVelocityMagic2 = 35.0
+FlaskVelocityMagic2 = 16.0
+FlaskVelocityMagic3 = 31250.0
+FlaskVelocityMagic4 = -4281.0
+FlaskVelocityMagic5 = 1052925.0
 ScienceExperimentMaxAoE = 1.5
 ScienceExperimentMaxDamage = 2.5
 ScienceExperimentMaxSlowLifetime = 4.0
@@ -151,6 +155,7 @@ image = "http://www.roblox.com/asset/?id=325174090"
 skill_type = "Ability"
 
 [majors.mad-scientist-hair.changelog]
+2019-01-29 = ["Flasks will now land where your cursor is, up to 75 units."]
 2018-12-29 = ["Mad Scientist Hair has been reworked from the ground up.", "Changed rage from \"Supersaturation - Place a flask that weakens and damages enemies in an area around it the longer they remain in it.\" to \"Big Boom Theory - Lower attack and defense of enemies near you while slowing them and charge up a massive attack.\"", "Changed weapon from \"Flask - Throwing weapon with an arc. 0.5 seconds after impact, leaves a cloud of chemicals that lasts for 3 seconds, doing 15 damage per second, slowing enemies by 20% as long as they’re in the cloud. 2 second reload.\" to \"Flask - Throwing weapon with an arc. On impact, deal 20 damage and slow enemies by 15% for 1 second in a 90 unit radius. 0.5 seconds after impact, leave a cloud that deals 15 damage per second for 3 seconds in a 90 unit radius. Can be thrown every 2.4 seconds.\"", "Removed Wild Vial.", "Added \"Failed Experiment - Throw a vial that creates a puddle that slows, damages, and lowers defense.\"", "Added \"Science Experiment - Toggle. Empower your next Flask the longer you toggle Science Experiment. You are slowed while toggled.\""]
 2018-08-06 = ["Being bloxxed will no longer remove the flask dropped by Supersaturation."]
 2018-08-05 = ["Fixes Supersaturation and Wild Vial smoke."]

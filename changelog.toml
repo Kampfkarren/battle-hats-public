@@ -1,4 +1,10 @@
 [[changelog]]
+date = "2019-01-29"
+
+[changelog.entries]
+"Mad Scientist Hair" = ["Flasks will now land where your cursor is, up to 75 units."]
+
+[[changelog]]
 date = "2019-01-28"
 
 [changelog.entries]
