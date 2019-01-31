@@ -1,4 +1,10 @@
 [[changelog]]
+date = "2019-01-31"
+
+[changelog.entries]
+"Divine Guardian's Helm" = ["Added."]
+
+[[changelog]]
 date = "2019-01-29"
 
 [changelog.entries]
