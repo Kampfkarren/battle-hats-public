@@ -1004,6 +1004,77 @@ skill_type = "Ability"
 2018-08-04 = ["Enemies under the effects of Dark Curse can no longer pick up medkits despite them not healing."]
 2017-07-24 = ["Added."]
 
+[majors.divine-guardians-helm]
+flavor-text = "Description"
+name = "Divine Guardian's Helm"
+series = "Classic"
+major = true
+stars = 3
+hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=184877708"
+
+[majors.divine-guardians-helm.config]
+Ability1Cooldown = 7.0
+Ability2Cooldown = 8.0
+Ability2Range = 250.0
+DivineSlamBuffLifetime = 6.0
+DivineSlamBuffRadius = 250.0
+DivineSlamDamage = 40.0
+DivineSlamDamageRange = 120.0
+DivineSlamDefense = 0.25
+DivineSlamHealthPerSecond = 10.0
+ExtraHealth = 50.0
+GuardiansDazeDefense = 0.25
+GuardiansDazeLength = 3.0
+GuardiansDazeShieldBashDamage = 45.0
+GuardiansDazeShieldBashRange = 5.0
+GuardiansDazeShieldBashStunLength = 0.75
+HammerActiveHammerLength = 0.5
+HammerCooldown = 1.0
+HammerDamage = 35.0
+HolyWaveDefense = 0.25
+HolyWaveDefenseLifetime = 4.0
+HolyWaveHealth = 60.0
+HolyWaveSelfishHeal = 20.0
+
+[majors.divine-guardians-helm.rage]
+name = "Divine Slam"
+advanced = "Slam your hammer into the ground dealing 40 damage to enemies in a 120 unit area around you. Also provides 25% defense and 10 health per second to allies in an 250 unit radius for 6 seconds"
+simple = "Slam your hammer into the ground damaging nearby enemies, and giving a protective aura to allies."
+skill_type = "Rage"
+
+[majors.divine-guardians-helm.weapon]
+name = "Blessed Hammer"
+advanced = "Swing a short range hammer, deals 35 damage to anyone close. Can swing once per second. "
+simple = "Swing your hammer."
+image = ""
+skill_type = "Weapon"
+
+[majors.divine-guardians-helm.passive]
+name = "Extra Health"
+advanced = "Passive. Has 50 extra health."
+simple = "Passive. Extra health."
+image = "rbxassetid://2637249590"
+skill_type = "Passive"
+
+[[majors.divine-guardians-helm.abilities]]
+name = "Holy Wave"
+advanced = "Casts a spell optionally targeting an ally within 250 units. You and the targeted ally, if there is one, are healed for 60 health and granted 25% defense for 4 seconds. If no ally is targeted, heal yourself for an additional 20 health."
+simple = "Cast a holy spell that heals and grants defense to yourself and another ally. Extra healing if not targeted."
+cooldown = 8.0
+image = "rbxassetid://165328881"
+skill_type = "Ability"
+
+[[majors.divine-guardians-helm.abilities]]
+name = "Guardian’s Daze"
+advanced = "Empower your tower shield with a holy light for 3 seconds, this holy light provides the 25% defense, your next attack will be a shield bash that does 45 damage and stuns for .75 seconds. Attacking with your weapon consumes the holy light and defense buff."
+simple = "Empower your tower shield to grant damage reduction and stun an enemy with your next attack."
+cooldown = 7.0
+image = "rbxassetid://1151642738"
+skill_type = "Ability"
+
+[majors.divine-guardians-helm.changelog]
+2019-01-31 = ["Added."]
+
 [majors.valkyrie-helm]
 flavor-text = "AKA \"Search Wikipedia for Norse mythology\""
 name = "Valkyrie Helm"
