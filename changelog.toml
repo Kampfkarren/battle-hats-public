@@ -1,4 +1,10 @@
 [[changelog]]
+date = "2019-02-04"
+
+[changelog.entries]
+General = ["Changed how knockback works, and modified numbers of those that used it."]
+
+[[changelog]]
 date = "2019-01-31"
 
 [changelog.entries]

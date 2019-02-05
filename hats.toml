@@ -250,14 +250,14 @@ hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&asset
 Ability1Cooldown = 9.0
 FireHoseBeamMagic = 18.5
 FireHoseDamage = 14.0
-FireHoseKnockback = -25.0
+FireHoseKnockback = -15.0
 FireHoseKnockbackLoss = 0.5
 FireHoseLength = 20.0
 FireHoseMaxRange = 35.0
 FireHoseReload = 0.2
 FireHydrantDamage = 45.0
 FireHydrantDelay = 1.0
-FireHydrantKnockback = 20.0
+FireHydrantKnockback = 10.0
 FireHydrantLifetime = 6.0
 FireHydrantRange = 45.0
 RedAlertDamage = 70.0
@@ -1351,7 +1351,7 @@ hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&asset
 
 [minors.kitty-ears.config]
 Ability1Cooldown = 2.0
-Knockback = 25.0
+Knockback = 10.0
 
 [[minors.kitty-ears.abilities]]
 name = "On the Prowl"
