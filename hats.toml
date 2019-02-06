@@ -529,48 +529,69 @@ stars = 2
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=14860728"
 
 [majors.the-great-lion.config]
-Ability1Cooldown = 8.0
-RageBuff = 0.25
-RageLength = 7.0
-RageRange = 40.0
-RoarBuff = 0.3
-RoarDefense = 0.3
-RoarLength = 4.5
-RoarRange = 60.0
-SwipeDamage = 28.0
-SwipeDelay = 0.3
-SwipeRange = 30.0
+Ability1Cooldown = 3.75
+Ability2Cooldown = 9.0
+FerocityDamageBuff = 0.5
+FerocityHealthLimit = 0.33
+KingOfTheJungleDamage = 80.0
+KingOfTheJungleLength = 2.0
+KingOfTheJungleRange = 45.0
+RoarBuffAttack = 0.2
+RoarBuffLifetime = 5.0
+RoarBuffSpeed = 0.2
+RoarDamage = 25.0
+RoarRange = 75.0
+SavageLeapAttackDamage = 35.0
+SavageLeapAttackDelay = 0.5
+SavageLeapAttackRange = 50.0
+SavageLeapForce = 20.0
+SavageLeapHeal = 35.0
+SwipeAngle = 75.0
+SwipeClawMarkFade = 0.35
+SwipeCount = 4.0
+SwipeDamage = 20.0
+SwipeInterval = 0.42
+SwipeRange = 15.0
 SwipeReload = 1.4
 
 [majors.the-great-lion.rage]
-name = "ALLLPGHHHHAA!"
-advanced = "After a .5 second delay, swipe every .5 seconds in front of the user, with each swipe dealing 42 damage per swipe in a 30 unit range for 5 seconds."
-simple = "After a short delay, swipe rapidly in front of the user."
+name = "King of the Jungle"
+advanced = "Swipe multiple times at nearby enemies, dealing 80 damage per second in a 45 unit area for 2 seconds."
+simple = "Swipe multiple times at nearby enemies, dealing damage in an area."
 skill_type = "Rage"
 
 [majors.the-great-lion.weapon]
 name = "Claws"
-advanced = "Swipe twice at nearby enemies dealing 42 damage per swipe every 1.4 seconds, with a .3 second delay between swipes in a 30 unit range."
-simple = "Swipe twice at nearby enemies."
+advanced = "Swipe four times at enemies dealing 16 damage per swipe, with a .42 second delay between swipes in front of you in a 15 unit range. After swiping, you cannot swipe again for 1.4 seconds."
+simple = "Swipe at nearby enemies."
 image = ""
 skill_type = "Weapon"
 
 [majors.the-great-lion.passive]
-name = "Stampede"
-advanced = "Passive. Walk 20% faster when not attacking, also applies to teammates in a 60 unit radius. If you attack, you must wait 2 seconds after to reactivate this effect."
-simple = "Passive. Walk faster when not attacking, and cause teammates to walk faster as well."
+name = "Ferocity"
+advanced = "Passive. Deal 50% more damage to enemies under 33% health."
+simple = "Passive. Deal more damage to low health enemies."
 image = "http://www.roblox.com/asset/?id=41907180"
 skill_type = "Passive"
 
 [[majors.the-great-lion.abilities]]
+name = "Savage Leap"
+advanced = "Move 20 units in the direction you’re facing and then attack after .5 seconds in a 50 unit area in front of you dealing 35 damage. If this attack hits, heal yourself for 35 health."
+simple = "Move in the direction you’re facing and then attack, healing you if it hits."
+cooldown = 3.75
+image = "rbxassetid://97462900"
+skill_type = "Ability"
+
+[[majors.the-great-lion.abilities]]
 name = "Roar"
-advanced = "Increase damage and defense of yourself and nearby teammates by 30% for 4.5 seconds in a 60 unit radius."
-simple = "Increase damage and defense of yourself and nearby teammates."
-cooldown = 8.0
-image = "http://www.roblox.com/asset/?id=128539144"
+advanced = "Let out a fearsome roar, dealing 25 damage in a 75 unit area and buffing your speed and attack by 20% for 5 seconds."
+simple = "Let out a fearsome roar, dealing damage in an area and buffing your speed and attack."
+cooldown = 9.0
+image = "rbxassetid://169101116"
 skill_type = "Ability"
 
 [majors.the-great-lion.changelog]
+2019-02-06 = ["The Great Lion has been completely reworked.", "Changed rage from \"ALLLPGHHHHAA! - After a short delay, swipe rapidly in front of the user.\" to \"King of the Jungle - Swipe multiple times at nearby enemies, dealing damage in an area.", "Changed weapon from \"Swipe twice at nearby enemies.\" to \"Swipe four times at nearby enemies.\". This also now only works on those in front of you, instead of at all enemies in your radius.", "Changed Roar from \"Increase damage and defense of yourself and nearby teammates.\" to \"Let out a fearsome roar, dealing damage in an area and buffing your speed and attack.\", and increased the cooldown from 8 to 9 seconds.", "Added \"Savage Leap - Move in the direction you’re facing and then attack, healing you if it hits.\"", "Removed \"Stampede -  Passive. Walk faster when not attacking, and cause teammates to walk faster as well.\"", "Added \"Ferocity - Passive. Deal more damage to low health enemies.\"", "The Great Lion has been completely reworked.", "Changed rage from \"ALLLPGHHHHAA! - After a short delay, swipe rapidly in front of the user.\" to \"King of the Jungle - Swipe multiple times at nearby enemies, dealing damage in an area.", "Changed weapon from \"Swipe twice at nearby enemies.\" to \"Swipe four times at nearby enemies.\". This also now only works on those in front of you, instead of at all enemies in your radius.", "Changed Roar from \"Increase damage and defense of yourself and nearby teammates.\" to \"Let out a fearsome roar, dealing damage in an area and buffing your speed and attack.\", and increased the cooldown from 8 to 9 seconds.", "Added \"Savage Leap - Move in the direction you’re facing and then attack, healing you if it hits.\"", "Removed \"Stampede -  Passive. Walk faster when not attacking, and cause teammates to walk faster as well.\"", "Added \"Ferocity - Passive. Deal more damage to low health enemies.\""]
 2018-01-01 = ["Lowered claw damage from 42 to 28."]
 2017-08-15 = ["Fixed a glitch where if a player left while they were using Swipe the claw marks would stay in the world."]
 2017-07-21 = ["Added taunt."]
