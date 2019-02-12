@@ -479,10 +479,10 @@ hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&asset
 
 [majors.deluxe-paintball-helmet.config]
 Ability1Cooldown = 1.65
-DartDamage = 25.0
-DartLifetime = 0.75
-DartReload = 0.35
-DartSpeed = 100.0
+DartDamage = 8.0
+DartLifetime = 1.5
+DartReload = 0.2
+DartSpeed = 150.0
 HoserAmount = 5.0
 HoserDamageBuff = 1.65
 HoserSpeedBuff = 1.3
