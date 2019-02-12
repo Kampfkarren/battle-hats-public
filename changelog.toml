@@ -1,4 +1,10 @@
 [[changelog]]
+date = "2019-02-12"
+
+[changelog.entries]
+"The Great Lion" = ["Roar now gives buff on use instead of per enemy damaged."]
+
+[[changelog]]
 date = "2019-02-06"
 
 [changelog.entries]
