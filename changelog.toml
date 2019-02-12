@@ -2,7 +2,7 @@
 date = "2019-02-12"
 
 [changelog.entries]
-"The Great Lion" = ["Roar now gives buff on use instead of per enemy damaged."]
+"The Great Lion" = ["Roar now gives buff on use instead of per enemy damaged.", "Fixed F2 information."]
 "Divine Guardian's Helm" = ["Fixed Guardian's Daze stun."]
 
 [[changelog]]
