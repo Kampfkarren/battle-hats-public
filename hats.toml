@@ -478,35 +478,69 @@ stars = 3
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=113326348"
 
 [majors.deluxe-paintball-helmet.config]
-Ability1Cooldown = 1.65
+Ability1Cooldown = 7.0
+Ability2Cooldown = 1.25
 DartDamage = 8.0
 DartLifetime = 1.5
 DartReload = 0.2
 DartSpeed = 150.0
-HoserAmount = 5.0
-HoserDamageBuff = 1.65
-HoserSpeedBuff = 1.3
+DroserDamage = 17.0
+DroserHeight = 25.0
+DroserLifetime = 14.0
+DroserInterval = 1.0
+DroserRange = 200.0
+HopperBoomTime = 1.5
+HopperDamage = 15.0
+HopperLandTime = 1.0
+HopperLength = 25.0
+HopperRange = 70.0
+MaxHealthBuff = 25.0
 RageBubbleLifetime = 0.5
+SweetSpotLifetime = 7.5
+SweetSpotOffset = 5.0
+WipeHealDelay = 4.0
+WipeHealPercentage = 0.5
+WipeMaxHealth = 25.0
+
+[majors.deluxe-paintball-helmet.config.SweetSpotSize]
+x = 4.0
+y = 5.0
+z = 3.0
 
 [majors.deluxe-paintball-helmet.rage]
-name = "Paint Can-non"
-advanced = "Throw a paint can that explodes to deal 65 damage to enemies in a 125 unit range and cover their screens with paint for 5 seconds."
-simple = "Throw a paint can that explodes to damage enemies and cover their screens."
+name = "Droser"
+advanced = "Summon a drone that hovers 25 units over the user and lasts 14 seconds. It attacks the closest enemy in 200 units for 17 damage every second."
+simple = "Summon a drone that hovers over the user and attacks the closest enemy."
 skill_type = "Rage"
 
 [majors.deluxe-paintball-helmet.weapon]
 name = "Paintball Gun"
-advanced = "Shoot a small dart of paint. The darts travel at 100 units per second, disappearing at 0.75 seconds. Enemies hit by this dart will take 25 damage. Can be shot once every 0.35 seconds."
-simple = "Shoots paint darts."
+advanced = "Fire a paintball every .2 seconds that travels at 150 u/s for 1.5 seconds that deals 8 damage."
+simple = "Rapid-firing paintball gun that deals moderate damage."
 image = ""
 skill_type = "Weapon"
 
+[majors.deluxe-paintball-helmet.passive]
+name = "Wipe"
+advanced = "Passive. After taking damage, heal 50% of it after 4 seconds. +25 max health."
+simple = "Passive. Heal damage taken after a while."
+image = "rbxassetid://127077637"
+skill_type = "Passive"
+
 [[majors.deluxe-paintball-helmet.abilities]]
-name = "Hoser"
-advanced = "Your next 5 shots deal 65% more damage and travel 30% faster."
-simple = "Your next few shots deal more damage. "
-cooldown = 8.0
-image = "http://www.roblox.com/asset/?id=17498132"
+name = "Sweet Spot"
+advanced = "Place a 4x5x3 bean bag 5 units in front of you to use as cover. The bean bag lasts for 7.5 seconds and cannot be walked through, allied attacks and enemy attacks cannot go through it. Can only have one bean bag out at a time, spawning a new one will instantly replace the old one."
+simple = "Place a large bean bag in front of you to use as cover. The bean bag lasts for a few seconds and cannot be walked or attacked through."
+cooldown = 7.0
+image = "rbxassetid://116812913"
+skill_type = "Ability"
+
+[[majors.deluxe-paintball-helmet.abilities]]
+name = "Hopper"
+advanced = "Launch an arced projectile that travels 25 units, takes 1 second to land, and explodes after 1.5 seconds of throwing, dealing 15 damage in a 70 unit radius."
+simple = "Launch an arced projectile that explodes after a while, dealing area damage."
+cooldown = 1.25
+image = "rbxassetid://417620491"
 skill_type = "Ability"
 
 [majors.deluxe-paintball-helmet.changelog]
