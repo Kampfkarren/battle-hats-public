@@ -1,4 +1,10 @@
 [[changelog]]
+date = "2019-02-24"
+
+[changelog.entries]
+"Deluxe Paintball Helmet" = ["Changed Paintball Gun from \"Shoot a small dart of paint. The darts travel at 100 units per second, disappearing at 0.75 seconds. Enemies hit by this dart will take 25 damage. Can be shot once every 0.35 seconds.\" to \"Fire a paintball every .2 seconds that travels at 150 u/s for 1.5 seconds that deals 8 damage.\"", "Removed \"Hoser - Your next few shots deal more damage.\"", "Added \"Sweet Spot - Place a large bean bag in front of you to use as cover. The bean bag lasts for a few seconds and cannot be walked or attacked through.\"", "Added \"Hopper - Launch an arced projectile that explodes after a while, dealing area damage.\"", "Added \"Wipe - Passive. Heal damage taken after a while.\"", "Changed rage from \"Paint Can-non - Throw a paint can that explodes to damage enemies and cover their screens.\" to \"Droser - Summon a drone that hovers over the user and attacks the closest enemy.\""]
+
+[[changelog]]
 date = "2019-02-12"
 
 [changelog.entries]

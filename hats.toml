@@ -544,6 +544,7 @@ image = "rbxassetid://417620491"
 skill_type = "Ability"
 
 [majors.deluxe-paintball-helmet.changelog]
+2019-02-24 = ["Changed Paintball Gun from \"Shoot a small dart of paint. The darts travel at 100 units per second, disappearing at 0.75 seconds. Enemies hit by this dart will take 25 damage. Can be shot once every 0.35 seconds.\" to \"Fire a paintball every .2 seconds that travels at 150 u/s for 1.5 seconds that deals 8 damage.\"", "Removed \"Hoser - Your next few shots deal more damage.\"", "Added \"Sweet Spot - Place a large bean bag in front of you to use as cover. The bean bag lasts for a few seconds and cannot be walked or attacked through.\"", "Added \"Hopper - Launch an arced projectile that explodes after a while, dealing area damage.\"", "Added \"Wipe - Passive. Heal damage taken after a while.\"", "Changed rage from \"Paint Can-non - Throw a paint can that explodes to damage enemies and cover their screens.\" to \"Droser - Summon a drone that hovers over the user and attacks the closest enemy.\""]
 2018-12-30 = ["Increased reload speed from 0.2 to 0.35 seconds."]
 2017-07-24 = ["Increased speed from 80 to 100.", "Hoser now increases the speed of your darts by 30%."]
 2017-07-23 = ["Fixed a glitch where paint cans from your rage would hit non-collidable parts."]
@@ -1057,7 +1058,7 @@ skill_type = "Ability"
 2017-07-24 = ["Added."]
 
 [majors.divine-guardians-helm]
-flavor-text = "Description"
+flavor-text = "Let there be light!"
 name = "Divine Guardian's Helm"
 series = "Classic"
 major = true
