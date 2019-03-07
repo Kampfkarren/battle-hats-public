@@ -1,4 +1,10 @@
 [[changelog]]
+date = "2019-03-07"
+
+[changelog.entries]
+"The Star Chef" = ["Added."]
+
+[[changelog]]
 date = "2019-02-24"
 
 [changelog.entries]
