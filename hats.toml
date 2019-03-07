@@ -697,6 +697,86 @@ skill_type = "Ability"
 2017-03-19 = ["Shuriken damage increased from 15 to 20.", "Attack from the Shadows attack time decreased from 1.5 seconds to 1 second.", "Attack from the Shadows range increased from 35 units to 60 units.", "Attack from the Shadows now doubles damage dealt for 3.5 seconds.", "Removed Stealth."]
 2017-02-18 = ["Added."]
 
+[majors.the-star-chef]
+flavor-text = "3 stars to be exact. \"Flavor\" text, get it?"
+name = "The Star Chef"
+series = "Classic"
+major = true
+stars = 3
+hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=96678446"
+
+[majors.the-star-chef.config]
+Ability1Cooldown = 3.0
+Ability2Cooldown = 10.0
+CleaverDamage = 10.0
+CleaverGradualDamage = 25.0
+CleaverGradualInterval = 0.1
+CleaverGradualTime = 7.0
+CleaverLifetime = 2.5
+CleaverReload = 2.0
+CleaverSpeed = 100.0
+FineCutDamagePerCleaver = 15.0
+FineCutFreshIngredients = 2.0
+FreshIngredientsActivateRadius = 5.0
+FreshIngredientsBuffLifetime = 15.0
+FreshIngredientsDamage = 50.0
+FreshIngredientsDefenseBuff = 0.04
+FreshIngredientsGravitateRadius = 70.0
+FreshIngredientsHealthRegen = 2.0
+FreshIngredientsHealthRegenInterval = 1.0
+FreshIngredientsRotationSpeed = 1.0
+FreshIngredientsSpeedBuff = 0.01
+MaxHealthBuff = 80.0
+RecipeForDisasterIngredients = 1.0
+RecipeForDisasterInterval = 1.2
+RecipeForDisasterLength = 8.0
+RecipeForDisasterShareRange = 200.0
+TasteTestAngle = 75.0
+TasteTestAttackBuff = 0.25
+TasteTestBuffLifetime = 3.0
+TasteTestDamage = 33.0
+TasteTestDefenseBuff = 0.25
+TasteTestHeal = 0.2
+TasteTestRange = 15.0
+
+[majors.the-star-chef.rage]
+name = "Recipe for Disaster"
+advanced = "Cause enemies and allies to drop 1 fresh ingredient every 1.2 seconds, and share your fresh ingredient effects with allies in a 200 unit radius around you for 8 seconds."
+simple = "Cause enemies and allies to drop fresh ingredients constantly, and share your fresh ingredient effects with allies for a few seconds."
+skill_type = "Rage"
+
+[majors.the-star-chef.weapon]
+name = "Meat Cleaver"
+advanced = "Throw a meat cleaver every two seconds that travels 100 units per second for 2.5 seconds which sticks into enemies, dealing 10 damage immediately and 25 damage gradually over 7 seconds."
+simple = "Throw a meat cleaver which sticks into enemies, dealing damage and damage overtime."
+image = ""
+skill_type = "Weapon"
+
+[majors.the-star-chef.passive]
+name = "Fresh Ingredients"
+advanced = "Passive. Whenever enemies and allies take 50 damage, they drop fresh ingredients which give you 4% defense, 1% movement speed, and 2 health regeneration per second for 15 seconds, all stacking. Ingredients gravitate to you slowly when you come into within a 70 units radius around them. +80 max health."
+simple = "Passive. Whenever enemies and allies take enough damage, they drop fresh ingredients which give you defense, movement speed, and health regeneration."
+skill_type = "Passive"
+
+[[majors.the-star-chef.abilities]]
+name = "Taste Test"
+advanced = "Chomp enemies 15 units in front of you, dealing 33 damage and healing yourself for 20% of your maximum health while stealing 25% defense and 25% attack for 3 seconds."
+simple = "Chomp enemies in front of you, dealing damage and healing yourself while stealing defense and attack."
+cooldown = 3.0
+image = "rbxassetid://14818527"
+skill_type = "Ability"
+
+[[majors.the-star-chef.abilities]]
+name = "Fine Cut"
+advanced = "End all damage overtime on your cleavers to deal 15 instant damage per cleaver and cause enemies to drop 2 fresh ingredients per cleaver. "
+simple = "End all damage overtime on your cleavers to deal instant damage and cause enemies to drop fresh ingredients."
+cooldown = 10.0
+image = "rbxassetid://347999409"
+skill_type = "Ability"
+
+[majors.the-star-chef.changelog]
+2019-03-07 = ["Added."]
+
 [majors.rubber-duckie]
 flavor-text = "Quack."
 name = "Rubber Duckie"
