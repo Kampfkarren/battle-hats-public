@@ -864,10 +864,16 @@ stars = 2
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=232525495"
 
 [majors.the-specialists-helmet.config]
-Ability1Cooldown = 18.0
+Ability1Cooldown = 5.0
 RageDelay = 2.0
 RageMedkitLifetime = 25.0
 RageUses = 2.0
+RationsActiveRange = 5.0
+RationsHeal = 15.0
+RationsHealInterval = 1.0
+RationsHealLifetime = 20.0
+RationsMax = 4.0
+RationsRange = 60.0
 WeaponDamage = 21.0
 WeaponLifetime = 0.88
 WeaponReload = 0.4
@@ -891,7 +897,7 @@ name = "Medkit"
 advanced = "Place a medkit that only your team can use. The medkit heals for 75% of health and respawns after 7.5 seconds. Disappears after your spawn another medkit or die."
 simple = "Place a medkit that only your team can use. Disappears after your spawn another medkit or die."
 cooldown = 18.0
-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=232525495"
+image = "rbxassetid://2779070010"
 skill_type = "Ability"
 
 [majors.the-specialists-helmet.changelog]
