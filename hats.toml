@@ -874,8 +874,8 @@ RationsHealInterval = 1.0
 RationsHealLifetime = 20.0
 RationsMax = 4.0
 RationsRange = 60.0
-WeaponDamage = 21.0
-WeaponLifetime = 0.88
+WeaponDamage = 25.0
+WeaponLifetime = 0.55
 WeaponReload = 0.4
 WeaponSpeed = 225.0
 
