@@ -1,4 +1,10 @@
 [[changelog]]
+date = "2019-03-13"
+
+[changelog.entries]
+"The Specialist's Helmet" = ["Increased Laser Blaster damage from 21 to 25.", "Lowered Laser Blaster projectile lifetime from 0.88s to 0.55s.", "Replaced \"Medkit - Place a medkit that only your team can use. Disappears after your spawn another medkit or die.\" with \"Rations - Toss rations in front of you, which heal allies over a long duration.\"", "Added \"Combat Roll - Roll in front of you while empowering your next few attacks.\""]
+
+[[changelog]]
 date = "2019-03-07"
 
 [changelog.entries]

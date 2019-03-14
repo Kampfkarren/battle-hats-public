@@ -865,6 +865,11 @@ hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&asset
 
 [majors.the-specialists-helmet.config]
 Ability1Cooldown = 5.0
+Ability2Cooldown = 5.0
+CombatRollAttackSpeedBuff = 2.0
+CombatRollAttackBuffCount = 4.0
+CombatRollLifetime = 0.1
+CombatRollRange = 65.0
 RageDelay = 2.0
 RageMedkitLifetime = 25.0
 RageUses = 2.0
@@ -881,26 +886,35 @@ WeaponSpeed = 225.0
 
 [majors.the-specialists-helmet.rage]
 name = "Resupply!"
-advanced = "Spawn a Medkit on each teammate that can be used 2 times. The medkit heals for 75% of health and respawns after 7.5 seconds. All Medkits spawned this way disappear after 25 seconds."
-simple = "After 2 seconds, spawn a Medkit on each teammate that can be used 2 times."
+advanced = "Spawn a medkit on each teammate that can be used 2 times. The medkit heals for 75% of health and respawns after 7.5 seconds. All medkits spawned this way disappear after 25 seconds."
+simple = "After 2 seconds, spawn a medkit on each teammate that can be used 2 times."
 skill_type = "Rage"
 
 [majors.the-specialists-helmet.weapon]
 name = "Laser Blaster"
-advanced = "A blaster that deals 21 damage and shoots every .4 seconds. Projectile travels for 0.88 seconds at 225 units a second."
+advanced = "A blaster that deals 25 damage and shoots every .4 seconds. Projectile travels for 0.55 seconds at 225 units a second."
 simple = "Blast lasers."
 image = ""
 skill_type = "Weapon"
 
 [[majors.the-specialists-helmet.abilities]]
-name = "Medkit"
-advanced = "Place a medkit that only your team can use. The medkit heals for 75% of health and respawns after 7.5 seconds. Disappears after your spawn another medkit or die."
-simple = "Place a medkit that only your team can use. Disappears after your spawn another medkit or die."
-cooldown = 18.0
+name = "Rations"
+advanced = "Toss rations 60 units in front of you, which heals allies that touch it 15 health per second over 20 seconds. Does not stack on allies. Can have up to 4 rations out at a time."
+simple = "Toss rations in front of you, which heal allies over a long duration."
+cooldown = 5.0
 image = "rbxassetid://2779070010"
 skill_type = "Ability"
 
+[[majors.the-specialists-helmet.abilities]]
+name = "Combat Roll"
+advanced = "Roll 65 units in front of you in 0.1s. The next four attacks you use shoot twice as fast."
+simple = "Roll in front of you while empowering your next few attacks."
+cooldown = 5.0
+image = "rbxassetid://125179224"
+skill_type = "Ability"
+
 [majors.the-specialists-helmet.changelog]
+2019-03-13 = ["Increased Laser Blaster damage from 21 to 25.", "Lowered Laser Blaster projectile lifetime from 0.88s to 0.55s.", "Replaced \"Medkit - Place a medkit that only your team can use. Disappears after your spawn another medkit or die.\" with \"Rations - Toss rations in front of you, which heal allies over a long duration.\"", "Added \"Combat Roll - Roll in front of you while empowering your next few attacks.\""]
 2018-08-05 = ["Added a parachute animation to placed Medkits.", "Replaced sound for Medkit to one of a parachute dropping. Credit information has been placed on the Creative Commons Attributions spreadsheet.", "Medkits dropped from Resupply! now look like they're falling from the sky."]
 2017-07-24 = ["Lowered damage from 30 to 21."]
 2017-06-16 = ["Medkits will now play a sound when they are spawned in."]
