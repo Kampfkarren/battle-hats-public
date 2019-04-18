@@ -1790,6 +1790,28 @@ skill_type = "Passive"
 2017-03-19 = ["Increased healing multiplier from 15% to 35%."]
 2017-02-16 = ["Added."]
 
+[minors.headrow]
+flavor-text = "Hopefully not contagious."
+name = "Headrow"
+series = "Classic"
+major = false
+hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1082935"
+
+[minors.headrow.config]
+Delay = 1.0
+Radius = 70.0
+Rage = 0.5
+
+[minors.headrow.passive]
+name = "Better than One"
+advanced = "Passive. For every enemy in a 70 unit radius, get 0.5 rage per second."
+simple = "Passive. Rage rate increases the more enemies are near you. "
+image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1082935"
+skill_type = "Passive"
+
+[minors.headrow.changelog]
+2017-09-17 = ["Added."]
+
 [minors.bloxxer-cap]
 flavor-text = "dear kampf plz make this insta blox enemies thank u"
 name = "Bloxxer Cap"
