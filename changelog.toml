@@ -1,4 +1,10 @@
 [[changelog]]
+date = "2019-06-22"
+
+[changelog.entries]
+General = ["Crates have been completely removed from Battle Hats. Instead...", "Normal hats are now bought in bundles. You are offered 3 bundles in your store, each with a selection of hats. Bundles change every day, but buying a new bundle will refresh it immediately.", "Skins are now bought in a rotating store. There are two categories--featured and daily. While both rotate every day, every player has the same selection for featured hats while the selection for \"daily\" hats is specific to that player. There are 2 featured hats and 6 daily hats. Soon, this store will offer more as well such as sprays and taunts.", "Instead of buying premium hats with Robux, you now buy them with a separate premium currency called \"caps\". You can buy caps directly with Robux if you don't have enough when buying a skin, but a more easier way to buy them is planned.", "Instead of getting a premium crate every few level ups, you will now get caps."]
+
+[[changelog]]
 date = "2019-03-13"
 
 [changelog.entries]
