@@ -1,4 +1,10 @@
 [[changelog]]
+date = "2019-06-26"
+
+[changelog.entries]
+"Valkyrie Helm" = ["Fixed a bug where Valkyrie Helm's spears would deal damage to teammates."]
+
+[[changelog]]
 date = "2019-06-22"
 
 [changelog.entries]

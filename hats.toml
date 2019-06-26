@@ -1286,6 +1286,7 @@ image = "http://www.roblox.com/asset/?id=128313675"
 skill_type = "Ability"
 
 [majors.valkyrie-helm.changelog]
+2019-06-26 = ["Fixed a bug where Valkyrie Helm's spears would deal damage to teammates."]
 2018-10-21 = ["Fixed a bug where spears would stay stuck in the wall."]
 2018-10-20 = ["Added."]
 
