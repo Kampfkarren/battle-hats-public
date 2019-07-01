@@ -1,4 +1,10 @@
 [[changelog]]
+date = "2019-07-01"
+
+[changelog.entries]
+Bucket = ["Added."]
+
+[[changelog]]
 date = "2019-06-30"
 
 [changelog.entries]
