@@ -3,7 +3,7 @@ date = "2019-07-01"
 
 [changelog.entries]
 Bucket = ["Added."]
-General = ["Fixed The Star Chef and Divine Guardian's Helm not being obtainable."]
+General = ["Fixed The Star Chef and Divine Guardian's Helm not being obtainable.", "The Battle Hats ice skating tournament has concluded, Fire Wizard ruined it."]
 
 [[changelog]]
 date = "2019-06-30"
