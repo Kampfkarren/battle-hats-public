@@ -263,7 +263,7 @@ RedAlertTrucks = 14.0
 
 [majors.firefighter-helmet.rage]
 name = "Red Alert"
-advanced = "Fire trucks fall out of the sky, 2 fire trucks a second for 7 seconds. Enemies hit by the fire trucks take 70 damage and are forcibly knocked back."
+advanced = "Fire trucks fall out of the sky, 2 fire trucks a second for 7 seconds. Enemies hit by the fire trucks take 70 damage."
 simple = "Fire trucks fall out of the sky, forcibly pushing those who get hit."
 skill_type = "Rage"
 
@@ -1357,6 +1357,96 @@ skill_type = "Ability"
 
 [majors.golden-crown.changelog]
 2018-10-28 = ["Added."]
+
+[majors.bucket]
+flavor-text = "I has a bucket."
+name = "Bucket"
+series = "Classic"
+major = true
+stars = 2
+hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1081239"
+
+[majors.bucket.config]
+Ability1Cooldown = 2.0
+Ability2Cooldown = 0.1
+BucketSplashAngle = 75.0
+BucketSplashConsume = 100.0
+BucketSplashDamage = 35.0
+BucketSplashHeal = 50.0
+BucketSplashRange = 125.0
+ChugJugConsumption = 75.0
+ChugJugHealing = 35.0
+ChugJugInterval = 0.1
+FillDefensePerLitre = 0.001
+FillLitrePerSecond = 15.0
+FillMaxHealthBuff = 75.0
+FillMaxLitres = 500.0
+FirePowerHealPerSecond = 30.0
+FirePowerLength = 15.0
+FirePowerLightningDamage = 30.0
+FirePowerLightningInterval = 2.0
+FirePowerOffset = 15.0
+FirePowerSpeed = 15.0
+MopActiveLength = 0.5
+MopBuffConsumption = 35.0
+MopBuffDamage = 20.0
+MopBuffLong = 40.0
+MopBuffWide = 15.0
+MopDamage = 25.0
+MopReload = 0.7
+
+[majors.bucket.config.ChugJugVisualOrientation]
+x = -45.0
+y = 0.0
+z = 0.0
+
+[majors.bucket.config.ChugJugVisualPosition]
+x = 0.0
+y = 2.0
+z = 0.0
+
+[majors.bucket.config.FirePowerSize]
+x = 90.0
+y = 1.0
+z = 90.0
+
+[majors.bucket.rage]
+name = "Fire Power"
+advanced = "Summon a 90x1x90 thunder cloud from your bucket, which slowly moves forward at 25 units per second while healing allies under it for 30 health per second gradually and damaging enemies for 30 damage every two seconds. Lasts for 15 seconds."
+simple = "Summon a giant thunder cloud from your bucket, which heals allies and damages enemies."
+skill_type = "Rage"
+
+[majors.bucket.weapon]
+name = "Mop"
+advanced = "Swing a melee broom dealing 15 damage every .7 seconds. If your bucket is filled enough, consume 35 litres to additionally deal 20 damage in a 40 unit long, 15 unit wide rectangular area in front of the user."
+simple = "Swing a melee broom. If your bucket is filled enough, also deal damage in an area in front of you that heals you."
+image = ""
+skill_type = "Weapon"
+
+[majors.bucket.passive]
+name = "Fill"
+advanced = "Passive. Dealing damage, taking damage, and getting healed fills your bucket by the amount you took. The bucket can get filled up to 500 litres. The bucket also fills up gradually 15 litres per second. Every 1 litre gives you 0.1% defense. Gain +75 bonus health."
+simple = "Passive. Dealing damage, taking damage, and getting healed fills your bucket. The bucket also fills up overtime. The more filled your bucket, the more defense you have."
+skill_type = "Passive"
+
+[[majors.bucket.abilities]]
+name = "Bucket Splash"
+advanced = "Consume 100 litres to deal 35 damage or heal allies 50 health in a 125 unit cone."
+simple = "Consume litres to deal damage or heal allies in a large area in front of you."
+cooldown = 2.0
+image = "rbxassetid://709485294"
+skill_type = "Ability"
+
+[[majors.bucket.abilities]]
+name = "Chug Jug"
+advanced = "Toggle to drink your bucket, healing yourself 35 per second while consuming 75 litres gradually over 0.1 second intervals. Cannot attack or use abilities while drinking, and your bucket will not fill while drinking."
+simple = "Toggle to drink your bucket, healing yourself overtime while using litres."
+cooldown = 0.0
+image = "rbxassetid://2594021707"
+skill_type = "Ability"
+
+[majors.bucket.changelog]
+2019-07-01 = ["Added."]
 [minors.seashell-crown]
 flavor-text = "Sea-####"
 name = "Seashell Crown"
