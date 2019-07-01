@@ -1,4 +1,10 @@
 [[changelog]]
+date = "2019-06-30"
+
+[changelog.entries]
+Bees = ["Lowered volume of looping sound while toggled."]
+
+[[changelog]]
 date = "2019-06-26"
 
 [changelog.entries]

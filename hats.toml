@@ -1616,6 +1616,7 @@ image = "http://www.roblox.com/asset/?id=42068310"
 skill_type = "Ability"
 
 [minors.bees.changelog]
+2019-06-30 = ["Lowered volume of looping sound while toggled."]
 2018-12-30 = ["Lowered damage from 10 to 6."]
 2018-10-15 = ["Changed Bees from \"Deal damage to nearby enemies\" to \"When toggled, deal damage to nearby enemies\"."]
 2017-07-24 = ["Added line of sight check."]
