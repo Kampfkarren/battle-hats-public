@@ -244,39 +244,46 @@ hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&asset
 
 [majors.firefighter-helmet.config]
 Ability1Cooldown = 9.0
-FireHoseBeamMagic = 18.5
-FireHoseDamage = 14.0
+FireHoseDamage = 8.0
 FireHoseKnockback = -15.0
 FireHoseKnockbackLoss = 0.5
-FireHoseLength = 20.0
-FireHoseMaxRange = 35.0
 FireHoseReload = 0.2
 FireHydrantDamage = 45.0
 FireHydrantDelay = 1.0
 FireHydrantKnockback = 10.0
 FireHydrantLifetime = 6.0
-FireHydrantRange = 45.0
+FireHydrantRange = 55.0
 RedAlertDamage = 70.0
 RedAlertTruckElevation = 200.0
 RedAlertTruckInterval = 0.5
 RedAlertTrucks = 14.0
 
+[majors.firefighter-helmet.config.FireHoseHitboxSize]
+x = 10.0
+y = 25.0
+z = 10.0
+
+[majors.firefighter-helmet.config.FireHoseSize]
+x = 0.5
+y = 25.0
+z = 10.0
+
 [majors.firefighter-helmet.rage]
 name = "Red Alert"
 advanced = "Fire trucks fall out of the sky, 2 fire trucks a second for 7 seconds. Enemies hit by the fire trucks take 70 damage."
-simple = "Fire trucks fall out of the sky, forcibly pushing those who get hit."
+simple = "Fire trucks fall out of the sky, damaging those they touch."
 skill_type = "Rage"
 
 [majors.firefighter-helmet.weapon]
 name = "Fire Hose"
-advanced = "Spray all enemies in a 20 unit line, dealing 14 damage and pushing them back. Can be fired once every 0.2 seconds. The farther away the enemy, the less knockback they will receive, up to 50% less."
-simple = "Spray nearby enemies and push them back."
+advanced = "Damage nearby enemies in a 25 unit cone, dealing 8 damage every .2 seconds and knocking them back."
+simple = "Damage nearby enemies in a cone, pushing them back"
 image = ""
 skill_type = "Weapon"
 
 [[majors.firefighter-helmet.abilities]]
 name = "Fire Hydrant"
-advanced = "After a 1.5s cast, place a fire hydrant in front of you that lasts for 6 seconds that sprays water in a ring extending to 45 units around it every second, dealing 25 damage and knocking back enemies by 20 units."
+advanced = "Place a fire hydrant in front of you that lasts for 6 seconds that sprays water in a ring extending to 55 units around it every second, dealing 45 damage and knocking back enemies by 10 units."
 simple = "Place a fire hydrant in front of you that sprays water in a ring around it, dealing damage and knocking back enemies."
 cooldown = 9.0
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1081381"
@@ -1847,8 +1854,8 @@ EffectLength = 3.0
 
 [[minors.sparkling-angel-wings.abilities]]
 name = "Divine Intervention"
-advanced = "Grant 100% defense to the user for 3 seconds, with every 15 damage recieved reducing the defense buff by 8%."
-simple = "Grant heavy defense to the user for a limited time, lowering with damage."
+advanced = "Grant 100% defense and -75% damage to the user for 3 seconds, with every 15 damage recieved reducing the defense buff by 8%."
+simple = "Grant heavy defense and lower damage to the user for a limited time, lowering with damage."
 cooldown = 30.0
 image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=192557913"
 skill_type = "Ability"
