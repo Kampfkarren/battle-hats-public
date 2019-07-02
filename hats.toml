@@ -290,6 +290,7 @@ image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1
 skill_type = "Ability"
 
 [majors.firefighter-helmet.changelog]
+2019-07-02 = ["Fire Hose has been changed to a cone instead of a line.", "Lowered Fire Hose damage from 14 to 8.", "Fire Hose's spray now correctly is connected to the hose.", "Increased Fire Hydrant range from 45 units to 55 units.", "Fire truck now no longer knocks back."]
 2017-08-27 = ["Fixed a glitch where when you were stunned, you could still fire your hose.", "Decreased Fire Hose damage from 25 to 14.", "Decreased Fire Hose reload time from 0.45s to 0.2s.", "The amount enemies are knocked back from your Fire Hose will now depend on how close they are to you."]
 2017-08-19 = ["Taken measures to try and prevent excessive flinging from Fire Hose and Fire Hydrant."]
 2017-08-16 = ["Increased reload time from 0.2 seconds to 0.45 seconds."]

@@ -1,4 +1,10 @@
 [[changelog]]
+date = "2019-07-02"
+
+[changelog.entries]
+"Firefighter Helmet" = ["Fire Hose has been changed to a cone instead of a line.", "Lowered Fire Hose damage from 14 to 8.", "Fire Hose's spray now correctly is connected to the hose.", "Increased Fire Hydrant range from 45 units to 55 units.", "Fire truck now no longer knocks back."]
+
+[[changelog]]
 date = "2019-07-01"
 
 [changelog.entries]
