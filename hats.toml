@@ -1007,10 +1007,10 @@ hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&asset
 
 [majors.empyrean-reignment.config]
 Ability1Cooldown = 0.1
-Ability1Range = 60.0
+Ability1Range = 65.0
 Ability2Cooldown = 5.0
 DivinationBoost = 0.15
-DivinationBuff = 9.0
+DivinationBuff = 10.0
 GraceHealPercentMax = 0.35
 GraceHealPercentMin = 0.2
 GraceMinUserHealth = 0.25
