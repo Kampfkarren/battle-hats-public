@@ -1145,7 +1145,10 @@ hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&asset
 [majors.dark-tutor.config]
 Ability1Cooldown = 8.0
 Ability1Range = 120.0
-Ability1Timer = 4.0
+Ability1Timer = 5.0
+DarkMagicMaxDistribution = 1.0
+DarkMagicMaxDistributionPlayers = 4.0
+DarkMagicMinDistribution = 0.15
 RageLength = 10.0
 WeaponDamage = 40.0
 WeaponHealAmount = 25.0
