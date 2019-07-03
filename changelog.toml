@@ -1,4 +1,10 @@
 [[changelog]]
+date = "2019-07-03"
+
+[changelog.entries]
+"Empyrean Reignment" = ["Added \"Grace - Heal yourself and nearby allies, the lower your health the better the heal.\"", "Increased range of Heal Ray from 60 units to 65 units.", "Increased heal rate of Divination from 9 health per second to 10 health per second."]
+
+[[changelog]]
 date = "2019-07-02"
 
 [changelog.entries]

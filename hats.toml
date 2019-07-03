@@ -1062,6 +1062,7 @@ image = "rbxassetid://26182897"
 skill_type = "Ability"
 
 [majors.empyrean-reignment.changelog]
+2019-07-03 = ["Added \"Grace - Heal yourself and nearby allies, the lower your health the better the heal.\"", "Increased range of Heal Ray from 60 units to 65 units.", "Increased heal rate of Divination from 9 health per second to 10 health per second."]
 2018-11-23 = ["Holy Nova no longer checks line of sight.", "Holy Nova now heals the wearer.", "Holy Staff now aims higher."]
 2018-10-23 = ["Added."]
 
