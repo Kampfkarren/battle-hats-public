@@ -1971,12 +1971,13 @@ Buff = 0.25
 
 [minors.teakettle-hat.passive]
 name = "Whiiiiiiieeee"
-advanced = "Passive. While you are using your rage, deal 25% more damage, take 25% less damage, and move 25% faster."
-simple = "Passive. While you are using your rage, deal more damage."
+advanced = "Passive. While you are using your rage, take 25% less damage and move 25% faster."
+simple = "Passive. While you are using your rage, take less damage and move faster."
 image = "http://www.roblox.com/asset/?id=2106960"
 skill_type = "Passive"
 
 [minors.teakettle-hat.changelog]
+2019-07-02 = ["Removed damage buff."]
 2017-05-27 = ["Fixed Teakettle Hat not playing its sound."]
 2017-05-22 = ["Changed damage from 35% to 25%.", "Added 25% armor gained while active.", "Added 25% speed gained while active."]
 2017-02-14 = ["Added."]
