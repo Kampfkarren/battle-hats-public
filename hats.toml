@@ -1008,8 +1008,13 @@ hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&asset
 [majors.empyrean-reignment.config]
 Ability1Cooldown = 0.1
 Ability1Range = 60.0
+Ability2Cooldown = 5.0
 DivinationBoost = 0.15
 DivinationBuff = 9.0
+GraceHealPercentMax = 0.35
+GraceHealPercentMin = 0.2
+GraceMinUserHealth = 0.25
+GraceRange = 75.0
 HealRayHealthRate = 25.0
 HealRayMaxTimeWithoutLOS = 2.0
 HolyNovaHealthRate = 70.0
@@ -1035,17 +1040,25 @@ skill_type = "Weapon"
 
 [majors.empyrean-reignment.passive]
 name = "Divination"
-advanced = "Passive. While healing a teammate with Heal Ray or Holy Nova, gain a 15 % boost to attack, defense, speed, and heal at a rate of 9 health per second. Can stack if used with Holy Nova."
+advanced = "Passive. While healing a teammate with Heal Ray or Holy Nova, gain a 15% boost to attack, defense, speed, and heal at a rate of 10 health per second. Can stack if used with Holy Nova."
 simple = "Passive. Healing teammates grants small buffs."
 image = ""
 skill_type = "Passive"
 
 [[majors.empyrean-reignment.abilities]]
 name = "Heal Ray"
-advanced = "Attach a healing beam to a teammate that heals at a rate of 25 health per second that cannot go further than 60 units."
+advanced = "Attach a healing beam to a teammate that heals at a rate of 25 health per second that cannot go further than 65 units."
 simple = "Attach a healing beam to a nearby teammate."
 cooldown = 0.0
 image = "http://www.roblox.com/asset/?id=1032918680"
+skill_type = "Ability"
+
+[[majors.empyrean-reignment.abilities]]
+name = "Grace"
+advanced = "Heal yourself and nearby allies in a 75 unit radius around you for 20% maximum health. This is increased linearly to up to a 35% heal when the user is under 25% health."
+simple = "Heal yourself and nearby allies, the lower your health the better the heal."
+cooldown = 5.0
+image = "rbxassetid://26182897"
 skill_type = "Ability"
 
 [majors.empyrean-reignment.changelog]
