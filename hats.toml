@@ -1057,7 +1057,7 @@ flavor-text = "Stored in that camera is hour long funny dog compilations. And mu
 name = "Tee Vee"
 series = "Classic"
 major = true
-stars = 2
+stars = 3
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=15857936"
 
 [majors.tee-vee.config]
@@ -1065,13 +1065,13 @@ Ability1Cooldown = 8.0
 Ability1Range = 80.0
 Ability2Cooldown = 1.0
 Ability2Range = 60.0
-CameraFlashLifetime = 1.33
-CameraFlashMaxCharge = 1.4
-CameraFlashMaxDamage = 50.0
-CameraFlashMaxParticleRate = 18.0
-CameraFlashMaxScale = 2.0
-CameraFlashMinDamage = 10.0
-CameraFlashReload = 0.5
+CameraFlashDamage = 14.0
+CameraFlashFootageHealth = 8.0
+CameraFlashFootageRage = 1.0
+CameraFlashIntervalDelay = 0.2
+CameraFlashLifetime = 2.0
+CameraFlashProjectileAmount = 3.0
+CameraFlashReload = 1.0
 CameraFlashSpeed = 125.0
 RageLength = 6.0
 RageRange = 140.0
@@ -1088,8 +1088,8 @@ skill_type = "Rage"
 
 [majors.tee-vee.weapon]
 name = "Camera Flash"
-advanced = "Hold down to charge up a powerful attack for up 1.4 seconds, dealing 50 damage at full charge and 10 damage at no charge, increasing the projectiles base size by up to 2x. Travels at 125 units per second for 1.33 seconds. Pierces enemies at maximum charge. Can fire every .5 seconds."
-simple = "Hold down to charge up a powerful attack. At full charge, it flies through enemies."
+advanced = "Fire three projectiles that travel at 130 units per second for 2 seconds, with each projectile firing 0.2s after the last, then reloading for 1 second. Each projectile deals 14 damage, and gives 1% rage for footage and 8 health for footage."
+simple = "Fire three projectiles. Damaging enemies gives you footage."
 image = ""
 skill_type = "Weapon"
 
@@ -1110,6 +1110,7 @@ image = "http://www.roblox.com/asset/?id=834217958"
 skill_type = "Ability"
 
 [majors.tee-vee.changelog]
+2019-07-02 = ["Changed Camera Flash from \"Hold down to charge up a powerful attack. At full charge, it flies through enemies.\" to \"Fire three projectiles. Damaging enemies gives you footage.\"."]
 2018-11-23 = ["Teammates now receive 2x as much rehearsed health.", "Max Camera Flash projectile scale lowered from 4 to 2.", "Record cooldown lowered from 12 to 8.", "Record now records twice the amount of health you receive.", "Rehearse now only gives half of your footage as health.", "Rehearse will now only take footage if it is used instead of taking all of it.", "Footage display is now rounded to an integer."]
 2018-11-14 = ["Tee Vee has been completely reworked from the ground up.", "Changed weapon from \"Sound Wave - Fire a sound wave that gets larger the more you fire it without stopping.\" to \"Camera Flash - Hold down to charge up a powerful attack. At full charge, it flies through enemies.\"", "Changed Record from \"Record the closest nearby enemy, gaining all the health, buffs, and rage they received.\" to \"Record a nearby enemy, gaining all the health and rage they received as footage.\"", "Added ability \"Rehearse (1) - Give all recorded footage to a nearby teammate.\"", "Changed rage from \"Dance-Off - You and all enemies around you dance.\" to \"Record all nearby enemies.\""]
 2018-08-05 = ["Added a tooltip to show who you're going to record."]
