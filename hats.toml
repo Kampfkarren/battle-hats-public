@@ -945,11 +945,11 @@ stars = 1
 hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&assetId=1609609"
 
 [majors.mining-helmet.config]
-Ability1Cooldown = 8.0
+Ability1Cooldown = 9.0
 GoldRushMaxStacks = 4.0
 GoldRushSpeedBuff = 0.08
 GoldRushStackDamage = 20.0
-GoldRushStackLifetime = 4.0
+GoldRushStackLifetime = 5.0
 PickaxeCooldown = 0.5
 PickaxeDamage = 62.0
 PickaxeWeaponSwingBuff = 0.1
@@ -958,7 +958,7 @@ PickaxeWeaponSwingBuffLifetime = 5.0
 PickaxeReload = 1.0
 RageLength = 6.0
 SlateskinDefenseBuff = 0.7
-SlateskinLength = 6.0
+SlateskinLength = 6.5
 
 [majors.mining-helmet.rage]
 name = "Diamonds!"
