@@ -951,7 +951,7 @@ GoldRushSpeedBuff = 0.08
 GoldRushStackDamage = 20.0
 GoldRushStackLifetime = 5.0
 PickaxeCooldown = 0.5
-PickaxeDamage = 62.0
+PickaxeDamage = 58.0
 PickaxeWeaponSwingBuff = 0.1
 PickaxeWeaponSwingBuffMax = 4.0
 PickaxeWeaponSwingBuffLifetime = 5.0
@@ -990,7 +990,7 @@ image = "http://www.roblox.com/asset/?id=928772927"
 skill_type = "Ability"
 
 [majors.mining-helmet.changelog]
-2019-07-04 = ["Pickaxe now swings faster the more you hit enemies.", "Increased Slateskin cooldown from 8 to 9 seconds.", "Increased length of Slateskin effect from 6 to 6.5 seconds.", "Slateskin now heals for 20% of all damage dealt."]
+2019-07-04 = ["Pickaxe now swings faster the more you hit enemies.", "Increased Slateskin cooldown from 8 to 9 seconds.", "Increased length of Slateskin effect from 6 to 6.5 seconds.", "Slateskin now heals for 20% of all damage dealt.", "Lowered pickaxe damage from 62 to 58."]
 2018-08-06 = ["Added diamond particle effect when using Diamonds!"]
 2018-02-08 = ["Fixed a bug where Diamonds wouldn't work correctly if you were under 30 health."]
 2017-10-04 = ["Increased Slateskin defense from 50% to 70%.", "Decreased Gold Rush activation damage from 25 to 20."]

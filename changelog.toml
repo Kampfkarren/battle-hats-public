@@ -3,7 +3,7 @@ date = "2019-07-04"
 
 [changelog.entries]
 "Dark Tutor" = ["Changed Dark Magic from \"Equally distribute damage dealt by nearby teammates in a period of time as health.\" to \"Apply a buff to teammates that causes them to distribute damage dealt by nearby teammates in a period of time as health. The more teammates around you, the more is distributed.\"", "Increased time Dark Magic effect lasts from 4 to 5 seconds.", "You can now attack while using Dark Magic.", "Added \"Hex - Fire a projectile that curses an enemy and deals damage. If the enemy takes enough damage, they are slowed and their defense is lowered.\""]
-"Mining Helmet" = ["Pickaxe now swings faster the more you hit enemies.", "Increased Slateskin cooldown from 8 to 9 seconds.", "Increased length of Slateskin effect from 6 to 6.5 seconds.", "Slateskin now heals for 20% of all damage dealt."]
+"Mining Helmet" = ["Pickaxe now swings faster the more you hit enemies.", "Increased Slateskin cooldown from 8 to 9 seconds.", "Increased length of Slateskin effect from 6 to 6.5 seconds.", "Slateskin now heals for 20% of all damage dealt.", "Lowered pickaxe damage from 62 to 58."]
 
 [[changelog]]
 date = "2019-07-03"
