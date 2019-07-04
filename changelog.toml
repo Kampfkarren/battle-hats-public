@@ -1,4 +1,10 @@
 [[changelog]]
+date = "2019-07-04"
+
+[changelog.entries]
+"Dark Tutor" = ["Changed Dark Magic from \"Equally distribute damage dealt by nearby teammates in a period of time as health.\" to \"Apply a buff to teammates that causes them to distribute damage dealt by nearby teammates in a period of time as health. The more teammates around you, the more is distributed.\"", "Increased time Dark Magic effect lasts from 4 to 5 seconds.", "You can now attack while using Dark Magic.", "Added \"Hex - Fire a projectile that curses an enemy and deals damage. If the enemy takes enough damage, they are slowed and their defense is lowered.\""]
+
+[[changelog]]
 date = "2019-07-03"
 
 [changelog.entries]

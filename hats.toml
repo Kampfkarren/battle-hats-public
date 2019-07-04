@@ -1146,9 +1146,19 @@ hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&asset
 Ability1Cooldown = 8.0
 Ability1Range = 120.0
 Ability1Timer = 5.0
+Ability2Cooldown = 10.0
 DarkMagicMaxDistribution = 1.0
 DarkMagicMaxDistributionPlayers = 4.0
 DarkMagicMinDistribution = 0.15
+HexDamageThreshold = 75.0
+HexDefenseDebuff = 0.3
+HexDefenseDebuffLength = 2.5
+HexExpirationDate = 3.5
+HexProjectileDamage = 15.0
+HexProjectileLifetime = 3.0
+HexProjectileSpeed = 90.0
+HexSpeedDebuff = 0.3
+HexSpeedDebuffLength = 2.5
 RageLength = 10.0
 WeaponDamage = 40.0
 WeaponHealAmount = 25.0
@@ -1172,13 +1182,22 @@ skill_type = "Weapon"
 
 [[majors.dark-tutor.abilities]]
 name = "Dark Magic"
-advanced = "All damage done by teammates in a 120 unit radius is equally distributed as health to all teammates in a 120 unit radius for 4 seconds. You cannot attack during this time period."
-simple = "Equally distribute damage dealt by nearby teammates in a period of time as health."
+advanced = "Apply a buff to teammates in a 120 unit radius that causes their damage done to be equally distributed as health to all teammates in a 120 unit radius for 5 seconds. Amount distributed is 15% at 1 teammate, increasing linearly to 100% at 4 teammates."
+simple = "Apply a buff to teammates that causes them to distribute damage dealt by nearby teammates in a period of time as health. The more teammates around you, the more is distributed."
 cooldown = 8.0
 image = "http://www.roblox.com/asset/?id=186642181"
 skill_type = "Ability"
 
+[[majors.dark-tutor.abilities]]
+name = "Hex"
+advanced = "Fire a projectile that travels 90 units per second for 3 seconds that curses an enemy for 3.5 seconds and does 15 damage. If the enemy takes 75 damage during this time, they are slowed by 30% for 2.5 seconds and their defense is lowered by 30% for 2.5 seconds."
+simple = "Fire a projectile that curses an enemy and deals damage. If the enemy takes enough damage, they are slowed and their defense is lowered."
+cooldown = 10.0
+image = "rbxassetid://471850495"
+skill_type = "Ability"
+
 [majors.dark-tutor.changelog]
+2019-07-04 = ["Changed Dark Magic from \"Equally distribute damage dealt by nearby teammates in a period of time as health.\" to \"Apply a buff to teammates that causes them to distribute damage dealt by nearby teammates in a period of time as health. The more teammates around you, the more is distributed.\"", "Increased time Dark Magic effect lasts from 4 to 5 seconds.", "You can now attack while using Dark Magic.", "Added \"Hex - Fire a projectile that curses an enemy and deals damage. If the enemy takes enough damage, they are slowed and their defense is lowered.\""]
 2018-11-07 = ["Increased length of \"Dark Curse\" from 5 seconds to 10 seconds.", "Dark Magic now heals as damage is being dealt rather than at the end.", "Changed weapon from \"Necromancy - Fire orbs that reload quickly.\" to \"Drain Life - Fire a wave of dark energy. When hitting an enemy, heal you and nearby teammates.\""]
 2018-08-04 = ["Enemies under the effects of Dark Curse can no longer pick up medkits despite them not healing."]
 2017-07-24 = ["Added."]
