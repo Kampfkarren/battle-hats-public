@@ -963,33 +963,34 @@ SlateskinLength = 6.5
 
 [majors.mining-helmet.rage]
 name = "Diamonds!"
-advanced = "For 6 seconds, your health cannot drop below 30."
-simple = "For a limited time, your health cannot drop below 30."
+advanced = "For 6 seconds, your health cannot drop below 50."
+simple = "For a limited time, your health cannot drop below 50."
 skill_type = "Rage"
 
 [majors.mining-helmet.weapon]
 name = "Pickaxe"
-advanced = "Swing a pickaxe, dealing 62 damage every second."
-simple = "Swing a pickaxe."
+advanced = "Swing a pickaxe, dealing 58 damage every second. Every time you hit an enemy, swing .1 second faster for 5 seconds, up to .4 seconds faster."
+simple = "Swing a pickaxe. Hitting an enemy makes you swing faster."
 image = ""
 skill_type = "Weapon"
 
 [majors.mining-helmet.passive]
 name = "Gold Rush"
-advanced = "Passive. Every time you take 20 damage, gain a stack of Gold Rush which causes you to move 10% faster for 4 seconds. Can stack up to 4 times. Have +50 health."
+advanced = "Passive. Every time you take 10 damage, gain a stack of Gold Rush which causes you to move 8% faster for 5 seconds. Can stack up to 8 times. Have +25 health."
 simple = "Passive. Taking damage can grant you a stack of speed."
 image = ""
 skill_type = "Passive"
 
 [[majors.mining-helmet.abilities]]
 name = "Slateskin"
-advanced = "Turn your skin into stone for 6 seconds, taking 70% less damage while active."
-simple = "Turn your skin into stone for a limited time, taking massively reduced damage while active."
-cooldown = 8.0
+advanced = "Turn your skin into stone for 6.5 seconds, taking 60% less damage while active and healing for 20% of all damage done."
+simple = "Turn your skin into stone for a limited time, taking massively reduced damage while active and gaining lifesteal."
+cooldown = 9.0
 image = "http://www.roblox.com/asset/?id=928772927"
 skill_type = "Ability"
 
 [majors.mining-helmet.changelog]
+2019-07-04 = ["Pickaxe now swings faster the more you hit enemies.", "Increased Slateskin cooldown from 8 to 9 seconds.", "Increased length of Slateskin effect from 6 to 6.5 seconds.", "Slateskin now heals for 20% of all damage dealt."]
 2018-08-06 = ["Added diamond particle effect when using Diamonds!"]
 2018-02-08 = ["Fixed a bug where Diamonds wouldn't work correctly if you were under 30 health."]
 2017-10-04 = ["Increased Slateskin defense from 50% to 70%.", "Decreased Gold Rush activation damage from 25 to 20."]
