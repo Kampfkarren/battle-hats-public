@@ -958,6 +958,7 @@ PickaxeWeaponSwingBuffLifetime = 5.0
 PickaxeReload = 1.0
 RageLength = 6.0
 SlateskinDefenseBuff = 0.7
+SlateskinHeal = 0.2
 SlateskinLength = 6.5
 
 [majors.mining-helmet.rage]
