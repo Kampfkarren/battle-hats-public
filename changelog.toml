@@ -1,4 +1,10 @@
 [[changelog]]
+date = "2019-07-09"
+
+[changelog.entries]
+General = ["Healing other players for 50 health now gives you 2% rage."]
+
+[[changelog]]
 date = "2019-07-04"
 
 [changelog.entries]
