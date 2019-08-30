@@ -1060,9 +1060,9 @@ skill_type = "Ability"
 
 [[majors.empyrean-reignment.abilities]]
 name = "Grace"
-advanced = "Heal yourself and nearby allies in a 75 unit radius around you for 15% maximum health. This is increased linearly to up to a 25% heal when the user is under 25% health."
+advanced = "Heal yourself and nearby allies in a 75 unit radius around you for 20% maximum health. This is increased linearly to up to a 35% heal when the user is under 25% health."
 simple = "Heal yourself and nearby allies, the lower your health the better the heal."
-cooldown = 8.0
+cooldown = 5.0
 image = "rbxassetid://26182897"
 skill_type = "Ability"
 
