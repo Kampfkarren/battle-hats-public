@@ -1602,6 +1602,7 @@ hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&asset
 
 [minors.andrews-beard.config]
 Ability1Cooldown = 8.0
+Active = 5.0
 AttackBuff = 0.15
 SpeedBuff = 0.15
 
@@ -1646,7 +1647,7 @@ hat-image = "https://www.roblox.com/Thumbs/Asset.ashx?width=110&height=110&asset
 
 [minors.kitty-ears.config]
 Ability1Cooldown = 2.0
-Knockback = 10.0
+Knockback = 20.0
 
 [[minors.kitty-ears.abilities]]
 name = "On the Prowl"
